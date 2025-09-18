@@ -2,7 +2,7 @@
 
 Código del módulo Programación
 
-## EJEMPLO1 - Operaciones.java
+## EJEMPLO1 - Operaciones.java - '"write once, run anywhere"' 
 Compilación y ejecución en consola de un programa
 
 Guarda el archivo como Operaciones.java
@@ -29,3 +29,34 @@ echo %JAVA_HOME%   # Windows
 echo $JAVA_HOME    # Linux/Mac
 ```
 
+
+## Resumen del proceso
+javac (Java Compiler)
+
+Es el compilador de Java.
+
+Convierte el código fuente (.java) en bytecode (.class).
+
+Ese bytecode no es código máquina nativo, sino un código intermedio independiente de la plataforma.
+
+Archivo .class
+
+Contiene el bytecode.
+
+Puede ejecutarse en cualquier sistema operativo siempre que exista una JVM para esa plataforma.
+
+Ejemplo: el mismo .class funciona en Windows, Linux o Mac, sin recompilar.
+
+JVM (Java Virtual Machine)
+
+Interpreta y/o compila ese bytecode a instrucciones nativas (dependiendo del sistema y del procesador).
+
+Se encarga también de la memoria, la seguridad y el recolector de basura (garbage collector).
+
+## Proceso completo
+
+Escribes: Operaciones.java
+
+Compilas: javac Operaciones.java → genera Operaciones.class
+
+Ejecutas: java Operaciones → la JVM carga el .class, lo interpreta/optimiza y lo corre en tu sistema.
