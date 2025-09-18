@@ -22,9 +22,10 @@ Ejecuta con:  java Operaciones
 
 **Classpath** : lista de sitios (directorios, .jar) donde la JVM/compilador buscan clases. Por defecto incluye el directorio actual . (pero puede cambiar si CLASSPATH está configurado).
   Para ejecutar desde consola se puede usar -cp o -classpath para controlarlo.
-
-'
+```
 java -version
 javac -version
 echo %JAVA_HOME%   # Windows
-echo $JAVA_HOME    # Linux/Mac '
+echo $JAVA_HOME    # Linux/Mac
+```
+
