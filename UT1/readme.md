@@ -2,7 +2,8 @@
 
 Código del módulo Programación
 
-## EJEMPLO1 - Operaciones.java - '"write once, run anywhere"' 
+## EJEMPLO1 - Operaciones.java - 
+´"write once, run anywhere"´
 Compilación y ejecución en consola de un programa
 
 Guarda el archivo como Operaciones.java
