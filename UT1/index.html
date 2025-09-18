@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ejemplo JS Interpretado</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; padding: 20px; }
+    pre { background:#f4f4f4; padding:12px; border-radius:6px; overflow:auto; }
+    .output { margin-top:12px; padding:10px; border:1px solid #ddd; border-radius:6px; }
+    button { padding:8px 12px; margin-right:8px; }
+  </style>
+</head>
+<body>
+  <h1>Ejemplo: JavaScript interpretado en el navegador</h1>
+
+  <p>Este archivo contiene el código JS visible abajo y además lo ejecuta para modificar la página y escribir en la consola.</p>
+
+  <h2>Código JavaScript (visible)</h2>
+  <pre id="codeBlock"></pre>
+
+  <h2>Interacción</h2>
+  <p>
+    <label>
+      Primer número: <input id="n1" type="number" value="5">
+    </label>
+    <label style="margin-left:8px;">
+      Segundo número: <input id="n2" type="number" value="3">
+    </label>
+  </p>
+  <p>
+    <button id="runBtn">Calcular suma y multiplicación</button>
+    <button id="logBtn">Escribir mensaje en consola</button>
+  </p>
+
+  <div class="output" id="resultArea">Resultados aparecerán aquí.</div>
+
+  <h2>Instrucciones</h2>
+  <ul>
+    <li>Abre las herramientas de desarrollador (F12 o Ctrl+Shift+I) y mira la pestaña <strong>Console</strong>.</li>
+    <li>Pulsa <em>Calcular suma y multiplicación</em> para que JS lea los inputs, calcule y actualice la página.</li>
+    <li>Pulsa <em>Escribir mensaje en consola</em> para que JS escriba en la consola del navegador.</li>
+  </ul>
+
+  <script>
+    // Este es el código que queremos mostrar y ejecutar.
+    // Lo convertiremos a texto y lo pintaremos también en #codeBlock.
+    const exampleCode = `// Código de ejemplo en JavaScript
+function sumar(a, b) {
+  return a + b;
+}
+function multiplicar(a, b) {
+  return a * b;
+}
+
+// Función que actualiza la página con los resultados
+function calcularYMostrar() {
+  const a = Number(document.getElementById('n1').value);
+  const b = Number(document.getElementById('n2').value);
+  const suma = sumar(a, b);
+  const mult = multiplicar(a, b);
+
+  const area = document.getElementById('resultArea');
+  area.innerHTML = '<strong>Resultados:</strong><br>'
+    + 'Suma: ' + suma + '<br>'
+    + 'Multiplicación: ' + mult;
+
+  // Escribimos también en la consola para comprobar la interpretación
+  console.log('calcularYMostrar -> a:', a, 'b:', b, 'suma:', suma, 'multiplicación:', mult);
+}
+
+// Mensaje en la consola al cargar la página
+console.log('Script cargado: el navegador interpreta JavaScript y puede ejecutar este código.');`;
+
+    // 1) Mostrar el código en el <pre> para que lo veas
+    document.getElementById('codeBlock').textContent = exampleCode;
+
+    // 2) Evaluar parte del código (en este ejemplo definimos las funciones aquí)
+    // NOTA: no usamos eval() para ejecutar el texto. En su lugar reimplementamos las funciones directamente.
+    function sumar(a, b) { return a + b; }
+    function multiplicar(a, b) { return a * b; }
+
+    function calcularYMostrar() {
+      const a = Number(document.getElementById('n1').value);
+      const b = Number(document.getElementById('n2').value);
+      const suma = sumar(a, b);
+      const mult = multiplicar(a, b);
+
+      const area = document.getElementById('resultArea');
+      area.innerHTML = '<strong>Resultados:</strong><br>'
+        + 'Suma: ' + suma + '<br>'
+        + 'Multiplicación: ' + mult;
+
+      console.log('calcularYMostrar -> a:', a, 'b:', b, 'suma:', suma, 'multiplicación:', mult);
+    }
+
+    // Eventos de los botones
+    document.getElementById('runBtn').addEventListener('click', calcularYMostrar);
+    document.getElementById('logBtn').addEventListener('click', () =>
+      console.log('Botón pulsado. El navegador interpreta y ejecuta este console.log().')
+    );
+
+    // Mensaje en consola al cargar (prueba de ejecución automática)
+    console.log('Página cargada: JavaScript ya se está ejecutando.');
+  </script>
+</body>
+</html>
