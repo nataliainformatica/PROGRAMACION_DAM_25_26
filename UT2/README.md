@@ -27,11 +27,51 @@ También existen los caracteres de control (0–31), que no son imprimibles sino
 
 9 → TAB
 ```
+```
+Símbolos y códigos ANSI
 
+Normalmente se refiere a secuencias de escape ANSI, usadas en terminales para colores, estilos y movimientos del cursor.
+
+¿Cómo funcionan?
+
+Se basan en códigos de escape que empiezan con:
+
+\033[   (o \x1B[ en notación hexadecimal, donde 0x1B es ESC)
+
+
+Luego se agregan códigos numéricos separados por ; y se terminan con una letra de comando.
+
+Ejemplos comunes:
+
+Colores de texto y fondo:
+
+\033[31m → texto rojo
+
+\033[42m → fondo verde
+
+\033[0m → reset (volver a normal)
+
+Estilos de texto:
+
+\033[1m → negrita
+
+\033[4m → subrayado
+
+Movimientos del cursor:
+
+\033[2J → limpiar pantalla
+
+\033[H → mover cursor al inicio (fila 1, col 1)
+
+```
+
+## Ejemplo de uso de caracteres ANSI 
 
 Fichero ColoresConsolaDirecto.java
 
 Fichero ColoresConsola.java
+
+
 
 
 ## 2. El uso de comentarios
