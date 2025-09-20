@@ -131,3 +131,73 @@ public class HolaMundo {
     }
 }
 ```
+
+
+## Ejercicios propuestos
+
+### 1. Hola mundo clásico
+
+### 2. Imprime en pantalla: Hola Mundo.
+
+### 3. Imprimir nombre en varias líneas
+
+### 4. Muestra tu nombre y apellidos, cada uno en una línea distinta.
+
+### 5. Imprimir números en una misma línea
+
+### 6. Imprime los números del 1 al 5 en la misma línea separados por espacios. Usando una sola sentencia
+Variante. Usando 5 sentencia 
+
+### 7. Imprimir números en líneas distintas
+
+### 8 Imprime los números del 1 al 5, cada uno en una línea.
+
+### 9. Dibujo con caracteres
+
+Usa * para imprimir un cuadrado de 4x4.
+
+****
+****
+****
+****
+
+
+### 10. Triángulo simple
+
+Haz un triángulo de 3 líneas usando #.
+
+#
+##
+###
+
+
+### 11. Tabla de multiplicar
+
+Imprime la tabla de multiplicar del 3 (del 3x1 hasta el 3x10).
+
+### 12 Uso de secuencias de escape. Cita célebre
+
+Imprime una frase entre comillas, usando el carácter de escape \" en la cadena.
+Ejemplo:
+
+"La imaginación es más importante que el conocimiento." \  Einstein
+
+
+### 13. Secuencia con tabulaciones
+
+Imprime tres palabras separadas por tabuladores (\t).
+Ejemplo:
+
+Perro    Gato    Ratón
+
+
+### 14. Uso de salto de línea dentro de la cadena de texto
+
+Imprime un mensaje multilínea usando \n.
+Ejemplo:
+
+Línea 1
+Línea 2
+Línea 3
+
+
