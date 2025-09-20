@@ -65,3 +65,10 @@ Escribes: Operaciones.java
 Compilas: javac Operaciones.java → genera Operaciones.class
 
 Ejecutas: java Operaciones → la JVM carga el .class, lo interpreta/optimiza y lo corre en tu sistema.
+
+
+```
+En Visual Studio Code, es posible volver a compilar el código de un proyecto, usando la terminal
+
+javac -d bin src/paquete/*.java  (para seguir la estructura de paquetes y que lo compile en la carpeta destino bin)
+
