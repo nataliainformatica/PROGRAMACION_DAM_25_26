@@ -2,6 +2,33 @@
 Código del módulo Programación
 
 # 1. IMPRIMIR EN CONSOLA
+```
+1. Código ASCII
+
+ASCII (American Standard Code for Information Interchange) es un estándar de codificación de caracteres creado en los años 60 para representar texto en computadoras y dispositivos de comunicación.
+
+Cada carácter (letra, número, símbolo, control) se representa con un número entero entre 0 y 127 (7 bits).
+
+Ejemplos comunes:
+
+65 → A
+
+97 → a
+
+48 → 0
+
+32 → espacio " "
+
+También existen los caracteres de control (0–31), que no son imprimibles sino órdenes:
+
+10 → LF (Line Feed → salto de línea)
+
+13 → CR (Carriage Return → retorno de carro)
+
+9 → TAB
+```
+
+
 Fichero ColoresConsolaDirecto.java
 
 Fichero ColoresConsola.java
