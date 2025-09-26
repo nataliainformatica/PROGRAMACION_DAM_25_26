@@ -81,7 +81,7 @@ Añade al inicio de la aplicación un comentario de varias líneas, explicando e
 Añade también un comentario, junto con la definición de la variable, indicando el tipo  de dato que has elegido. 
 
 
-#Ejercicios para practicar 
+# Ejercicios para practicar 
 
 **Nivel básico (uso de variables enteras)**
 
