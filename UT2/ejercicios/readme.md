@@ -29,7 +29,7 @@ __4. Evita el uso de “números mágicos o hardcoded”__
 
 __5. Buenas prácticas y estandarización__
 
-__En programación profesional, es casi obligatorio usar constantes para valores fijos porque ayuda a otros desarrolladores (o a ti mismo en el futuro) a entender y modificar el código sin romperlo.
+En programación profesional, es casi obligatorio usar constantes para valores fijos porque ayuda a otros desarrolladores (o a ti mismo en el futuro) a entender y modificar el código sin romperlo.
 
 ```
 public class EjemploConstantes {
