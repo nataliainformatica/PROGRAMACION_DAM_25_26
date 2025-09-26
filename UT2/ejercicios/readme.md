@@ -63,41 +63,47 @@ Añade al inicio de la aplicación un comentario de varias líneas, explicando e
 Añade también un comentario, junto con la definición de la variable, indicando el tipo  de dato que has elegido. 
 
 
+#Ejercicios para practicar 
 
-🔹 Nivel básico (uso de variables enteras)
+**Nivel básico (uso de variables enteras)**
 
-Suma de tres números
+
+##Suma de tres números##
 Pide al usuario tres números enteros y muestra su suma, su producto y su promedio.
 
-Edad futura
+__Edad futura__
 Pide al usuario su edad actual y calcula cuántos años tendrá dentro de 5, 10 y 20 años (usa constantes para esos intervalos).
 
-Área de un rectángulo
+__Área de un rectángulo__
 Pide la base y la altura de un rectángulo (dos enteros) y muestra su área y perímetro.
 
-🔹 Con constantes
+## Con constante s##
 
-Conversión de monedas
+__Conversión de monedas__
 Pide al usuario una cantidad de euros y convierte a dólares y yenes usando constantes de tipo entero (por ejemplo, 1 € = 2 $ y 1 € = 150 ¥).
 
-Calcular sueldo con horas extra
-Pide al usuario:
+__Calcular sueldo con horas extra__
 
-horas trabajadas en la semana
+Pide al usuario: horas trabajadas en la semana
 
-horas extra trabajadas
+horas extra trabajadas 
+
 Usa una constante para el valor de la hora normal y otra para la hora extra. Calcula y muestra el sueldo total.
 
-Kilómetros recorridos
+__Kilómetros recorridos__
+
 Pide al usuario los kilómetros recorridos en tres viajes. Usa una constante para el precio por kilómetro y calcula el gasto total.
 
-🔹 Con más de 3 variables
+## Con más de 3 variables ##
 
-Promedio de calificaciones
+__Promedio de calificaciones__
+
 Pide al usuario 4 notas enteras y muestra la nota promedio.
 
-Tiempo en minutos y segundos
+__Tiempo en minutos y segundos__
+
 Pide al usuario la duración de tres canciones en segundos. Calcula y muestra el total en minutos y segundos.
 
-Descuento en compra
+__Descuento en compra__ 
+
 Pide al usuario el precio de 3 productos. Usa una constante para el porcentaje de descuento (por ejemplo, 10%) y muestra el precio total sin descuento y con descuento.
