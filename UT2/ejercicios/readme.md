@@ -86,7 +86,7 @@ Añade también un comentario, junto con la definición de la variable, indicand
 **Nivel básico (uso de variables enteras)**
 
 
-##Suma de tres números##
+## Suma de tres números
 Pide al usuario tres números enteros y muestra su suma, su producto y su promedio.
 
 __Edad futura__
@@ -95,7 +95,7 @@ Pide al usuario su edad actual y calcula cuántos años tendrá dentro de 5, 10 
 __Área de un rectángulo__
 Pide la base y la altura de un rectángulo (dos enteros) y muestra su área y perímetro.
 
-## Con constante s##
+## Con constantes 
 
 __Conversión de monedas__
 Pide al usuario una cantidad de euros y convierte a dólares y yenes usando constantes de tipo entero (por ejemplo, 1 € = 2 $ y 1 € = 150 ¥).
@@ -112,7 +112,7 @@ __Kilómetros recorridos__
 
 Pide al usuario los kilómetros recorridos en tres viajes. Usa una constante para el precio por kilómetro y calcula el gasto total.
 
-## Con más de 3 variables ##
+## Con más de 3 variables 
 
 __Promedio de calificaciones__
 
