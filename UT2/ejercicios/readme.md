@@ -1,33 +1,35 @@
 Usar constantes en programación es una práctica recomendada porque aporta varias ventajas, tanto en Java como en otros lenguajes.
 
 
-1. Evitan errores por cambios accidentales
+__1. Evitan errores por cambios accidentales__
 
-Una constante no se puede modificar después de inicializarse.
+    Una constante no se puede modificar después de inicializarse.
 
-Esto asegura que un valor fijo (como el IVA, la velocidad de la luz, el valor de PI, etc.) no cambie por descuido en otra parte del programa.
+    Esto asegura que un valor fijo (como el IVA, la velocidad de la luz, el valor de PI, etc.) no cambie por descuido en otra parte del programa.
 
-2. Mejora la legibilidad del código
+__2. Mejora la legibilidad del código__
 
-Si ves en el código: __precio = precio * 21 / 100;__
-no queda claro de dónde viene ese 21.
-En cambio __precio = precio * IVA / 100;__ es mucho más comprensible porque el nombre de la constante explica el valor.
+    Si ves en el código: __precio = precio * 21 / 100;__
+    
+    no queda claro de dónde viene ese 21.
 
-3. Facilita el mantenimiento
+    En cambio __precio = precio * IVA / 100;__ es mucho más comprensible porque el nombre de la constante explica el valor.
 
-Si un valor cambia, lo modificas solo en un lugar.
+__3. Facilita el mantenimiento__
 
-Ejemplo: si el IVA pasa del 21% al 23%, solo cambias el valor de la constante IVA, y el programa entero se actualiza automáticamente.
+    Si un valor cambia, lo modificas solo en un lugar.
 
-4. Evita el uso de “números mágicos”
+    Ejemplo: si el IVA pasa del 21% al 23%, solo cambias el valor de la constante IVA, y el programa entero se actualiza automáticamente.
 
-Los "números mágicos" son valores fijos puestos directamente en el código (como 3.1416, 21, 60…).
+__4. Evita el uso de “números mágicos o hardcoded”__
 
-Usar constantes con nombres descriptivos elimina la confusión y hace el programa más fácil de entender.
+    Los "números mágicos" son valores fijos puestos directamente en el código (como 3.1416, 21, 60…).
 
-5. Buenas prácticas y estandarización
+    Usar constantes con nombres descriptivos elimina la confusión y hace el programa más fácil de entender.
 
-En programación profesional, es casi obligatorio usar constantes para valores fijos porque ayuda a otros desarrolladores (o a ti mismo en el futuro) a entender y modificar el código sin romperlo.
+__5. Buenas prácticas y estandarización__
+
+__En programación profesional, es casi obligatorio usar constantes para valores fijos porque ayuda a otros desarrolladores (o a ti mismo en el futuro) a entender y modificar el código sin romperlo.
 
 ```
 public class EjemploConstantes {
@@ -47,6 +49,22 @@ public class EjemploConstantes {
 }
 ```
 
+Además..
+
+
+Si es una constante primitiva (int, double, boolean, etc.) con static final y su valor es conocido en tiempo de compilación, el compilador sustituye directamente el valor en el bytecode.
+
+    En este caso, ni siquiera hay una posición de memoria en tiempo de ejecución, porque el valor queda "inyectado" en el código compilado.
+
+    Esto es muy eficiente: no se reserva memoria extra, y no hay riesgo de que cambie.
+    
+    Si es un objeto o una constante calculada en tiempo de ejecución, sí que se reserva memoria para ella (una sola vez si es static final).
+
+__Por lo tanto:__
+
+    Si usas el mismo valor en muchas partes de tu programa, tenerlo como constante ahorra memoria.
+
+    Además, el acceso es más rápido porque la JVM sabe exactamente dónde está la referencia (o incluso lo sustituye en el bytecode si es primitivo).
 
 ## Ejercicio 1
 Completa una aplicación, que mostrará la siguiente información:
