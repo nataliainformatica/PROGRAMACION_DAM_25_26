@@ -94,6 +94,8 @@ Pide al usuario su edad actual y calcula cuántos años tendrá dentro de 5, 10 
 
 __Área de un rectángulo__
 Pide la base y la altura de un rectángulo (dos enteros) y muestra su área y perímetro.
+Area=base×altura
+Perimetro=2×(base+altura)
 
 ## Con constantes 
 
@@ -125,3 +127,9 @@ Pide al usuario la duración de tres canciones en segundos. Calcula y muestra el
 __Descuento en compra__ 
 
 Pide al usuario el precio de 3 productos. Usa una constante para el porcentaje de descuento (por ejemplo, 10%) y muestra el precio total sin descuento y con descuento.
+
+__Conversion a horas y minutos__
+Realiza un programa que reciba una cantidad de minutos y muestre por pantalla a cuantas horas y minutos corresponde. Por ejemplo: 1000 minutos son 16 horas y 40 minutos.
+
+__Cálculo de comisiones__
+Un vendedor recibe un sueldo base mas un 10% extra por comisión de sus ventas, el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
