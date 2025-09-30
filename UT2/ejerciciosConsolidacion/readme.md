@@ -7,6 +7,7 @@ Una gasolinera quiere implementar un programa sencillo en Java que permita calcu
 El programa debe:
 
 ## Pedir por consola al usuario:
+  El nombre del usuario
 
   La distancia del viaje (en kilómetros).
 
@@ -30,7 +31,7 @@ El coste total del viaje.
 
 Deberás usar operadores como la multiplicación y división para obtener el consumo y el coste.
 
-Muestra los  resultados usando printf para dar formato:
+Muestra los  resultados personalizados para el ususario usando printf para dar formato de la siguiente forma: 
 
 Los litros necesarios con 2 decimales.
 
