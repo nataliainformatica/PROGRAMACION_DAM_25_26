@@ -109,4 +109,26 @@ Te corresponde la pista número: 1
 Identificada con la letra: B
 
 ```
+# Ejercicio 4
+__ Comparador de edades__ 
+
+Un programa debe ayudar a un cine a verificar si una persona puede entrar a ver una película para mayores de 18 años.
+
+Se necesitan conocer los siguientes datos: 
+
+ edad del usuario como **String** (no directamente como número).
+
+
+Realiza la comparación (usando operadores relacionales):
+
+Verifica si la edad es mayor o igual que 18.
+
+
+Usa esta conversión para mostrar el resultado en un mensaje.
+
+Conversión implícita:
+
+Usa un int en una operación con un double (ej. añadir un “decimal simbólico” al precio de la entrada).
+
+Salida: muestra si la persona es mayor de edad y el precio de la entrada (ejemplo, entrada = 7.0 €, si es menor no puede comprarla).
 
