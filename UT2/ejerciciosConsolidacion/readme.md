@@ -160,7 +160,7 @@ Usando comparaciones con operadores relacionales,  verifica y guarda en variable
 
 &lt; 5----- →  para poder responder:   ¿es suspenso? true
 
-&gt= 0 && &lt;= 10 -------→   para poder responder:   ¿la nota está en rango válido? true
+&gt;= 0 &amp&amp &lt;= 10 -------→   para poder responder:   ¿la nota está en rango válido? true
 
 != 0------ →  para poder responder:    ¿no se dejó en blanco? true
 
