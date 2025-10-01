@@ -154,15 +154,15 @@ Pide la nota como texto (String, pero puede ser decimales, ten en cuenta que una
 
 Usando comparaciones con operadores relacionales,  verifica y guarda en variables booleanas:
 
-== 10 → para poder responder:  ¿es matrícula de honor? true
+== 10 -----→ para poder responder:  ¿es matrícula de honor? true
 
->= 5 →   para poder responder:  ¿es aprobado? true 
+&gt;= 5----- →   para poder responder:  ¿es aprobado? true 
 
-< 5 →  para poder responder:   ¿es suspenso? true
+&lt; 5----- →  para poder responder:   ¿es suspenso? true
 
->= 0 && <= 10 →   para poder responder:   ¿la nota está en rango válido? true
+&gt= 0 && &lt;= 10 -------→   para poder responder:   ¿la nota está en rango válido? true
 
-!= 0 →  para poder responder:    ¿no se dejó en blanco? true
+!= 0------ →  para poder responder:    ¿no se dejó en blanco? true
 
 Convierte de nuevo la nota a texto con String.valueOf() para poder guardarla en una variable String. 
 
