@@ -110,25 +110,74 @@ Identificada con la letra: B
 
 ```
 # Ejercicio 4
-__ Comparador de edades__ 
+__Comparador de edades__ 
 
 Un programa debe ayudar a un cine a verificar si una persona puede entrar a ver una película para mayores de 18 años.
+El precio de la entrada es único y son 7 €. (__CONSTANTE__)
 
 Se necesitan conocer los siguientes datos: 
 
- edad del usuario como **String** (no directamente como número).
+  - edad del usuario como **String** (no directamente como número).
 
+Realiza la comparación (usando operadores relacionales) para:
 
-Realiza la comparación (usando operadores relacionales):
-
-Verifica si la edad es mayor o igual que 18.
-
-
-Usa esta conversión para mostrar el resultado en un mensaje.
+Verificar si la edad es mayor o igual que 18. Usa esta conversión para mostrar el resultado en un mensaje.
 
 Conversión implícita:
 
 Usa un int en una operación con un double (ej. añadir un “decimal simbólico” al precio de la entrada).
 
-Salida: muestra si la persona es mayor de edad y el precio de la entrada (ejemplo, entrada = 7.0 €, si es menor no puede comprarla).
+Salida: muestra si la persona es mayor de edad y el precio de la entrada.
+
+Como aún no "sabemos" usar condicionales, mostramos el precio tanto si es mayor, como si es menor de edad.
+
+
+Ejemplo de cómo debe ser la salida del programa: 
+```
+Introduce tu edad: 20
+
+Tu edad (String): "20"
+Tu edad (número): 20
+¿Eres mayor de edad? true
+El precio de la entrada es: 7.0 €
+```
+
+# Ejercicio 5
+
+__Comparador de notas de examen__
+
+Un instituto necesita un programa que analice la nota de un estudiante.
+
+Se necesita conocer los siguientes datos que cumplirán los requisitos especificados. 
+
+Pide la nota como texto (String, pero puede ser decimales, ten en cuenta que una cadena de texto los decimales son puntos y comas ).
+
+Usando comparaciones con operadores relacionales,  verifica y guarda en variables booleanas:
+
+== 10 → para poder responder:  ¿es matrícula de honor? true
+
+>= 5 →   para poder responder:  ¿es aprobado? true 
+
+< 5 →  para poder responder:   ¿es suspenso? true
+
+>= 0 && <= 10 →   para poder responder:   ¿la nota está en rango válido? true
+
+!= 0 →  para poder responder:    ¿no se dejó en blanco? true
+
+Convierte de nuevo la nota a texto con String.valueOf() para poder guardarla en una variable String. 
+
+EJEMPLO DE SALIDA POR PANTALLA
+
+```Introduce tu nota: 7.5
+
+Nota introducida (String): "7.5"
+Nota como número: 7.5
+¿Es matrícula de honor (==10)? false
+¿Es aprobado (>=5)? true
+¿Es suspenso (<5)? false
+¿Está en rango válido (0-10)? true
+¿No es cero (!=0)? true
+```
+
+
 
