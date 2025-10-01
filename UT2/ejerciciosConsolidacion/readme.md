@@ -36,3 +36,77 @@ Muestra los  resultados personalizados para el ususario usando printf para dar f
 Los litros necesarios con 2 decimales.
 
 El coste total con 2 decimales y el símbolo €.
+
+# Ejercicio 2
+
+__Comparador de peso de maletas__
+
+Deberás escribir un pequeño  programa de facturación de equipaje en un aeropuerto que debe comprobar si una maleta cumple con el peso máximo permitido.
+
+El peso máximo permitido es  = 23.2 (en kg).
+
+Entrada de datos:
+Pide al usuario su  código de billete (puede contener letras y números)
+Pide al usuario el peso de su maleta (puede tener decimales).
+
+El probrama calculará :
+
+El peso  aproximado en kilos (entero - usando conversión explícita).
+
+Evalúa, usando  operadores relacionales, si el peso de la maleta:
+
+Es igual al máximo.
+
+Es menor al máximo.
+
+Es mayor al máximo.
+
+```
+Introduce el peso de tu maleta (kg): 24.7
+
+Ejemplo de funcionamiento del programa
+Matela para embarque con código: A3204
+Peso real: 24.70 kg
+Peso aproximado (entero): 24 kg
+¿Es igual al máximo? false
+¿Es menor al máximo? false
+¿Es mayor al máximo? true
+```
+
+# Ejercicio 3
+
+__Calculadora de turnos de lavado de coches__ 
+
+Una estación de servicio organiza el lavado de coches en turnos.
+
+Cada coche recibe un número de turno (entero).
+
+Se quiere determinar a qué pista de lavado le corresponde el coche, según su turno.
+
+La pista se calcula con la operación:
+
+pista = turno % NUM_PISTAS
+
+Teniendo en cuenta que el lavado tiene 3 pistas.
+
+Además, cada pista tiene un código de letra asociado:
+
+0 → 'A'
+
+1 → 'B'
+
+2 → 'C'
+(puedes calcular el carácter sumando 'A' + pista).
+
+El programa debe pedir al usuario el número de turno (que puede empezar por 0) , calculará la pista y se la mostrará al usuario con su letra.
+
+```
+Introduce tu número de turno: 7
+
+Número de pistas: 3
+Tu turno es: 7
+Te corresponde la pista número: 1
+Identificada con la letra: B
+
+```
+
