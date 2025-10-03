@@ -39,6 +39,7 @@ Muestra un mensaje de bienvenida al jugador.
 Haz una primera pregunta, por ejemplo:
 
 "Estás en la entrada del laberinto. ¿Quieres ir a la izquierda? (true/false)"
+(usa colores de consola para resaltar (true/false)
 
 Si el jugador responde true:
 
