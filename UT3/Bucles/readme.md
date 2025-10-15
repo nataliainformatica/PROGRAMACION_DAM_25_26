@@ -1,5 +1,6 @@
+# Ejercicios de bucles - FOR
 
-# Ejercicio 1
+## Ejercicio 1
 Completa el código que permitirá crear una figura usando "* * * * *". 
 
 El número de líneas de la figura se pedirá al usuario por consola
@@ -34,3 +35,7 @@ Introduce el número de caracteres de la línea:
 * * * * *
 * * * * *
 ```
+## Ejercicio 3
+
+Modifica el código del programa anterior, para que el usuario pueda además el carácter con el que se crearán las líneas
+
