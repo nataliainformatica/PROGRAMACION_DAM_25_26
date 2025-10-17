@@ -39,7 +39,7 @@ Introduce el número de caracteres de la línea:
 
 Modifica el código del programa anterior, para que el usuario pueda además el carácter con el que se crearán las líneas
 
-# Ejercicio 4
+## Ejercicio 4
 Calcula el promedio de 10 notas que se pedirán al usuario
 
 
