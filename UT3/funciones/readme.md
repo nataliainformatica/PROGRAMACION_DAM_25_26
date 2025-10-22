@@ -19,6 +19,7 @@ Trabajar con:
  
 ### Enunciado
 Implementa un programa "Calculadora" que muestre un menú con las operaciones de:
+```
 1. sumar
 2. restar
 3. multiplicar
@@ -26,7 +27,7 @@ Implementa un programa "Calculadora" que muestre un menú con las operaciones de
 5. resto
    
 0. SALIR
-
+```
 El programa no debe parar hasta introducir un 0 (para salir del programa).
 
 Una vez que el usuario elija la opción, debe pedir los dos operadores y mostrar el resultado.
