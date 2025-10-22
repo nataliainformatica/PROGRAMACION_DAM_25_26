@@ -133,7 +133,3 @@ El programa no parará hasta llegar a un número de billetes vendidos que el usu
 - Debes añadir al reto3 la lógica para que al finalizar el programa (se ha llegado al límite de operaciones) se muestre por pantalla el importe total recaudado por la máquina (el sumatorio de todos los importes de cada operación)
 
 
-**Ejemplo salida consola:**
-
-![image](https://github.com/profeMelola/Programacion-03-2023-24/assets/91023374/443ec4b4-de0d-43cc-a91e-77ad86be4551)
-
