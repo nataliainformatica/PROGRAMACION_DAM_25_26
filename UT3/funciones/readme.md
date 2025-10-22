@@ -38,5 +38,5 @@ Una vez que el usuario elija la opción, debe pedir los dos operadores y mostrar
 
 Por cada opción de la calculadora debes crear una función que haya la operación en cuestión.
 
-## PARTE III: Con funciones o métodos estáticos en la clase Operaciones
+## PARTE III: Con funciones o métodos estáticos en la clase Operaciones (usando paquetes  y una clase aparte)
 
