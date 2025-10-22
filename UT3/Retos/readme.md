@@ -1,4 +1,4 @@
-## jercicio 1
+## Ejercicio 1
 
 /**
  * Crea una aplicación que tendrá un menú con las siguientes opciones:
@@ -68,7 +68,7 @@ incluya el número de módulos.
 
      ## Ejercicio 2
      La cabecera de Google de hoy - 22 de octubre de 2022
-     ![RETO] https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/ecuacionjpg.jpg
+     ![RETO] (https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/ecuacionjpg.jpg)
 
      Tengo que resolver un problema de mates. Cuando un jugador de baloncesto lanza la pelota, esta sigue una parábola. 
      
