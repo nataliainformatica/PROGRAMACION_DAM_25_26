@@ -24,6 +24,7 @@ Implementa un programa "Calculadora" que muestre un menú con las operaciones de
 3. multiplicar
 4. dividir
 5. resto
+   
 0. SALIR
 
 El programa no debe parar hasta introducir un 0 (para salir del programa).
