@@ -56,12 +56,18 @@ Por cada opción de la calculadora debes crear una función que haya la operaci�
   - Debe pedir el número de facturas del cliente.
   - Por cada factura debe pedir el número de gastos que tiene la factura, usando una función :
      ```
-    public static double introducirNumGastos(){....}
+    public static int introducirNumGastos(...){....}
+     // la función asegurará que el número de gastos es mayor a cero,
+     // si no es mayor a cero volverá a pedir que se introduzca el número de gastos
     ```
     
   - Por cada gasto debe pedir el importe del mismo, , usando una función :
     ```
-    public static double introducirGasto(){....}
+    public static double introducirGasto(...){....}
+
+     // la función asegurará que el gasto  es mayor a cero,
+     // si no es mayor a cero volverá a pedir que se introduzca el número de gastos
+    
     ```
     
     
