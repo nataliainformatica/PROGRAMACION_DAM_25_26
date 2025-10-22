@@ -64,29 +64,27 @@ incluya el número de módulos.
  * Finaliza el programa y se muestra FIN DE PROGRAMA
  * 
  */
+...
 
-
-     ## Ejercicio 2
+## Ejercicio 2
+La cabecera de Google de hoy - 22 de octubre de 2022
    
-     La cabecera de Google de hoy - 22 de octubre de 2022
-   
-![RETO](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/ecuacionjpg.jpg)?raw=true)
+![RETO](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/ecuacionjpg.jpg?raw=true)
      
-
-     Tengo que resolver un problema de mates. Cuando un jugador de baloncesto lanza la pelota, esta sigue una parábola. 
+Tengo que resolver un problema de mates. Cuando un jugador de baloncesto lanza la pelota, esta sigue una parábola. 
      
-     Quiero hacer un programa para resolverlo usando la ecuación cuadrática. Para calcular la altura máxima que alcanza la pelota, la distancia máxima que alcanza la pelota ** ¿Cómo lo hago? **
+Quiero hacer un programa para resolverlo usando la ecuación cuadrática. Para calcular la altura máxima que alcanza la pelota, la distancia máxima que alcanza la pelota ** ¿Cómo lo hago? **
 
-     La trayectoria de la pelota se puede modelar con la ecuación cuadrática \(y=ax^{2}+bx+c\), donde: 
+La trayectoria de la pelota se puede modelar con la ecuación cuadrática \(y=ax^{2}+bx+c\), donde: 
      
-     y es la altura de la pelota en ese punto.     
-     x es la  distancia horizontal (cuánto ha avanzado la pelota),
+y es la altura de la pelota en ese punto.     
+ x es la  distancia horizontal (cuánto ha avanzado la pelota),
      
-     a es la curvatura de la pelota (controla la velocidad de caída de la pelota, debe ser negativo.Ç Éste valor dependería de la gravedad y de la velocidad inicial)
+a es la curvatura de la pelota (controla la velocidad de caída de la pelota, debe ser negativo.Ç Éste valor dependería de la gravedad y de la velocidad inicial)
 
-     b es la pendiente inicial, (indica la inclinación de la trayectoria al inicio)
+b es la pendiente inicial, (indica la inclinación de la trayectoria al inicio)
 
-     c es la algura desde la que se lanza la pelota
+c es la algura desde la que se lanza la pelota
 
 ** Ejemplo ** 
 ```
