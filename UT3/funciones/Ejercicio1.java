@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class EjemploFunciones {
+public class Ejercicio1 {
 
     /***
      * DEBERÁS COMPLETAR EL CÓDIGO PARA HACER UNA CALCULADORA, QUE TENDRÁ 4
