@@ -112,6 +112,10 @@ Mostrará si con los valores de  a, b y c facilitados, y la posición de la cana
 ## Ejercicio 3
 La cabecera de Google de hoy - 23 de octubre de 2022
 
-![RETO]((https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/secuenciaADNjpg.jpg)?raw=true)
+![RETO](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/secuenciaADNjpg.jpg)?raw=true)
 
-/* Me acuerdo de que el ADN tiene A, T, C y G, pero ¿cómo se sabe cuál va en cada lugar? ¿Cómo se arma la secuencia? Y si se desordena, ¿qué pasa? Dame un truco para acordarme de cómo se emparejan las letras en el examen.*/
+/* Me acuerdo de que el ADN tiene A, T, C y G, 
+/*pero ¿cómo se sabe cuál va en cada lugar? 
+*¿Cómo se arma la secuencia?
+*Y si se desordena, ¿qué pasa? 
+*¿Hacemos un programa que compruebe si el emparejamiento es correcto?*/
