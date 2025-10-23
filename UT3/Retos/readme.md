@@ -138,7 +138,7 @@ C ↔ G
 
 G ↔ C
 
-Si el apareamiento es correcto, se mostrarán las dos cadenas en mayúsculas, una debajo de la otra.
+Si el apareamiento de cadenas es correcto, se mostrarán las dos cadenas en mayúsculas, una debajo de la otra.
 
 Si existe alguna mutación (es decir, una base que no cumple la regla de apareamiento), se mostrarán ambas cadenas en mayúsculas, excepto las bases afectadas por la mutación, que se mostrarán en minúsculas.
 
