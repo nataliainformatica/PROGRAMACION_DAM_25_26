@@ -108,3 +108,10 @@ la altura máxima (el vértice de la parábola),
 
 y la distancia total que recorre antes de volver al suelo (la raíz positiva).
 Mostrará si con los valores de  a, b y c facilitados, y la posición de la canasta, se encesta la pelota. 
+
+## Ejercicio 3
+La cabecera de Google de hoy - 23 de octubre de 2022
+
+![RETO]((https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/secuenciaADNjpg.jpg)?raw=true)
+
+/* Me acuerdo de que el ADN tiene A, T, C y G, pero ¿cómo se sabe cuál va en cada lugar? ¿Cómo se arma la secuencia? Y si se desordena, ¿qué pasa? Dame un truco para acordarme de cómo se emparejan las letras en el examen.*/
