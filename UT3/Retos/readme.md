@@ -150,13 +150,11 @@ Si existe alguna mutación (es decir, una base que no cumple la regla de apaream
 Ejemplo correcto:
 
 Cadena 1: A T G C A G T T C A T G A C T
-
 Cadena 2: T A C G T C A A G T A C T G A
 
 Ejemplo con mutación:
 
 Cadena 1: A T G C A G T T C A T G A C T
-
 Cadena 2: T A C G T C A A g T A C T G A
 
 
