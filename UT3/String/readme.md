@@ -97,7 +97,7 @@ Implementa un validador de contraseñas. Ésta se debe leer por teclado y debemo
 Implementa un método que devuelva true o false para indicar si se cumplen los requisitos de contraseña válida o no. La contraseña debe enviarse al método como parámetro.
 
 ## Ejercicio 2 versión 2
-El programa debe indicar exactamente que le falta a la contraseña para ser válida
+El programa debe indicar exactamente qué le falta a la contraseña para ser válida
 
 ##  Ejercicio 3.
 Realiza un programa que ordene alfabéticamente el nombre de tres
