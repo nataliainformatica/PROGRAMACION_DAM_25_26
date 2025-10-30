@@ -132,11 +132,13 @@ El programa no parará hasta llegar a un número de billetes vendidos que el usu
 ![image](https://user-images.githubusercontent.com/91023374/134820387-4429bb44-1c97-427f-83be-07a0ac16e9a8.png) **RETO 4 !!! PRÁCTICA GUIDA: Solución moduclar con métodos estáticos**
 - Debes añadir al reto3 la lógica para que al finalizar el programa (se ha llegado al límite de operaciones) se muestre por pantalla el importe total recaudado por la máquina (el sumatorio de todos los importes de cada operación)
 
-# Ejercicio 3
+# Ejercicio 4
 
 ![RETO](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/pac_man.jpg?raw=true)
 
-Practicaremos:  variables, bucles, condicionales y funciones
+Practicaremos:  variables, bucles, condicionales y funciones.
+Es un requisito imprescindible que realices alguna parte del código usando una función, por ejemplo puedes hacer una función que pida un valor válido de movimiento (a/d/q).
+También podrías hacer una función que calcule la nueva posición de Pac-Man dependiendo de a/d/q, o también  una función que haga la composición de la línea (dónde está Pac-Man después del moviviento)
 
 magina que tienes un camino con bolitas . y Pac-Man P:
 ```
@@ -144,7 +146,7 @@ magina que tienes un camino con bolitas . y Pac-Man P:
 ```
 
 Pac-Man puede moverse a la izquierda (a) o a la derecha (d).
-Cada vez que se mueve y come una bolita (.), ganas puntos.
+Cada vez que se mueve y come una bolita (.), ganas puntos (1 punto por cada bola)
 El juego termina cuando no quedan bolitas o escribes q.
 
 ```
@@ -160,3 +162,10 @@ Puntos: 2
 Mover (a/d/q): q
 Juego terminado. Puntos finales: 2
 
+## Siguiente nivel
+
+Vamos a mejorar el Mini-Pac-Man en una línea añadiendo un fantasma (F) que se mueve aleatoriamente. Cada vez que se mueve Pac-Man vuelve a aparecer el fantasma en una posición aleatoria.
+
+El juego seguirá siendo solo con un String.
+Si Pac-Man (P) choca con el fantasma, pierdes.
+Si comes todas las bolitas (.), ganas.
