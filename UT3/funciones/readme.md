@@ -140,7 +140,7 @@ Practicaremos:  variables, bucles, condicionales y funciones.
 Es un requisito imprescindible que realices alguna parte del código usando una función, por ejemplo puedes hacer una función que pida un valor válido de movimiento (a/d/q).
 También podrías hacer una función que calcule la nueva posición de Pac-Man dependiendo de a/d/q, o también  una función que haga la composición de la línea (dónde está Pac-Man después del moviviento)
 
-magina que tienes un camino con bolitas . y Pac-Man P:
+Imagina que tienes un camino con bolitas . y Pac-Man P:
 ```
 .....P.....
 ```
