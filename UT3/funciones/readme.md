@@ -6,7 +6,7 @@
 
 ## PARTE I: Repaso de UT 1, 2 y 3.
 
-### Objetivos
+### Objetivoshttps://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/UT3/funciones/readme.md
  
 Trabajar con:
 
@@ -132,4 +132,31 @@ El programa no parará hasta llegar a un número de billetes vendidos que el usu
 ![image](https://user-images.githubusercontent.com/91023374/134820387-4429bb44-1c97-427f-83be-07a0ac16e9a8.png) **RETO 4 !!! PRÁCTICA GUIDA: Solución moduclar con métodos estáticos**
 - Debes añadir al reto3 la lógica para que al finalizar el programa (se ha llegado al límite de operaciones) se muestre por pantalla el importe total recaudado por la máquina (el sumatorio de todos los importes de cada operación)
 
+# Ejercicio 3
+
+![RETO](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/pac_man.jpg?raw=true)
+
+Practicaremos:  variables, bucles, condicionales y funciones
+
+magina que tienes un camino con bolitas . y Pac-Man P:
+```
+.....P.....
+```
+
+Pac-Man puede moverse a la izquierda (a) o a la derecha (d).
+Cada vez que se mueve y come una bolita (.), ganas puntos.
+El juego termina cuando no quedan bolitas o escribes q.
+
+```
+Camino: .....P.....
+Mover (a/d/q): a
+Camino: ....P......
+Puntos: 1
+
+Mover (a/d/q): a
+Camino: ...P.......
+Puntos: 2
+
+Mover (a/d/q): q
+Juego terminado. Puntos finales: 2
 
