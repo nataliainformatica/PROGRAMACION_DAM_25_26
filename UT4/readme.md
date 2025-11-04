@@ -97,11 +97,30 @@ Pida al usuario que introduzca 10 actividades o consumos realizados en una seman
 
 Almacene estas actividades en un array de Strings.
 
-Crea otro paquete, con una clase en el que habrá una función con el método devuelveTiposEnergias…. , en esta función estará definido un array estático  con 5 tipos de energía [petróleo, gas natural, solar].
+Crea otro paquete, con una clase en el que habrá una función con el método devuelveTiposEnergias…. , en esta función estará definido un array estático  con 3 tipos de energía ["petróleo", "gas natural", "hidroeléctrica"].
+Que usará las siguientes colecciones de palabras para identificar cada una de las energías: 
+```
+// --- PALABRAS / ACTIVIDADES RELACIONADAS CON CADA ENERGÍA ---
 
-Además tendrá otro método, con los grados de contaminación de las energías, teniendo en cuenta la posición en el array, devuelve grado de contaminación que produce [alto, alto, bajo].
+        String[] palabrasPetroleo = {
+            "coche", "gasolina", "diesel", "moto", "avión", "transporte", "camión", "autobús",
+            "repostar", "viajar", "combustible", "gasolinera", "barco", "motor"
+        };
 
-De las actividades que ha introducido el usuario, debes detectar y mostrar por consola qué actividades están repetidas (es decir, las actividades que el usuario realiza más de una vez y podrían optimizarse para reducir emisiones), con la energía a la que están asociadas y el grado de contaminación de ésta.
+        String[] palabrasGasNatural = {
+            "calefacción", "cocinar", "agua caliente", "ducha", "baño", "horno", "cocina de gas",
+            "termo", "caldera", "calor"
+        };
+
+     
+        String[] palabrasHidroelectrica = {
+            "lavadora", "lavavajillas", "microondas", "cargar móvil", "ordenador", "consola", "televisión"
+        };
+```
+
+Además tendrá otro método, con los grados de contaminación de las energías, teniendo en cuenta la posición en el array, devuelve grado de contaminación que produce [alto, alto,bajo].
+
+**AMPLIACIÓN**:  De las actividades que ha introducido el usuario, debes detectar y mostrar por consola qué actividades están repetidas (es decir, las actividades que el usuario realiza más de una vez y podrían optimizarse para reducir emisiones), con la energía a la que están asociadas y el grado de contaminación de ésta.
 
 
 
