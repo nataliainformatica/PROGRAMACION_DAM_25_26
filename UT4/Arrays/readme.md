@@ -73,4 +73,29 @@ String[] paises = {
 int[] distancias = { 1200, 1000, 800 }; // km entre cada etapa
 ```
 
+Debes realizar el código, de forma que se puedan ampliar las rutas con más datos, de forma que sustituyendo los arrays, el código debe seguir funcionando: 
+```
+String[] etapas = {
+            "Toronto",
+            "Chicago",
+            "Kansas",
+            "Dallas",
+            "Monterrey",
+            "San Luis Potosí ",
+            "Santuario Monarca(Michoacán)"
+        };
+String[] paises = {
+            "Canadá",
+            "EE.UU)",
+            "EE.UU.",
+            "México",
+            "México",
+            "México"
+        };
+int[] distancias = {700, 900, 700, 600, 400, 300}; // km entre etapas
+```
+
+
+
+
    
