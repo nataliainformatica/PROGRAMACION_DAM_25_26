@@ -58,10 +58,16 @@ Programaremos un menú, de forma que el usuario podrá ver los siguientes datos.
 
 ```
 String[] etapas = {
-    "Ontario (Canadá)",
-    "Kansas (EE.UU.)",
-    "Texas (EE.UU.)",
-    "Monarca (México)"
+    "Ontario",
+    "Kansas",
+    "Texas",
+    "Monarca"
+};
+String[] paises = {
+    "Canadá",
+    "EE.UU.",
+    "EE.UU.",
+    "México"
 };
 
 int[] distancias = { 1200, 1000, 800 }; // km entre cada etapa
