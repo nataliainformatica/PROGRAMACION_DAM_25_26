@@ -52,9 +52,11 @@ Existen dos grandes poblaciones migratorias en América del Norte:
 ## ACTIVIDAD EN JAVA
 Crea un programa en Java que use arrays estáticos para simular el recorrido migratorio de la mariposa monarca desde Canadá hasta México. Definiremos 3 arrays estáticos , el primero con las etapas, el segundo con el país al que pertenece la etapa, el tercero con las distancias. 
 Programaremos un menú, de forma que el usuario podrá ver los siguientes datos.
-1. Nombre de la etapa, preguntará al usuario qué número de etapa quiere ver, recordándole que el recorrido de la mariposa tiene 4 etapas.
+1. Nombre de la etapa, preguntará al usuario qué número de etapa quiere ver, recordándole  el número de etapas del recorrido de la mariposa (en este ejemplo tiene 4 etapas).
 2. País de la etapa, preguntará al usuario de qué etapa quiere conocer el pais (el usuario, introducirá un nombre de etapa, no un número).
-3. Distancia entre las etapas, preguntará dos etapas del recorrido, y mostrará la distancia total.
+3. Distancia entre las etapas, preguntará dos etapas del recorrido (puedes hacerlo por nombre o por número) , y mostrará la distancia total entre esas dos etapas.
+
+**En todos los casos debes controlar posibles errores y no permitir que el programa finalice por un error del usuario**
 
 ```
 String[] etapas = {
