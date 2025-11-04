@@ -41,6 +41,7 @@ En cualquiera de los niveles, al finalizar el juego deberás mostrar la puntuaci
 
 # Ejercicio 2
 ![Doodle](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/monarcas.jpg)
+
 **Homenaje a la llegada de la mariposa monarca** El Doodle de Google del martes 4 de noviembre, rinde homenaje a la migración de más de 7700 kilómetros de la mariposa monarca desde Canadá y EE. UU. hasta México.   
 
 La mariposa monarca (**Danaus plexippus**) realiza una de las migraciones más impresionantes del reino animal. Su recorrido cubre miles de kilómetros y abarca Canadá, Estados Unidos y México.
