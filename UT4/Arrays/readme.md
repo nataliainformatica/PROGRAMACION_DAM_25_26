@@ -100,18 +100,26 @@ int[] distancias = {700, 900, 700, 600, 400, 300}; // km entre etapas
 # Ejercicio 3
 ![5_11_2025](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/bonfireNight.jpg)
 ```
-La historia del Complot de la Pólvora (**Gunpowder Plot**) es una de las más famosas de Inglaterra, y su aniversario se celebra todos los 5 de noviembre desde hace más de 400 años.
+La historia del Complot de la Pólvora (**Gunpowder Plot**) es una de las más famosas de Inglaterra, y su aniversario se celebra
+todos los 5 de noviembre desde hace más de 400 años.
 
 A comienzos del siglo XVII, Inglaterra era un país protestante.
-El rey Jacobo I (James I) había sucedido a Isabel I en 1603. Muchos católicos esperaban que fuera más tolerante con ellos, ya que habían sido perseguidos bajo el reinado anterior.
+El rey Jacobo I (James I) había sucedido a Isabel I en 1603. Muchos católicos esperaban que fuera más tolerante con ellos,
+ya que habían sido perseguidos bajo el reinado anterior.
 Pero no fue así: las leyes contra los católicos continuaron, y la tensión aumentó.
-Un grupo de católicos ingleses decidió actuar. Su idea era volar el Palacio de Westminster (donde se reuniría el Parlamento) durante la apertura oficial del 5 de noviembre de 1605.
-De esa manera, pretendían matar al rey, a su familia y a los miembros del gobierno, con la esperanza de restaurar un monarca católico en el trono.
-El grupo estaba liderado por Robert Catesby, pero el más famoso de todos fue **Guy Fawkes** (también conocido como Guido Fawkes), un experto en explosivos que había luchado en el extranjero. 
+Un grupo de católicos ingleses decidió actuar. Su idea era volar el Palacio de Westminster (donde se reuniría el Parlamento)
+durante la apertura oficial del 5 de noviembre de 1605.
+De esa manera, pretendían matar al rey, a su familia y a los miembros del gobierno,
+con la esperanza de restaurar un monarca católico en el trono.
+El grupo estaba liderado por Robert Catesby, pero el más famoso de todos fue **Guy Fawkes** (también conocido como Guido Fawkes),
+un experto en explosivos que había luchado en el extranjero. 
 
-Los conspiradores alquilaron una bodega debajo del Parlamento y almacenaron 36 barriles de pólvora. Esperaban detonar todo justo cuando el rey Jacobo I diera su discurso de apertura.
-Sin embargo, el plan se vino abajo cuando alguien —probablemente un conspirador arrepentido— envió una carta anónima a un miembro del Parlamento, advirtiéndole que no asistiera ese día.
-Las autoridades registraron el edificio en la noche del 4 de noviembre y encontraron a Guy Fawkes vigilando los barriles de pólvora, con mechas y fósforos listos.
+Los conspiradores alquilaron una bodega debajo del Parlamento y almacenaron 36 barriles de pólvora.
+Esperaban detonar todo justo cuando el rey Jacobo I diera su discurso de apertura.
+Sin embargo, el plan se vino abajo cuando alguien —probablemente un conspirador arrepentido—
+envió una carta anónima a un miembro del Parlamento, advirtiéndole que no asistiera ese día.
+Las autoridades registraron el edificio en la noche del 4 de noviembre
+y encontraron a Guy Fawkes vigilando los barriles de pólvora, con mechas y fósforos listos.
 ```
 
 ## ACTIVIDAD EN JAVA
