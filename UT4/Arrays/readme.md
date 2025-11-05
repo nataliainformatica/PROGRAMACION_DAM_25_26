@@ -97,7 +97,38 @@ String[] paises = {
 int[] distancias = {700, 900, 700, 600, 400, 300}; // km entre etapas
 ```
 
+# Ejercicio 3
+![5_11_2025](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/bonfireNight.jpg)
+```
+La historia del Complot de la Pólvora (**Gunpowder Plot**) es una de las más famosas de Inglaterra, y su aniversario se celebra todos los 5 de noviembre desde hace más de 400 años.
 
+A comienzos del siglo XVII, Inglaterra era un país protestante.
+El rey Jacobo I (James I) había sucedido a Isabel I en 1603. Muchos católicos esperaban que fuera más tolerante con ellos, ya que habían sido perseguidos bajo el reinado anterior.
+Pero no fue así: las leyes contra los católicos continuaron, y la tensión aumentó.
+Un grupo de católicos ingleses decidió actuar. Su idea era volar el Palacio de Westminster (donde se reuniría el Parlamento) durante la apertura oficial del 5 de noviembre de 1605.
+De esa manera, pretendían matar al rey, a su familia y a los miembros del gobierno, con la esperanza de restaurar un monarca católico en el trono.
+El grupo estaba liderado por Robert Catesby, pero el más famoso de todos fue **Guy Fawkes** (también conocido como Guido Fawkes), un experto en explosivos que había luchado en el extranjero. 
+
+Los conspiradores alquilaron una bodega debajo del Parlamento y almacenaron 36 barriles de pólvora. Esperaban detonar todo justo cuando el rey Jacobo I diera su discurso de apertura.
+Sin embargo, el plan se vino abajo cuando alguien —probablemente un conspirador arrepentido— envió una carta anónima a un miembro del Parlamento, advirtiéndole que no asistiera ese día.
+Las autoridades registraron el edificio en la noche del 4 de noviembre y encontraron a Guy Fawkes vigilando los barriles de pólvora, con mechas y fósforos listos.
+```
+
+## ACTIVIDAD EN JAVA
+Debes hacer el código para un juego que llamaremos **Atrapa a Guy Fawkes**
+Será un  minijuego que se ejecutará en la consola:
+
+Hay varias habitaciones numeradas (este dato se preguntará antes de comenzar el juego) debajo del Parlamento.
+Vamos a imaginar para esta primera versión, que las habitaciones están en un pasillo largo, por lo que están ordenadas en fila. 
+El guardia tiene un número limitado de posibilidades de búsqueda antes de que amanezca, que se calcularán como (int)númeroHabitaciones*0,55,  (ejemplo, si son 10 habitaciones serán 5 posibilidades)
+
+En una está escondido Guy Fawkes con la pólvora.
+
+El **jugador** es un guardia que tiene que inspeccionar las  habitaciones, buscando a Guy Fawkes.
+
+Cada turno el jugador elige una habitación (si elige una habitación que no existe el juego finaliza), según lo cerca o lejos que esté la habitación elegida,  el programa responde con pistas ("oyes ruidos y  hay un fuerte olor a póvora", “hueles pólvora cerca”, “silencio total”...). Si  la habitación siguiente (por la derecha o izquierda) es en la que está escondido Guy, dará el primer mensaje "oyes ruidos y  hay un fuerte olor a póvora", si pasada una habitación (a la derecha  o izquierda) está escondido Guy, se mostrará el mensaje: “hueles pólvora cerca”, si hay más de una habitación entre la que revisa el guardia y en la que está escondido Guy mostrará:  “silencio total”. 
+
+Si el guardia lo encuentra antes del amanecer  gana, si no lo encuentra el parlamento.... 
 
 
    
