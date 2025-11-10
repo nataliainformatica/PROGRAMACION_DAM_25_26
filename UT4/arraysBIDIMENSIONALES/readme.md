@@ -48,9 +48,9 @@ Alumno 3 - Suma: 27  Promedio: 9.00
 Alumno 4 - Suma: 18  Promedio: 6.00
 
 Suma y promedio por asignatura:
-PR → Suma: 30  Promedio: 7.5
-BD      → Suma: 26  Promedio: 6.5
-ED    → Suma: 30  Promedio: 7.5
+PR - Suma: 30  Promedio: 7.5
+BD - Suma: 26  Promedio: 6.5
+ED - Suma: 30  Promedio: 7.5
 
 Promedio general del grupo: 7.17
 ```
