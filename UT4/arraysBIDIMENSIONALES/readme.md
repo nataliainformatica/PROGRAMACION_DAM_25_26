@@ -31,7 +31,7 @@ Calcula y muestra:
 🔹 La nota media general del grupo.
 
 Presenta los resultados de manera clara y legible.
-
+```
 Ejemplo de salida esperada:
 Matriz de notas:
 Alumno\Asig |  PR     BD    ED ....
@@ -53,3 +53,4 @@ BD      → Suma: 26  Promedio: 6.5
 ED    → Suma: 30  Promedio: 7.5
 
 Promedio general del grupo: 7.17
+```
