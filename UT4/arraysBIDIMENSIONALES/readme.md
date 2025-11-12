@@ -55,7 +55,8 @@ ED - Suma: 30  Promedio: 7.5
 Promedio general del grupo: 7.17
 ```
 
-#Ejercicio 2 - SOPA DE LETRAS 
+# Ejercicio 2 - SOPA DE LETRAS 
+[TEMA PARA LA SOPA](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/lunes_10noviembre.jpg)
 
 
 El objetivo de este ejercicio es crear una sopa de letras,  (un array bidimensional).
