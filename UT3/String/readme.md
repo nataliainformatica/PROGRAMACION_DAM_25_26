@@ -95,8 +95,12 @@ Implementa un validador de contraseñas. Ésta se debe leer por teclado y debemo
 - Tiene algún número
 
 Implementa un método que devuelva true o false para indicar si se cumplen los requisitos de contraseña válida o no. La contraseña debe enviarse al método como parámetro.
+Usa en este ejercicio la clase **Character** y sus métodos
 
-## Ejercicio 2 versión 2
+## Ejercicio 2 versión 3
+Usa solamente métodos de String y valores ascii para buscar mayúsculas y minúsculas
+
+## Ejercicio 2 versión 3
 El programa debe indicar exactamente qué le falta a la contraseña para ser válida
 
 ##  Ejercicio 3.
