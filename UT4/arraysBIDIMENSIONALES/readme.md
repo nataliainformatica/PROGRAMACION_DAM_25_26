@@ -54,3 +54,16 @@ ED - Suma: 30  Promedio: 7.5
 
 Promedio general del grupo: 7.17
 ```
+
+#Ejercicio 2 - SOPA DE LETRAS 
+
+
+El objetivo de este ejercicio es crear una sopa de letras,  (un array bidimensional).
+Usando una  colección de palabras, debes crear el array bidimensional  de 10x10, completándolo con caracteres aleatorios. Puedes usar como tema  la fotosíntesis:
+
+
+Y después colocar las palabras de la colección, de forma horizontal, y con lectura de  izquierda a derecha (tradicional), emplezando en una posición aleatoria. 
+
+
+
+
