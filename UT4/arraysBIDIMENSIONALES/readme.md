@@ -96,6 +96,19 @@ empresa y detectar si existe brecha salarial entre ambos. El programa pedirá po
  * Muestra los resultados
 
  */
- 
-
+ # Ejercicio R14
+/*
+ * Crearemos la matriz de la clase
+ * asumimos el número de pcs, por tanto 6 filas y 3 columnas
+ * Demos hacer una función para hacer un sorteo, nos devolverá el
+ * alumno al que le ha tocado el sorteo
+ * 
+ * Crea una función que recibe el nombre de un alumno, y devuelve
+ * el true/false, dependiendo de si está o no
+ * 
+ * 
+ * Crea una función que pasará lista a todos los alumnos, de forma que mostrará
+ * el nombre de cada uno de los alumnos, y dependiendo de la respuesta ("si"/"no")
+ * mantendrá el nombre del alumno, o lo dejará vacío si la respuesta es  "NO"
+ */
 
