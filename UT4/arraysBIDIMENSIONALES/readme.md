@@ -112,3 +112,27 @@ empresa y detectar si existe brecha salarial entre ambos. El programa pedirá po
  * mantendrá el nombre del alumno, o lo dejará vacío si la respuesta es  "NO"
  */
 
+
+# Ejercicio R15 Batalla de la Estrella de la Muerte
+
+
+El objetivo de la aplicación es simular un mapa de la Estrella de la Muerte representado como una matriz bidimensional, donde se ubican naves rebeldes y tropas imperiales.
+
+El programa deberá:
+
+Generar aleatoriamente el campo de batalla (la matriz). La matriz será, por ejemplo, de tamaño 10x10. Pero si cambiamos las dimensiones del mapa, el programa  debe funcionar de la misma forma.
+
+Cada posición puede contener: {"R","I","."}
+
+"R" → Nave Rebelde
+
+"I" → Tropas Imperiales
+
+"." → Espacio vacío
+
+Completa toda la matriz (de forma aleatoria) con uno de esos tres tipos.
+
+Despues muestra el mapa por consola.  Cuenta cuántas naves rebeldes y tropas imperiales hay.
+
+Detectar si los rebeldes han logrado infiltrarse (es decir, si hay una nave rebelde en el borde del mapa).
+
