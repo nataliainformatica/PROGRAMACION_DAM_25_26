@@ -114,7 +114,7 @@ empresa y detectar si existe brecha salarial entre ambos. El programa pedirá po
 
 
 # Ejercicio R15 La invasión Rebelde contra las Tropas Imperiales
-![](./blob/main/recursos%26imagenes/radar.jpg?raw=true)
+![]((https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26)/blob/main/recursos%26imagenes/radar.jpg?raw=true)
 
 
 El objetivo de la aplicación es simular un mapa de la Estrella de la Muerte representado como una matriz bidimensional, donde se ubican naves rebeldes y tropas imperiales.
@@ -135,5 +135,5 @@ Completa toda la matriz (de forma aleatoria) con uno de esos tres tipos.
 
 Despues muestra el mapa por consola.  Cuenta cuántas naves rebeldes y tropas imperiales hay.
 
-Detectar si los rebeldes han logrado infiltrarse (es decir, si hay una nave rebelde en el borde del mapa).
+Detectar si los rebeldes han logrado infiltrarse, sin que los vean en el mapa (es decir, si hay una nave rebelde en las casillas de las esquinas en el borde del mapa).
 
