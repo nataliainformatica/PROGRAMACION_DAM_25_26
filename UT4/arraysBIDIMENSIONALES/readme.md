@@ -114,7 +114,7 @@ empresa y detectar si existe brecha salarial entre ambos. El programa pedirá po
 
 
 # Ejercicio R15 La invasión Rebelde contra las Tropas Imperiales
-![]((https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26)/blob/main/recursos%26imagenes/radar.jpg?raw=true)
+![](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26)/blob/main/recursos%26imagenes/radar.jpg?raw=true)
 
 
 El objetivo de la aplicación es simular un mapa de la Estrella de la Muerte representado como una matriz bidimensional, donde se ubican naves rebeldes y tropas imperiales.
