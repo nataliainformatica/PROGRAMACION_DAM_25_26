@@ -96,6 +96,9 @@ Crea un programa en Java que:
 Pida al usuario que introduzca 10 actividades o consumos realizados en una semana relacionados con energía, transporte o consumo.
 
 Almacene estas actividades en un array de Strings.
+Usando los métodos que se definen más adelante, mostraremos para cada una de las actividades del usuario, el tipo de energía consumida, y el grado de contaminación de cada una. 
+
+## Definición de las funciones a realizar.
 
 Crea otro paquete, con una clase en el que habrá una función con el método devuelveTiposEnergias…. , en esta función estará definido un array estático  con 3 tipos de energía ["petróleo", "gas natural", "hidroeléctrica"].
 Que usará las siguientes colecciones de palabras para identificar cada una de las energías: 
@@ -115,10 +118,10 @@ Que usará las siguientes colecciones de palabras para identificar cada una de l
      
         String[] palabrasHidroelectrica = {
             "lavadora", "lavavajillas", "microondas", "cargar móvil", "ordenador", "consola", "televisión"
-        };
+        };devuelve
 ```
 
-Además tendrá otro método, con los grados de contaminación de las energías, teniendo en cuenta la posición en el array, devuelve grado de contaminación que produce [alto, alto,bajo].
+Esta misma clase tendrá  otro método, devuelveGradoContaminación, que tendrá un array  con los grados de contaminación de las energías [alto, alto,bajo]. La función devolverá, teniendo en cuenta la posición en el array, el grado de contaminación que tiene la energía.
 
 **AMPLIACIÓN**:  De las actividades que ha introducido el usuario, debes detectar y mostrar por consola qué actividades están repetidas (es decir, las actividades que el usuario realiza más de una vez y podrían optimizarse para reducir emisiones), con la energía a la que están asociadas y el grado de contaminación de ésta.
 
