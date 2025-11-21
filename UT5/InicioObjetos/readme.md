@@ -1,4 +1,5 @@
 APARTADO A – CLASES SIMPLES CON ATRIBUTOS
+
 En cada ejercicio debes crear un programa con dos clases: una clase principal (puedes llamarla por ejemplo UD8_ProgramaPunto, según el ejercicio) que solo contendrá la función main, además de otra clase (con sus atributos y métodos) que utilizarás desde el main de la clase principal para hcer pruebas sobre su funcionamiento.
 
 En este apartado las clases solo contendrán atributos (variables) y haremos algunas pruebas sencillas con ellas para entender cómo se instancia objetos y se accede a sus atirbutos. 
