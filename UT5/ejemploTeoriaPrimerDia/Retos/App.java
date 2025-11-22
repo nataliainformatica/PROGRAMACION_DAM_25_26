@@ -11,11 +11,11 @@ public class App {
 
         int fila, columna, numero;
         do {
-            System.out.println("Dime la posición de la fila");
+            System.out.println("Dime la posición de la fila- recuerda que la primera fila es cero");
             fila = sc.nextInt();
-         System.out.println("Dime la posición de la columna");
+         System.out.println("Dime la posición de la columna, recuerda que la primera columna es cero");
             columna = sc.nextInt();
-            System.out.println("Dime el número");
+            System.out.println("Dime el número que quieres poner");
             numero = sc.nextInt();
            
               if (!sudoku.jugar(fila, columna, numero)) {

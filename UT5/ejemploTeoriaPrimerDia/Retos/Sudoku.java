@@ -159,6 +159,11 @@ public class Sudoku {
     private boolean comprobarCuadrado(int limiteFila, int limiteColumna, int sudodku[][], int tam) {
 
         int comprobacion = 0;
+         int suma=0; 
+        for(int i=1;i<=(tam*tam) ; i++){
+            // el valor de la suma  de todos los elementos que puede tener el cuadrado
+            suma += i;
+        }
         for (int i = limiteFila - tam; i < limiteFila; i++) {
             for (int j = limiteColumna - tam; j < limiteColumna; j++) {
 
@@ -166,7 +171,7 @@ public class Sudoku {
 
             }
         }
-        if (comprobacion == 10) {
+        if (comprobacion == suma) {
             return true;
         }
         return false;
