@@ -34,11 +34,30 @@ Muestra por pantalla sus coordenadas, perímetros (suma de lados) y áreas (anch
 
  
 
-Ejercicio A4 – Artículo
+Ejercicio A4 – Artículoystem.out.println("Hello, World!");
 
 Crea un programa con una clase llamada Articulo con los siguientes atributos: nombre, precio (sin IVA), iva (siempre será 21) y cuantosQuedan (representa cuantos quedan en el almacén).
 
 En el main de la clase principal instancia un objeto de la clase artículo. Asígnale valores a todos sus atributos (los que quieras) y muestra por pantalla un mensaje del estilo “Pijama - Precio:10€ - IVA:21% - PVP:12,1€” (el PVP es el precio de venta al público, es decir, el precio con IVA). Luego, cambia el precio y vuelve a imprimir el mensaje.
+
+Ejercicio A4_version2
+```
+public class DAOarticulos {
+
+    public static Articulo[] devolveArticulos(){
+        Articulo[] articulos = new Articulo[5]; 
+        articulos[0] = new Articulo("tomates", 2);
+        articulos[1] = new Articulo("pimientos", 2.36, 30); 
+        articulos[2] = new Articulo("pijamas", 24, 3); 
+        articulos[3] = new Articulo("pantalones", 44, 30); 
+        articulos[4] = new Articulo("zapatos", 22, 30);      
+        return articulos; 
+
+    }
+
+}
+```
+
 
  
 
