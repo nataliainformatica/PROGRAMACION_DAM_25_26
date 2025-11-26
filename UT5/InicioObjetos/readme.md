@@ -41,6 +41,13 @@ Crea un programa con una clase llamada Articulo con los siguientes atributos: no
 En el main de la clase principal instancia un objeto de la clase artículo. Asígnale valores a todos sus atributos (los que quieras) y muestra por pantalla un mensaje del estilo “Pijama - Precio:10€ - IVA:21% - PVP:12,1€” (el PVP es el precio de venta al público, es decir, el precio con IVA). Luego, cambia el precio y vuelve a imprimir el mensaje.
 
 Ejercicio A4_version2
+
+Añadiremos un menú el la apliación con las opciones: 
+
+saber el stock total del almacén
+saber el stock de un artículo (mostrando todos los nombres de los artículos que tenemos en el almacén)
+Usaremos la colección que nos facilita la clase DAOarticulos que se incluye a continuación
+
 ```
 public class DAOarticulos {
 
