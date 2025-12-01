@@ -28,6 +28,18 @@ una sorpresa aleatoria
 estado: abierto / cerrado (boolean)
 
 En otra clase Utilidades, tendremos una colección con la lista de sorpresas, que mezclaremos para conseguir que sean aleatorias. 
+```
+ // 1. Lista de sorpresas
+        String[] sorpresas = {
+            "ChocolateS", "Caramelos", "Figuras de nieve", "Risas con amigos",
+            "Mini puzzles", "Bombones", "Galletas", "Sticker navideños",
+            "Campanitas", "Muñecos pequeños", "Té especial", "Carbón dulce",
+            "Gorro de Papá Noel", "Bola del árbol", "Un ejercicio de Java",
+            "Chocolate blanco", "Mini juguete", "Abrazos gratis",
+            "Un Calcetín navideño", "Un Chicle", "Turrón", "Choco-menta",
+            "Un Dibujo sorpresa", "Un bonito día de Navidad ¡Feliz Navidad!"
+        };
+```
 
 Además usaremos LocalDate para saber el día actual, del  1 al 24 de diciembre se puede abrir ese día. Si no, solamente se mostrarán los días abiertos (del día de hoy hacia atrás). 
 
