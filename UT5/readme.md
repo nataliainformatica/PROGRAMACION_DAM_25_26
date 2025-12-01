@@ -1,6 +1,6 @@
 # Ejercicio 1
 Calendario de Adviento en Java
-![NAVIDAD]([https://share.google/gzXqT6LX3yFbCnPuw](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/temporadaNavide%C3%B1a.jpg)
+![NAVIDAD]([https://share.google/gzXqT6LX3yFbCnPuw](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/temporadaNavide%C3%B1a.jpg?raw=true)
 
 El **Calendario de Adviento** es una tradición nacida en Alemania a mediados del siglo XIX. En aquella época, muchas familias querían ayudar a los niños a contar los días que faltaban para Navidad, así que marcaban cada día desde el 1 hasta el 24 de diciembre.
 
