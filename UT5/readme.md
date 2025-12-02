@@ -66,7 +66,8 @@ Lo celebraremos con CARAMELOS
 
 # Ejercicio 2
 ![](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/clase.jpg)
-El azar
+
+El azar nos ordena en clase
 
 Vamos a hacer una aplicación para intercambiar los sitios en clase, dejando el orden al azar. 
 Para poder hacer una asignación aleatoria, necesitaremos hacer un mapa de la clase, para ello, identificaremos las mesas que tenemos distribuidas en filas en la clase, como si fuera un tablero de 6 filas por 4 columnas. (Entre la columna 3 y 4 está el pasillo)
