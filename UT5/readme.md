@@ -65,7 +65,7 @@ Lo celebraremos con CARAMELOS
 ```
 
 # Ejercicio 2
-[](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/clase.jpg)
+![](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/clase.jpg)
 El azar
 
 Vamos a hacer una aplicación para intercambiar los sitios en clase, dejando el orden al azar. 
