@@ -64,3 +64,20 @@ Hoy es 1 de diciembre de 2025 quedan 24 días para Navidad.
 Lo celebraremos con CARAMELOS
 ```
 
+# Ejercicio 2
+
+El azar
+
+Vamos a hacer una aplicación para intercambiar los sitios en clase, dejando el orden al azar. 
+Para poder hacer una asignación aleatoria, necesitaremos hacer un mapa de la clase, para ello, identificaremos las mesas que tenemos distribuidas en filas en la clase, como si fuera un tablero de 6 filas por 4 columnas. (Entre la columna 3 y 4 está el pasillo)
+De esta forma tendremos una asignación de 24 sitios, en clase somos más,... más adelante en la siguiente versión, definiremos qué hacer. Para esta primera versión, haremos una asignación de como máximo 24 alumn@s. La columna 3 de nuestra clase, se reserva a sitios para portátiles (puesto que en ese sitio no hay equipo  fijo)
+
+Haremos una clase Puesto, que tendrá  como atributos, ocupado, asignadoA, tipo (fijo/portátil).
+Al arrancar nuestra aplicación, deberemos crear nuestra matriz bidimensional de Puesto,  al arrancar la aplicación tendremos todos nuestros puestos libres, las columnas 1, 2 y 4 (físicas, que no corresponden con el índice en el array) será de tipo "fijo" y la columnna 3 de tipo "portátil". 
+
+Tendremos una lista de personas (String) que serán las que asignaremos en una primera versión, de forma secuencial a nuestra matriz bidimensional.
+
+Al finalizar la asignación, mostraremos el estado de asignación de la matriz de Puestos. 
+
+
+
