@@ -81,3 +81,55 @@ y se muestren los tres cálculos posibles (circunferencia, área y volumen).
 Modifica el programa anterior de modo que el proceso se repita una y otra vez (mostrar menú ->
 realizar el cálculo -> volver a mostrar menú). Añade una opción más llamada “Salir” que terminará
 el programa si es elegida.
+
+22. Suma de elementos
+
+Crea un programa que almacene 10 números en un array y calcule la suma total.
+
+23. Valor máximo y mínimo
+
+Dado un array de 15 números enteros, encuentra el valor máximo y el mínimo, así como sus posiciones.
+
+24. Contar números pares e impares
+
+Rellena un array de 20 enteros aleatorios entre 1 y 100 y muestra cuántos son pares y cuántos impares.
+
+25. Invertir un array
+
+Pide al usuario 8 números y guárdalos en un array. Luego, muestra los valores en orden inverso.
+
+26. Rotación de elementos
+
+Dado un array de 10 números, rota sus elementos una posición a la derecha.
+Ejemplo:
+[1,2,3,4] → [4,1,2,3]
+
+27. Eliminación de un elemento
+
+Crea un array de 10 enteros. Pide al usuario un índice (0–9) y elimina ese elemento desplazando a la izquierda el resto.
+
+28. Buscar un valor
+
+Rellena un array con 12 nombres. Pide al usuario un nombre y dile si está en el array y en qué posición.
+
+29. Mezclar dos arrays
+
+Dado dos arrays de 10 enteros cada uno, genera un tercero que mezcle alternando los valores:
+Ejemplo:
+A = [1,2,3]
+B = [4,5,6]
+C = [1,4,2,5,3,6]
+
+30. Contar ocurrencias
+
+Crea un array de 30 números entre 1 y 5. Indica cuántas veces aparece cada número.
+
+31. Array de temperaturas
+
+Pide al usuario las temperaturas de una semana (7 valores), y calcula:
+
+Media semanal
+
+Día más frío (posición)
+
+Día más caluroso (posición)
