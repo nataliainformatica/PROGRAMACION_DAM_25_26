@@ -133,3 +133,74 @@ Media semanal
 Día más frío (posición)
 
 Día más caluroso (posición)
+
+# ARRAYS BIDIMENSIONALES
+
+### 32. Suma de todos los elementos
+
+Crea una matriz de 4×4 con números enteros aleatorios. Calcula la suma total de todos los elementos.
+
+### 33. Suma por filas y columnas
+
+Dada una matriz de 3×5, muestra la suma de cada fila y de cada columna por separado.
+
+### 34. Matriz identidad
+
+Pide un número N y construye una matriz identidad de tamaño N×N.
+
+Ejemplo para N = 3:
+
+1 0 0
+0 1 0
+0 0 1
+
+### 35. Matriz transpuesta
+
+Rellena una matriz de 3×3 y crea otra matriz que sea su transpuesta.
+
+### 36. Buscar un elemento
+
+Crea una matriz de 5×5 con caracteres.
+Pide al usuario un carácter y di en qué posición(es) aparece.
+
+### 37. Máximo y mínimo con posiciones
+
+En una matriz 4×6 de enteros aleatorios, encuentra el valor máximo y el mínimo y muestra sus coordenadas.
+
+### 38. Suma diagonal principal y secundaria
+
+Usando una matriz cuadrada de tamaño N (p.ej., N = 5):
+
+Suma la diagonal principal
+
+Suma la diagonal secundaria
+
+Indica cuál diagonal tiene mayor valor
+
+### 39. Matriz de multiplicación
+
+Genera una matriz 10×10 donde cada celda contenga el resultado de multiplicar sus índices:
+mat[i][j] = i * j
+
+### 40. Contador de vecinos
+
+Rellena una matriz de 6×6 con ceros y unos aleatorios.
+Para cada elemento, cuenta cuántos unos tiene a su alrededor (en las 8 posiciones vecinas).
+(No hace falta imprimir la matriz completa si no quieres).
+
+### 41. Rotación de matriz 90°
+
+Crea una matriz de 4×4 y genera una nueva matriz rotada 90 grados en sentido horario.
+
+Ejemplo:
+
+1 2 3
+4 5 6
+7 8 9
+
+
+Se convierte en:
+
+7 4 1
+8 5 2
+9 6 3
