@@ -144,3 +144,63 @@ Tu reto de hoy es: 20 abdominales
 
 3.Salir
 
+
+# Ejercicio 4
+Ejercicio: Clase Reloj en Java
+
+Se quiere crear una clase Reloj que simule un reloj digital. Cada instancia del reloj tendrá una fecha y hora interna que puede consultarse, modificarse y, opcionalmente, avanzar automáticamente con el tiempo real.
+
+Requisitos de la clase Reloj
+Atributos
+
+LocalDateTime fechaHora  : almacena la fecha y hora actual del reloj.
+
+boolean funcionando :  indica si el reloj está corriendo (para el avance automático).
+
+Constructores
+
+Constructor por defecto: inicializa el reloj con la fecha y hora actuales (LocalDateTime.now()), y arranca el AvanceAutomático
+
+Constructor con fecha y hora específicas: permite crear un reloj con cualquier fecha y hora. Puedes elegir el tipo de dato que recibirá el constructor, para poder ajustar el rejoj a la fecha y hora. No arranca el AvanceAutomático.
+
+Métodos
+
+LocalDateTime consultarHora() : devuelve la fecha y hora actual del reloj.
+
+public boolean modificarHora(LocalDateTime nuevaFechaHora) : permite cambiar la fecha y hora del reloj, solamente si el rejoj está parado.
+
+public boolean avanzarSegundos(int segundos) : incrementa la hora interna en la cantidad de segundos indicada, solamente si el reloj esta parado. 
+
+public void pausar() : detiene el avance automático del reloj, si el rejoj está encendido.
+
+public void reanudar() : reanuda el avance automático su el reloj estaba parado.
+
+ void iniciarAvanceAutomatico() : hace que el reloj aumente un segundo cada segundo usando un hilo (Thread).
+ 
+. Implementa un menú en consola para interactuar con el reloj:
+
+Consultar hora
+
+Modificar hora
+
+Avanzar tiempo
+
+Pausar / reanudar
+
+Salir
+
+**Ejemplo de uso**
+Reloj miReloj = new Reloj(); // inicia con hora actual, y arranca el avance automático
+System.out.println(miReloj.consultarHora());
+
+booblean avanzaOk= miReloj.avanzarSegundos(90); // avanza 1 minuto 30 segundos
+System.out.println(miReloj.consultarHora());
+
+boolean avanzaOk = miReloj.modificarHora(LocalDateTime.of(2025, 12, 5, 14, 30));
+System.out.println(miReloj.consultarHora());
+
+
+Si se implementa el avance automático, el reloj debería aumentar la hora internamente cada segundo, y se podrá pausar o reanudar cuando se desee.
+
+
+
