@@ -80,5 +80,67 @@ Tendremos una lista de personas (String) que serán las que asignaremos en una p
 
 Al finalizar la asignación, mostraremos el estado de asignación de la matriz de Puestos. 
 
+# Ejercicio 3
 
+Ejercicio: Calendario de Retos Fitness
+
+Completa la clase ** DiaReto** 
+
+Cada día tendrá:
+
+numeroDia (1–30)
+
+reto (String)
+
+completado (boolean)
+
+Clase **Utilidades**
+
+Tendrá una colección con los retos disponibles, que se mezclarán aleatoriamente al crear el calendario.
+
+// Ejemplo de lista de retos
+String[] retos = {
+    "10 flexiones", "15 sentadillas", "20 abdominales",
+    "5 minutos de estiramientos", "1 km de caminata",
+    "30 segundos plancha", "10 saltos de tijera",
+    "15 zancadas", "20 saltos de cuerda", "5 minutos de yoga",
+    "10 burpees", "15 mountain climbers", "20 segundos meditación",
+    "10 sentadillas con salto", "1 km en bicicleta",
+    "15 push-ups modificadas", "20 abdominales bicicleta",
+    "5 minutos de respiración profunda", "10 burpees con salto",
+    "15 minutos de caminata rápida", "20 flexiones de tríceps",
+    "30 segundos plancha lateral", "10 jumping jacks",
+    "5 minutos de movilidad articular", "15 minutos de estiramientos",
+    "20 abdominales oblicuos", "10 sentadillas sumo",
+    "15 saltos en estrella", "20 segundos plank con levantamiento de brazo",
+    "10 burpees modificados"
+};
+
+**Reglas del calendario**
+
+Se puede “abrir” un día solo si es igual o anterior a la fecha actual.
+
+Los días completados se marcarán como [COMPLETADO] y mostrarán el reto.
+
+Los días no abiertos solo mostrarán [CERRADO].
+
+**Menú**
+
+1. Mostrar calendario
+Ejemplo:
+
+Día 1: [COMPLETADO] 10 flexiones
+Día 2: [CERRADO]
+Día 3: [CERRADO]
+...
+Día 30: [CERRADO]
+
+
+2. Mostrar el reto de hoy
+Ejemplo:
+
+Hoy es 5 de diciembre de 2025.
+Tu reto de hoy es: 20 abdominales
+
+3.Salir
 
