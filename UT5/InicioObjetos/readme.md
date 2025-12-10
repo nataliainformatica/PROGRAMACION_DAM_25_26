@@ -451,6 +451,7 @@ Si el personaje es capaz de comerse al otro, además del incremento de la fuerza
 
 ## Pequeña empresa
 Tenemos una pequeña empresa con tres empleados, vamos  a hacer una aplicación, que nos permita introducir los datos de los tres empleados, cada empleado tendrá como atributos, nombre, apellidos, dni, añoNacimiento, sueldo. 
+En la clasde Principal, en el método main, calcularemos el total de sueldos que tiene que pagar la empresa por los tres empleados. 
 
 
 
