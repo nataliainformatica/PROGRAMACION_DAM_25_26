@@ -115,7 +115,7 @@ Salir
 
 Simular un depósito de agua mediante la clase DepositoAgua.
 
-El depósito tiene una capacidad máxima y un nivel actual.
+El depósito tiene una capacidad máxima (medida en litros) y un nivel actual (medido en litros).
 
 Métodos:
 
