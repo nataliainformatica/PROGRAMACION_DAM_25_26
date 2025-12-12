@@ -64,6 +64,8 @@ Hoy es 1 de diciembre de 2025 quedan 24 días para Navidad.
 Lo celebraremos con CARAMELOS
 ```
 
+<img width="1519" height="929" alt="image" src="https://github.com/user-attachments/assets/818c1518-8746-48b5-8cb2-b5b0bfcab7a3" />
+
 # Ejercicio 2
 ![](https://github.com/nataliainformatica/PROGRAMACION_DAM_25_26/blob/main/recursos%26imagenes/clase.jpg)
 
