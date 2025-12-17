@@ -9,8 +9,23 @@
 > - Variables **estáticas** (de clase)
 > - Variables en **bloques** (`if`, `for`, `try`)
 > - Clases internas, lambdas y variables *effectively final*
+>
+> - Referencia de consulta: https://github.com/aulaenlanube/curso-programacion-java/blob/master/aulaenlanube/tema3/apuntes/M%C3%A9todos%20en%20JAVA.pdf
 
 ---
+
+● En el cuerpo de un método se pueden declarar variables, que se denominan
+variables locales.
+● Las variables locales sólo se pueden usar en el método en el que se declaran, por
+lo que su ámbito(scope), es dicho método.
+● Los parámetros de un método se pueden considerar variables locales del mismo.
+● En una clase, se pueden declarar variables globales en cualquier punto fuera del
+cuerpo de un método, dentro del ‘class’. De momento, para crear estas variables
+globales utilizaremos la directiva ‘static’. Más adelante, en OO, ya veremos en detalle
+el significado real del ‘static’ y todas sus implicaciones.
+● Los métodos de una clase pueden usar las variables globales de ésta.
+● Una variable local puede tener el mismo nombre que una variable global. En este
+caso la variable local siempre sobrescribe a la variable global.
 
 ## Instrucciones
 - Razona el resultado **antes de ejecutar**.
