@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Instrucciones
+## Instrucciones
 - Razona el resultado **antes de ejecutar**.
 - Identifica **dónde vive cada variable**.
 
