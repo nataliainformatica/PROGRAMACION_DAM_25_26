@@ -204,3 +204,103 @@ Se convierte en:
 7 4 1
 8 5 2
 9 6 3
+
+
+## Práctica con Arrays
+
+**Explicación del problema a resolver**:  Acabamos de hacer la  una encuesta de evaluación de la práctica docente, se muestran al usuario preguntas, a las que debe responder marcando su respuesta en una escala del 1 al 5.
+
+En en programa que debes realizar en este ejercicio, simularemos la encuesta, mostrando por consola al ususario 10 preguntas. 
+Las preguntas se facilitan en la clase Utilidades, mediante el método  public static String[] devolverPreguntas(){….}, que como podrás observar devuelve un array de String,  y cada posición del array es una pregunta de la encuesta. 
+
+El objetivo  es crear una de la aplicación, que mostrará cada una de las preguntas, pidiendo al usuario que dé su valoración (de 1 a 5). 
+Debes almacenar adecuadamente las respuestas del usuario, teniendo en cuenta que
+
+Si no se introduce un número (es decir, se escribe una letra u otro caracter), se valorará la pregunta como un **CERO**
+Si se introduce cualquier otro valor que no sea del 1 al 5, también  se valorará como un **CERO**. 
+(trata de que esta funcionalidad sea una función  private static int introduceNumero()  )
+
+```
+
+Ejemplo que muestra el resultado de la ejecución: 
+ENCUESTA DE EVALUACIÓN DOCENTE
+*******************************
+PREGUNTA Nº1
+Al comienzo de cada unidad la profesora presenta lo que se va a trabajar en la misma
+Introduce una nota del 1 al 5
+
+PREGUNTA Nº2
+La profesora utiliza diferentes recursos para explicar los contenidos
+Introduce una nota del 1 al 5
+######    se muestran todas las preguntas######
+```
+
+
+Realiza una función que calcule la nota media de cada pregunta, para calcular la nota media, **solo se tendrán en cuenta las preguntas contestadas adecuadamente (con valores de 1 a 5)**. 
+
+Completa una función que una vez finalizada la encuesta, permita mostrar los resultados.  
+
+private static void mostrarResultados(…..){….}.()   
+
+Aquí se mostrará cada pregunta con la nota que le ha dado el usuario y **al final la nota media** de las 10 preguntas.
+
+```
+
+A CONTINUACIÓN SE MUESTRAN LOS RESULTADOS DE LA ENCUESTA
+Al comienzo de cada unidad la profesora presenta lo que se va a trabajar en la misma: 5
+La profesora utiliza diferentes recursos para explicar los contenidos: 1
+Las explicaciones son claras y ordenadas: 5
+La profesora responde a las preguntas de los estudiantes sobre la materia: 1
+La profesora utiliza ejemplos prácticos para facilitar el aprendizaje: 5
+La profesora fomenta la participación activa de los estudiantes: 1
+La profesora proporciona retroalimentación constructiva: 5
+La profesora utiliza evaluaciones para medir el progreso: 1
+La profesora adapta las actividades a las necesidades del grupo: 5
+La profesora crea un ambiente de aprendizaje positivo: 1
+La nota media de la encuesta es  3.0
+SEGUNDA PARTE (TOTAL 3 PUNTOS)
+```
+
+### Segunda parte: arrays bidimensionales
+
+Disponemos de  un array bidimensional, con el resultado de podemos recuperarlos mediante el Utilidades.getEncuestas() (este método se facilita en los recursos en la clase Utilidades). 
+
+Al invocarlo, nos devuelve un array bidimensional, con 10 filas,  en el que cada fila tiene 10 columnas.
+Cada fila es el resultado de una encuesta, por lo tanto, puedes puedes deducir que el array tiene las respuestas de 10 encuestas. 
+
+Una columna para la respuesta de  cada pregunta de la encuesta.  
+
+```
+ int[][] notas = {
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
+                { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }
+        };
+```
+
+Debes crear el código, para hacer la media cada una de las preguntas (con todos los resultados), de forma que se pueda mostrar el resultado
+
+
+Ejemplo de la muestra el resultado por consola
+```
+
+
+La media de la pregunta 1 es: 1.0
+La media de la pregunta 2 es: 2.0
+La media de la pregunta 3 es: 3.0
+La media de la pregunta 4 es: 4.0
+La media de la pregunta 5 es: 5.0
+La media de la pregunta 6 es: 6.0
+La media de la pregunta 7 es: 7.0
+La media de la pregunta 8 es: 8.0
+La media de la pregunta 9 es: 9.0
+La media de la pregunta 10 es: 10.0
+```
+
