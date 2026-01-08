@@ -3,11 +3,11 @@
 En las distintas carpetas de la unidad podrás encontrar ejercicios de los contenidos de esta unidad
 
 **Contenidos**
-• Estructuras.
-• Arrays unidimensionales y multidimensionales:
-• Declaración.
-• Creación de arrays unidimensionales y multidimensionales.
-• Inicialización
+-Estructuras.
+-Arrays unidimensionales y multidimensionales:
+- Declaración.
+-Creación de arrays unidimensionales y multidimensionales.
+-Inicialización
 • Acceso a elementos.
 • Recorridos, búsquedas y ordenaciones.
 • Cadenas de caracteres:
