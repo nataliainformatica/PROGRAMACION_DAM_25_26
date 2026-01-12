@@ -206,7 +206,7 @@ Se convierte en:
 9 6 3
 
 
-## Práctica con Arrays
+## 42. Práctica con Arrays
 
 **Explicación del problema a resolver**:  Acabamos de hacer la  una encuesta de evaluación de la práctica docente, se muestran al usuario preguntas, a las que debe responder marcando su respuesta en una escala del 1 al 5.
 
@@ -351,3 +351,13 @@ public class Utilidades {
 }
 ```
 
+# 43. 
+Ejercicio para trabajar con arrays bidimiensionales.
+
+Creamun array bidimensional int[][]. Con los siguientes requisitos:
+
+La columna 0 contiene números aleatorios.
+
+La columna 1 contiene el índice original de cada fila.
+
+Ordena el array por la columna 0, manteniendo  toda la  fila, para poder ver cuál era el índice original antes de ordenar.
