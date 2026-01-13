@@ -1,5 +1,5 @@
 // Definición del Enum para las posiciones
-public enum Posicion {
+enum Posicion {
     BASE,
     ESCOLTA,
     ALERO,
