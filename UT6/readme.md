@@ -125,6 +125,8 @@ El promedio de calificaciones de un módulo.
 La calificación final del alumno (promedio de todos los módulos).
 
 (Una vez escrito el código con las clases y su funcionalidad, añadiremos el menú)
+Deberás crear más métodos de comportamiento en las distintas clases, piensa cuáles son necesarios.
+
 El programa debe ofrecer un menú para gestionar:
 
 Añadir alumnos, módulos y notas.
