@@ -98,11 +98,11 @@ Clase Nota:
 
 Atributos:
 tipo (Enum): Tipo de evaluación (Primera, Segunda, Tercera, Ordinaria, Extraordinaria).
-'''
+```
 Enum TipoNota:
 
 Valores: PRIMERA, SEGUNDA, TERCERA, ORDINARIA, EXTRAORDINARIA.
-'''
+```
 
 
 calificacion (double): Nota obtenida.
