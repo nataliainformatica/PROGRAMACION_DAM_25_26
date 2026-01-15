@@ -102,7 +102,7 @@ tipo (Enum): Tipo de evaluación (Primera, Segunda, Tercera, Ordinaria, Extraord
 Enum TipoEvaluacion:
 
 Valores: PRIMERA, SEGUNDA, TERCERA, ORDINARIA, EXTRAORDINARIA.
-```'''
+```
 
 
 calificacion (double): Nota obtenida.
