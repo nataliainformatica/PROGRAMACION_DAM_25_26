@@ -28,3 +28,28 @@ Añadiremos un método a la clase principal que nos permita añadir tareas, sin 
 
 Probaremos a listar en la consola todas las tareas.
 Probaremos a listar solamente las tareas que están pendientes. 
+
+# Ejercicio 5 (para hacer en clase)
+Clase Producto:
+
+Contiene atributos comunes a todos los productos (nombre y precio). Tiene un método mostrarInformacion que las subclases pueden extender.
+
+**Clase ProductoPerecedero:**
+
+Añade el atributo diasParaCaducar. Incluye el método devolverFechaCaducidad.
+
+Incluye el método calcularPrecioFinal que calcula un descuento según los días restantes.
+
+Si quedan menos de tres días se hace un descuento del 50%
+
+Si queda menos de un día se hace un 75 % de descuento.
+
+**Clase ProductoNoPerecedero:**
+
+Añade el atributo descuento.
+
+Añade el atributo tipo ( ejemplo "educativo", "electrónico", etc.).
+
+Tiene un método aplicarPromocion que simula un descuento en el precio.
+
+Clase Principal: Crea instancias de ambas subclases (ProductoPerecedero y ProductoNoPerecedero). Muestra la información y llama a los métodos específicos de cada subclase.
