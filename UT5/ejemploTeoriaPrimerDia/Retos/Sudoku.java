@@ -2,7 +2,29 @@ package es.avellaneda.clases;
 
 public class Sudoku {
 
-    int[][] sudoku;
+    int[][] sudoku = {
+            {2,0,0,0},
+            {0,0,0,4},
+            {1,0,0,0},
+            {0,0,0,2}
+        };
+    int intentos;
+    public Sudoku(){
+        intentos = calcularIntentos();
+        System.out.println("traza");
+
+    }
+    private int calcularIntentos(){
+        int intentos =0;
+        for(int[] i : sudoku){
+            for(int j : i){
+                if(j==0)
+                    intentos++;
+            }
+        }
+
+        return intentos;
+    }
 
 
 
