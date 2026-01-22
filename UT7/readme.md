@@ -154,3 +154,126 @@ Se muestra la tarea: "Estudiar para examen".
 El usuario selecciona "Modificar tarea" y cambia la fecha y hora de la tarea.
 
 Mensaje: "Tarea modificada correctamente."
+
+
+# Ejercicio 7
+EJERCICIO: Herencia básica en Java Tarjetas
+Objetivo
+Practicar:
+•	herencia (extends)
+•	uso de protected
+•	sobrescritura de métodos
+•	super
+•	polimorfismo básico
+________________________________________
+   Clase padre : Tarjeta
+•	Una tarjeta tiene número, titular y saldo.
+•	El método pagar solo permite pagar si hay saldo suficiente.
+•	Devuelve true si el pago se realiza, false si no.
+public class Tarjeta {
+
+    protected String numero;
+    protected String titular;
+    protected double saldo;
+
+    public Tarjeta(String numero, String titular, double saldo) {
+        this.numero = _____;
+        this.titular = _____;
+        this.saldo = _____;
+    }
+
+    public boolean pagar(double importe) {
+        if (_____ >= _____) {
+            _____ -= _____;
+            return _____;
+        }
+        return _____;
+    }
+
+    public double getSaldo() {
+        return _____;
+    }
+
+    @Override
+    public String toString() {
+        return "Tarjeta de " + _____ + " | Saldo: " + _____;
+    }
+}
+
+Tarjeta de Débito)
+Las tarjetas de débito cobran una comisión fija por cada pago.
+Reglas:
+•	Hereda de Tarjeta
+•	Tiene una comisión fija (por ejemplo, 1 €)
+•	Al pagar, se descuenta importe + comisión
+•	Si no hay saldo suficiente para ambos, no se paga
+public class TarjetaDebito extends Tarjeta {
+
+    private double comision;
+
+    public TarjetaDebito(String numero, String titular, double saldo, double comision) {
+        super(_____, _____, _____);
+        this.comision = _____;
+    }
+
+    @Override
+    public boolean pagar(double importe) {
+        double total = _____ + _____;
+
+        if (_____ >= _____) {
+            _____ -= _____;
+            return _____;
+        }
+        return _____;
+    }
+}
+
+Tarjeta de Crédito
+ Permite pagar aunque el saldo sea insuficiente, hasta un límite.
+Reglas:
+•	Tiene un límite de crédito
+•	El saldo puede quedar negativo
+•	Si se supera el límite  el  pago será rechazado
+public class TarjetaCredito extends Tarjeta {
+
+    private double limiteCredito;
+
+    public TarjetaCredito(String numero, String titular, double saldo, double limiteCredito) {
+        super(_____, _____, _____);
+        this.limiteCredito = _____;
+    }
+
+    @Override
+    public boolean pagar(double importe) {
+        if (_____ + _____ >= _____) {
+            _____ -= _____;
+            return _____;
+        }
+        return _____;
+    }
+}
+
+Cybertarjeta
+Tarjeta especial para compras online.
+Reglas:
+•	Tiene un límite por operación
+•	Si el importe supera el límite, el  pago es  rechazado
+•	Si no, usa el comportamiento normal de Tarjeta
+public class Cybertarjeta extends Tarjeta {
+
+    private double limiteOperacion;
+
+    public Cybertarjeta(String numero, String titular, double saldo, double limiteOperacion) {
+        super(_____, _____, _____);
+        this.limiteOperacion = _____;
+    }
+
+    @Override
+    public boolean pagar(double importe) {
+        if (_____ > _____) {
+            return _____;
+        }
+        return _____;
+    }
+}
+
