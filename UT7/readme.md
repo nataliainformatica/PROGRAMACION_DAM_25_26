@@ -203,13 +203,14 @@ public class Tarjeta {
 }
 ```
 
-Tarjeta de Débito 
+**Tarjeta de Débito** 
 Las tarjetas de débito cobran una comisión fija por cada pago.
 Reglas:
 •	Hereda de Tarjeta
 •	Tiene una comisión fija (por ejemplo, 1 €)
 •	Al pagar, se descuenta importe + comisión
 •	Si no hay saldo suficiente para ambos, no se paga
+```
 public class TarjetaDebito extends Tarjeta {
 
     private double comision;
@@ -230,13 +231,15 @@ public class TarjetaDebito extends Tarjeta {
         return _____;
     }
 }
+```
 
-Tarjeta de Crédito
+**Tarjeta de Crédito**
  Permite pagar aunque el saldo sea insuficiente, hasta un límite.
 Reglas:
 •	Tiene un límite de crédito
 •	El saldo puede quedar negativo
 •	Si se supera el límite  el  pago será rechazado
+```
 public class TarjetaCredito extends Tarjeta {
 
     private double limiteCredito;
@@ -255,13 +258,17 @@ public class TarjetaCredito extends Tarjeta {
         return _____;
     }
 }
+```
 
-Cybertarjeta
+
+**Cybertarjeta**
 Tarjeta especial para compras online.
 Reglas:
 •	Tiene un límite por operación
 •	Si el importe supera el límite, el  pago es  rechazado
 •	Si no, usa el comportamiento normal de Tarjeta
+
+```
 public class Cybertarjeta extends Tarjeta {
 
     private double limiteOperacion;
@@ -279,4 +286,6 @@ public class Cybertarjeta extends Tarjeta {
         return _____;
     }
 }
+```
+
 
