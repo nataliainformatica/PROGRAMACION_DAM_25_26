@@ -1,63 +1,58 @@
-package es.avellaneda.clases;
 
 public class Sudoku {
 
-    int[][] sudoku = {
-            {2,0,0,0},
-            {0,0,0,4},
-            {1,0,0,0},
-            {0,0,0,2}
-        };
-    int intentos;
-    public Sudoku(){
-        intentos = calcularIntentos();
-        System.out.println("traza");
-
-    }
-    private int calcularIntentos(){
-        int intentos =0;
-        for(int[] i : sudoku){
-            for(int j : i){
-                if(j==0)
-                    intentos++;
-            }
-        }
-
-        return intentos;
-    }
+    int[][] sudoku;
 
 
 
     private booleancomprobarSudoku(nt sudodku[][]){
         // calculo los límites tengo 2 filas y dos columnas
-        for(int i=0; i< (sudoku.length/2) ;i++){
-            for(int j=0; j<(sudoku[i].length; j++) ; j++){
-                if(!comprobarCuadrado((sudoku.length/2),(sudoku[i].length/2), sudodku)){
-                    return false; 
+        for (int i = 0; i < sudoku.length; i += TAM) {
+            for (int j = 0; j < sudoku[i].length; j += TAM) {
+                // limiteFila - limiteColumna
+                if (!comprobarCuadrado(i + TAM, j + TAM, sudoku, TAM)) {
+                    return false;
                 }
             }
         }
-        return true; 
-         
+        return true;
 
     }
-    private boolean comprobarCuadrado(int limiteInferior, int limiteSuperior, int sudodku[][]){
 
-       int comprobacion =0; 
-        for(int i = 0; i< limiteInferior;i++){
-            for (int j=0; j<limiteSuperior; j++){
-         
-                comprobacion += sudodku[i][j]; 
+    private boolean comprobarCuadrado(int limiteFila, int limiteColumna, int sudodku[][], int tam) {
+
+        int comprobacion = 0;
+         int suma=0; 
+        for(int i=1;i<=(tam*tam) ; i++){
+            // el valor de la suma  de todos los elementos que puede tener el cuadrado
+            suma += i;
+        }
+        for (int i = limiteFila - tam; i < limiteFila; i++) {
+            for (int j = limiteColumna - tam; j < limiteColumna; j++) {
+
+                comprobacion += sudodku[i][j];
 
             }
         }
-        if(comprobacion !=10){
-            return true; 
+        if (comprobacion == suma) {
+            return true;
         }
+        return false;
+    }
 
-        return false; 
+    public int getIntentos() {
+        return intentos;
+    }
 
-
+    public String devolverSudoku() {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < sudoku.length; i++) {
+            for (int j = 0; j < sudoku[i].length; j++) {
+                sb.append(sudoku[i][j]).append(" ");
+            }
+            sb.append("\n");
+        }
+        return sb.toString();
     }
 
 }

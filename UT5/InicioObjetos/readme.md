@@ -26,15 +26,45 @@ Ejercicio A3 – Rectángulo
 
 Crea un programa con una clase llamada Rectangulo que representará un rectángulo mediante dos coordenadas (x1,y1) y (x2,y2) en un plano, por lo que la clase deberá tener cuatro atributos enteros: x1, y1, x2, y2.
 
-En el main de la clase principal instancia 2 objetos Rectangulo en (0,0)(5,5) y (7,9)(2,3). Muestra por pantalla sus coordenadas, perímetros (suma de lados) y áreas (ancho x alto). Modifica todas las coordenadas como consideres y vuelve a imprimir coordenadas, perímetros y áreas.
+
+El Rectángulo tiene un método, que devuelve el área, tiene otro  método que devuelve el perímetro
+Tiene un método que devuelve un String, que si se pinta en consola  muestra el rectángulo (si la base  o la altura es mayor de 10 , truncará el valor a 10).
+En el main de la clase principal instancia 2 objetos Rectangulo en (0,0)(5,5) y (7,9)(2,3). 
+Muestra por pantalla sus coordenadas, perímetros (suma de lados) y áreas (ancho x alto). Modifica todas las coordenadas como consideres y vuelve a imprimir coordenadas, perímetros y áreas.
 
  
 
-Ejercicio A4 – Artículo
+Ejercicio A4 – Artículoystem.out.println("Hello, World!");
 
 Crea un programa con una clase llamada Articulo con los siguientes atributos: nombre, precio (sin IVA), iva (siempre será 21) y cuantosQuedan (representa cuantos quedan en el almacén).
 
 En el main de la clase principal instancia un objeto de la clase artículo. Asígnale valores a todos sus atributos (los que quieras) y muestra por pantalla un mensaje del estilo “Pijama - Precio:10€ - IVA:21% - PVP:12,1€” (el PVP es el precio de venta al público, es decir, el precio con IVA). Luego, cambia el precio y vuelve a imprimir el mensaje.
+
+Ejercicio A4_version2
+
+Añadiremos un menú el la apliación con las opciones: 
+
+saber el stock total del almacén
+saber el stock de un artículo (mostrando todos los nombres de los artículos que tenemos en el almacén)
+Usaremos la colección que nos facilita la clase DAOarticulos que se incluye a continuación
+
+```
+public class DAOarticulos {
+
+    public static Articulo[] devolveArticulos(){
+        Articulo[] articulos = new Articulo[5]; 
+        articulos[0] = new Articulo("tomates", 2);
+        articulos[1] = new Articulo("pimientos", 2.36, 30); 
+        articulos[2] = new Articulo("pijamas", 24, 3); 
+        articulos[3] = new Articulo("pantalones", 44, 30); 
+        articulos[4] = new Articulo("zapatos", 22, 30);      
+        return articulos; 
+
+    }
+
+}
+```
+
 
  
 
@@ -419,6 +449,9 @@ Si el personaje es capaz de comerse al otro, además del incremento de la fuerza
 
 
 
+## Pequeña empresa
+Tenemos una pequeña empresa con tres empleados, vamos  a hacer una aplicación, que nos permita introducir los datos de los tres empleados, cada empleado tendrá como atributos, nombre, apellidos, dni, añoNacimiento, sueldo. 
+En la clasde Principal, en el método main, calcularemos el total de sueldos que tiene que pagar la empresa por los tres empleados. 
 
 
 
