@@ -361,3 +361,154 @@ La columna 0 contiene números aleatorios.
 La columna 1 contiene el índice original de cada fila.
 
 Ordena el array por la columna 0, manteniendo  toda la  fila, para poder ver cuál era el índice original antes de ordenar.
+
+# 44. Práctica con arrays unidimensionales (arrays paralelos) y bidimensionales  
+Primera parte :
+Una plataforma de videojuegos permite a los usuarios valorar juegos con una puntuación del 1 al 5. 
+Los juegos que se pueden valorar se incluyen en un array:
+```
+
+String[] videojuegos = {"The Legend of Zelda","Super Mario Bros","Minecraft","Final Fantasy VII","The Witcher 3","God of War", "Halo"};
+```
+
+Para cada juego no se guardan las valoraciones individuales, solo: El total acumulado de puntos 
+
+El número de valoraciones recibidas El programa debe: 
+ Mostrar un menú que se repite hasta que el usuario salga 
+ Permitir al usuario valorar un juego 
+ Mostrar: 
+ Las valoraciones medias
+ El número de valoraciones de cada juego
+ El juego mejor valorado
+ 
+Se muestra un ejemplo de ejecución, desarrolla el código para que tu programa funcione de forma similar:
+```
+=== PLATAFORMA DE VALORACIÓN DE VIDEOJUEGOS ===
+=== MENÚ ===
+1. Valorar un videojuego
+2. Mostrar valoraciones medias
+3. Mostrar número de valoraciones
+4. Mostrar juego mejor valorado
+0. Salir
+Elige una opción: 1
+Selecciona un videojuego para valorar:
+1. The Legend of Zelda
+2. Super Mario Bros
+3. Minecraft
+4. Final Fantasy VII
+5. The Witcher 3
+6. God of War
+7. Halo
+Introduce el número del juego: 3
+Introduce tu puntuación (1 a 5): 5
+Valoración guardada correctamente.
+=== MENÚ ===
+1. Valorar un videojuego
+2. Mostrar valoraciones medias
+3. Mostrar número de valoraciones
+4. Mostrar juego mejor valorado
+0. Salir
+Elige una opción: 1
+Selecciona un videojuego para valorar:
+1. The Legend of Zelda
+2. Super Mario Bros
+3. Minecraft
+4. Final Fantasy VII
+5. The Witcher 3
+6. God of War
+7. Halo
+Introduce el número del juego: 5
+Introduce tu puntuación (1 a 5): 4
+Valoración guardada correctamente.
+=== MENÚ ===
+1. Valorar un videojuego
+2. Mostrar valoraciones medias
+3. Mostrar número de valoraciones
+4. Mostrar juego mejor valorado
+0. Salir
+Elige una opción: 2
+The Legend of Zelda: Sin valoraciones
+Super Mario Bros: Sin valoraciones
+Minecraft: 5.0
+Final Fantasy VII: Sin valoraciones
+The Witcher 3: 4.0
+God of War: Sin valoraciones
+Halo: Sin valoraciones
+=== MENÚ ===
+1. Valorar un videojuego
+2. Mostrar valoraciones medias
+3. Mostrar número de valoraciones
+4. Mostrar juego mejor valorado
+0. Salir
+Elige una opción: 3
+The Legend of Zelda: 0 valoraciones
+Super Mario Bros: 0 valoraciones
+Minecraft: 1 valoración
+Final Fantasy VII: 0 valoraciones
+The Witcher 3: 1 valoración
+God of War: 0 valoraciones
+Halo: 0 valoraciones
+=== MENÚ ===
+1. Valorar un videojuego
+2. Mostrar valoraciones medias
+3. Mostrar número de valoraciones
+4. Mostrar juego mejor valorado
+0. Salir
+Elige una opción: 4
+Minecraft con una media de 5.0 puntos
+=== MENÚ ===
+0. Salir
+Elige una opción: 0
+Gracias por usar la plataforma. ¡Hasta pronto!
+```
+
+**Segunda parte:** 
+
+Una plataforma de videojuegos almacena las valoraciones realizadas por varios usuarios sobre varios juegos. 
+
+Las valoraciones se guardan en una matriz bidimensional de enteros, donde:
+
+Cada fila representa un usuario 
+
+Cada columna representa un juego 
+
+Cada valor es una puntuación entre 1 y 5 
+
+Se dispone de los siguientes datos:
+```
+String[] juegos = {"Elden Ring", "Minecraft", "Hades"};
+
+int[][] valoraciones ={
+{5, 4, 3},
+{4, 5, 4},
+{3, 4, 5}
+};
+
+```
+
+ Se pide: Usando los arrays facilitados (juegos y valoraciones)
+
+Mostrar la valoración media de cada juego. 
+Mostrar la valoración media de cada usuario.
+
+Formato de salida que debes implementar: 
+```
+
+Media por juego:
+Elden Ring: 4.0
+Minecraft: 4.3
+Hades: 4.0
+Media por usuario:
+Usuario 1: 4.0
+Usuario 2: 4.3
+Usuario 3: 4.0
+
+
+```
+**Condiciones++
+
+No se permite el uso de colecciones (ArrayList, List, etc.) 
+No se permite modificar los datos iniciales 
+No es necesario pedir datos por teclado
+La algorítmica debe funcionar para cualquier conjunto de arrays de juegos y valoraciones
+
