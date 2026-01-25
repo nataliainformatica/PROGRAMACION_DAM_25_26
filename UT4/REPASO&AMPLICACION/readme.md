@@ -374,11 +374,17 @@ String[] videojuegos = {"The Legend of Zelda","Super Mario Bros","Minecraft","Fi
 Para cada juego no se guardan las valoraciones individuales, solo: El total acumulado de puntos 
 
 El número de valoraciones recibidas El programa debe: 
- Mostrar un menú que se repite hasta que el usuario salga 
- Permitir al usuario valorar un juego 
- Mostrar: 
+
+  Mostrar un menú que se repite hasta que el usuario salga 
+  
+  Permitir al usuario valorar un juego 
+  
+ Además mostrar: 
+ 
  Las valoraciones medias
+ 
  El número de valoraciones de cada juego
+ 
  El juego mejor valorado
  
 Se muestra un ejemplo de ejecución, desarrolla el código para que tu programa funcione de forma similar:
