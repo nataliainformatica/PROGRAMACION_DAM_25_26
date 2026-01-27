@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Ejercicio44_practicaArrays {
+    /**
+    La solución puede no estar completa, y tener algún fallo, es lo trabajado en clase
+    **/
 
     private static Scanner sc = new Scanner(System.in);
 
@@ -138,3 +141,4 @@ public class Ejercicio44_practicaArrays {
 
     }
 }
+
