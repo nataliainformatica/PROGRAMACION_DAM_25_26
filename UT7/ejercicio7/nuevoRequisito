@@ -1,0 +1,6 @@
+
+Crear una clase Cuenta, que tendrá como atributos
+titular
+y un listado de tarjetas que tiene asociadas,  las tarjetas pueden ser de cualquier tipo
+Tarjeta, Tarjeta de Crédito, Tarjeta de Débido o Cybertarjeta
+Puede tener como máximo 5 tarjetas
