@@ -288,4 +288,18 @@ public class Cybertarjeta extends Tarjeta {
 }
 ```
 
+#Ejercicio 8
+Una plataforma de videojuegos permite a los usuarios valorar juegos con una puntuación del 1 al 5. 
+Cada uno de los juegos tendrá como atributos, el título del juego, el total acumulado de las valoraciones del usuario
 
+Para cada juego no se guardan las valoraciones individuales, solo: El total acumulado de puntos
+
+El número de valoraciones recibidas 
+
+El programa principal  debe tener métodos para mostrar: 
+
+Las valoraciones medias
+
+El número de valoraciones de cada juego
+
+El juego mejor valorado
