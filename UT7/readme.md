@@ -555,9 +555,6 @@ public class OlimpiadasApp {
         evaluables.add(j2);
         evaluables.add(equipo1);
 
-        // Ordenar por puntuación descendente
-        evaluables.sort(Comparator.comparingDouble(Evaluable::calcularPuntuacion).reversed());
-
         // Mostrar ranking
         System.out.println(" Ranking General ");
         int puesto = 1;
