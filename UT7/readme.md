@@ -54,7 +54,7 @@ Tiene un método aplicarPromocion que simula un descuento en el precio.
 
 Clase Principal: Crea instancias de ambas subclases (ProductoPerecedero y ProductoNoPerecedero). Muestra la información y llama a los métodos específicos de cada subclase.
 
-# Ejercicio 6 - (usando el ejercicio 4 - añadimos funcinalidades) 
+# Ejercicio 6 - (usando el ejercicio 4 - añadimos funcionalidades) 
 El objetivo de este ejercicio es desarrollar una aplicación que permita gestionar una lista de tareas utilizando una clase llamada TodoList.
 
 La lista tiene una longitud máxima definida de 10 tareas, y las operaciones permitidas son añadir, modificar y listar tareas filtradas por una fecha específica.
