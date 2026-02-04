@@ -458,7 +458,7 @@ penalizaciones
 La puntuación será:
 100 - tiempoSegundos - (penalizaciones * 5)
 
-CLASE Principal
+CLASE **Principal**
 
 Crea varios deportes. (no hace falta pedir los datos por consola) 
 
