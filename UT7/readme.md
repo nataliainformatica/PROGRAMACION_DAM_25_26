@@ -466,3 +466,69 @@ Guárdalos en un ArrayList<DeporteInvierno>.
 
 Recorre la lista y muestra la puntuación usando polimorfismo.
 
+## SEGUNDA PARTE
+Interfaz Evaluable
+
+public interface Evaluable {
+    double calcularPuntuacion();
+}
+Clase **Jugador**
+Tiene el nombre del jugador
+Tiene una lista de deportes de invierno en los que participa.
+Implementa Evaluable de forma que la puntuación total del jugador será la suma de las puntuaciones de los deportes.
+
+Clase **EquipoRelevo**
+
+Tiene una lista de jugadores.
+
+Implementa Evaluable
+La puntuación total del equipo será la suma de las puntuaciones de todos sus jugadores.
+
+Probaremos las clases creadas usando el siguiente código en la clase Principal
+```
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Comparator;
+
+public class OlimpiadasApp {
+
+    public static void main(String[] args) {
+
+        // Crear deportes
+        PatinajeArtistico pa1 = new PatinajeArtistico("Patinaje femenino", 10, 9.5, 9.0);
+        PatinajeArtistico pa2 = new PatinajeArtistico("Patinaje parejas", 6, 8.8, 9.2);
+        EsquiAlpino ea1 = new EsquiAlpino("Descenso masculino", 30, 82.3, 1);
+        EsquiAlpino ea2 = new EsquiAlpino("Supergigante femenino", 25, 75.5, 0);
+
+        // Crear jugadores
+        Jugador j1 = new Jugador("Juan Pérez", List.of(pa1, ea1));
+        Jugador j2 = new Jugador("Ana López", List.of(pa2, ea2));
+
+        // Crear equipos
+        EquipoRelevo equipo1 = new EquipoRelevo("Equipo A", List.of(j1, j2));
+
+        // Lista polimórfica
+        ArrayList<Evaluable> evaluables = new ArrayList<>();
+        evaluables.add(j1);
+        evaluables.add(j2);
+        evaluables.add(equipo1);
+
+        // Ordenar por puntuación descendente
+        evaluables.sort(Comparator.comparingDouble(Evaluable::calcularPuntuacion).reversed());
+
+        // Mostrar ranking
+        System.out.println(" Ranking General ");
+        int puesto = 1;
+        for (Evaluable e : evaluables) {
+            System.out.println("Puesto #" + puesto++);
+            if (e instanceof Jugador j) {
+                j.mostrarInfo();
+            } else if (e instanceof EquipoRelevo eq) {
+                eq.mostrarInfo();
+            }
+            System.out.println("Puntuación total: " + e.calcularPuntuacion());
+            System.out.println("--------------------------");
+        }
+    }
+}
+```
