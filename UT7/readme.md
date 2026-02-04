@@ -488,7 +488,7 @@ Guárdalos en un ArrayList<DeporteInvierno>.
 
 Recorre la lista y muestra la puntuación usando polimorfismo.
 
-## SEGUNDA PARTE del EJERCICIO 9 
+## SEGUNDA PARTE del EJERCICIO 10
 Usaremos la interfaz **Evaluable**
 
 ```
