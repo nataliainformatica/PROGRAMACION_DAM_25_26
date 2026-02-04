@@ -411,3 +411,58 @@ Herramienta [nombre=Hacha Rápida, durabilidad=200]
 Hacha [eficiencia=1.5]]
 ```
 ___
+
+
+# Ejercicio 9
+
+Queremos modelar deportes de los Juegos Olímpicos de Invierno.
+Crea una CLASE base abstracta **DeporteInvierno** con:
+
+**atributos:**
+
+nombre
+
+numParticipantes
+
+**método abstracto:**
+
+double calcularPuntuacion()
+
+**método normal:**
+
+mostrarInfo()
+
+Crea dos clases hijas:
+
+CLASE **PatinajeArtistico**
+
+**atributos:**
+
+dificultad (1–10)
+
+ejecucion (1–10)
+
+**Implementación del método abstracto:**
+
+La puntuación será:
+dificultad * 0.6 + ejecucion * 0.4
+
+EsquiAlpino
+
+**atributos:**
+
+tiempoSegundos
+
+penalizaciones
+**Implementación del método abstracto:**
+La puntuación será:
+100 - tiempoSegundos - (penalizaciones * 5)
+
+CLASE Principal
+
+Crea varios deportes. (no hace falta pedir los datos por consola) 
+
+Guárdalos en un ArrayList<DeporteInvierno>.
+
+Recorre la lista y muestra la puntuación usando polimorfismo.
+
