@@ -416,9 +416,13 @@ ___
 # Ejercicio 9
 
 Queremos modelar deportes de los Juegos Olímpicos de Invierno.
-Crea una CLASE base abstracta **DeporteInvierno** con:
+
+1. Crea una CLASE base abstracta **DeporteInvierno** con:
+
 **constructor**
+```
 public DeporteInvierno(String nombre, int numParticipantes) {
+```
 
 **atributos:**
 
@@ -434,7 +438,7 @@ double calcularPuntuacion()
 
 mostrarInfo()
 
-Crea dos clases hijas:
+2. Crea dos clases hijas: PatinajeArtistico y EsquiAlpino
 
 CLASE **PatinajeArtistico**
 
@@ -470,10 +474,11 @@ public EsquiAlpino(String nombre, int numParticipantes,
                        
                        
 **Implementación del método abstracto:**
+
 La puntuación será:
 100 - tiempoSegundos - (penalizaciones * 5)
 
-CLASE **Principal**
+3. CLASE **Principal**
 
 Crea varios deportes. (no hace falta pedir los datos por consola) 
 
@@ -481,8 +486,9 @@ Guárdalos en un ArrayList<DeporteInvierno>.
 
 Recorre la lista y muestra la puntuación usando polimorfismo.
 
-## SEGUNDA PARTE
-Interfaz **Evaluable**
+## SEGUNDA PARTE del EJERCICIO 9 
+Usaremos la interfaz **Evaluable**
+
 ```
 public interface Evaluable {
     double calcularPuntuacion();
