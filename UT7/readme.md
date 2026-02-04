@@ -446,7 +446,8 @@ ejecucion (1–10)
 **constructor**
 ```
 public PatinajeArtistico(String nombre, int numParticipantes,
-                             double dificultad, double ejecucion) {```
+                             double dificultad, double ejecucion) {
+```
 
 **Implementación del método abstracto:**
 
@@ -465,7 +466,7 @@ penalizaciones
 ```
 public EsquiAlpino(String nombre, int numParticipantes,
                        double tiempoSegundos, int penalizaciones) {
-                       ```
+```
                        
                        
 **Implementación del método abstracto:**
