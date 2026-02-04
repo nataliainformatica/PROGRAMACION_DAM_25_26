@@ -417,6 +417,8 @@ ___
 
 Queremos modelar deportes de los Juegos Olímpicos de Invierno.
 Crea una CLASE base abstracta **DeporteInvierno** con:
+**constructor**
+public DeporteInvierno(String nombre, int numParticipantes) {
 
 **atributos:**
 
@@ -441,19 +443,31 @@ CLASE **PatinajeArtistico**
 dificultad (1–10)
 
 ejecucion (1–10)
+**constructor**
+```
+public PatinajeArtistico(String nombre, int numParticipantes,
+                             double dificultad, double ejecucion) {```
 
 **Implementación del método abstracto:**
 
 La puntuación será:
 dificultad * 0.6 + ejecucion * 0.4
 
-EsquiAlpino
+CLASE **EsquiAlpino**
 
 **atributos:**
 
 tiempoSegundos
 
 penalizaciones
+
+**constructor**
+```
+public EsquiAlpino(String nombre, int numParticipantes,
+                       double tiempoSegundos, int penalizaciones) {
+                       ```
+                       
+                       
 **Implementación del método abstracto:**
 La puntuación será:
 100 - tiempoSegundos - (penalizaciones * 5)
@@ -467,19 +481,40 @@ Guárdalos en un ArrayList<DeporteInvierno>.
 Recorre la lista y muestra la puntuación usando polimorfismo.
 
 ## SEGUNDA PARTE
-Interfaz Evaluable
-
+Interfaz **Evaluable**
+```
 public interface Evaluable {
     double calcularPuntuacion();
 }
+```
+
 Clase **Jugador**
 Tiene el nombre del jugador
 Tiene una lista de deportes de invierno en los que participa.
+
+**constructor**
+```
+public Jugador(String nombre, ArrayList<DeporteInvierno> deportes) {
+        this.nombre = nombre;
+        this.deportes = deportes;
+    }
+```
+Y el método mostrarInfo()
+
 Implementa Evaluable de forma que la puntuación total del jugador será la suma de las puntuaciones de los deportes.
 
 Clase **EquipoRelevo**
 
 Tiene una lista de jugadores.
+
+**constructor**
+```
+    public EquipoRelevo(String nombreEquipo, List<Jugador> jugadores) {
+        this.nombreEquipo = nombreEquipo;
+        this.jugadores = jugadores;
+    }
+```
+Y el método mostrarInfo()
 
 Implementa Evaluable
 La puntuación total del equipo será la suma de las puntuaciones de todos sus jugadores.
