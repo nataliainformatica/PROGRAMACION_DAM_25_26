@@ -412,6 +412,8 @@ Hacha [eficiencia=1.5]]
 ```
 ___
 
+<img width="472" height="133" alt="image" src="https://github.com/user-attachments/assets/87ada4af-547d-4799-abe8-a36925d79e49" />
+
 
 # Ejercicio 9
 
