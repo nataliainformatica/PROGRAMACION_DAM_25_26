@@ -518,7 +518,7 @@ Tiene una lista de jugadores.
 
 **constructor**
 ```
-    public EquipoRelevo(String nombreEquipo, List<Jugador> jugadores) {
+    public EquipoRelevo(String nombreEquipo, ArrayList<Jugador> jugadores) {
         this.nombreEquipo = nombreEquipo;
         this.jugadores = jugadores;
     }
@@ -526,6 +526,7 @@ Tiene una lista de jugadores.
 Y el método mostrarInfo()
 
 Implementa Evaluable
+
 La puntuación total del equipo será la suma de las puntuaciones de todos sus jugadores.
 
 Probaremos las clases creadas usando el siguiente código en la clase Principal
