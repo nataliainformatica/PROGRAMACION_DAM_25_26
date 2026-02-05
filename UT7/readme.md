@@ -531,9 +531,11 @@ La puntuación total del equipo será la suma de las puntuaciones de todos sus j
 
 Probaremos las clases creadas usando el siguiente código en la clase Principal
 ```
+package es.avellaneda.principal;
+
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Comparator;
+import es.avellaneda.modelo.*;
+
 
 public class OlimpiadasApp {
 
@@ -545,12 +547,21 @@ public class OlimpiadasApp {
         EsquiAlpino ea1 = new EsquiAlpino("Descenso masculino", 30, 82.3, 1);
         EsquiAlpino ea2 = new EsquiAlpino("Supergigante femenino", 25, 75.5, 0);
 
+        ArrayList<DeporteInvierno> deport = new ArrayList<>();
+        deport.add(pa1);
+        deport.add(ea1);
+        ArrayList<DeporteInvierno> deport2 = new ArrayList<>();
+        deport2.add(pa2);
+        deport2.add(ea2);
         // Crear jugadores
-        Jugador j1 = new Jugador("Juan Pérez", List.of(pa1, ea1));
-        Jugador j2 = new Jugador("Ana López", List.of(pa2, ea2));
+        Jugador j1 = new Jugador("Juan Pérez", deport);
+        Jugador j2 = new Jugador("Ana López", deport2);
 
+        ArrayList<Jugador> jugad = new ArrayList<>();
+        jugad.add(j1);
+        jugad.add(j2);
         // Crear equipos
-        EquipoRelevo equipo1 = new EquipoRelevo("Equipo A", List.of(j1, j2));
+        EquipoRelevo equipo1 = new EquipoRelevo("Equipo A", jugad);
 
         // Lista polimórfica
         ArrayList<Evaluable> evaluables = new ArrayList<>();
