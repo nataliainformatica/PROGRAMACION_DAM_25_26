@@ -13,14 +13,15 @@ public class Principal {
         pub1.mostrarFeeds();
 
         // Eliminar último contenido
-        pub1.eliminarUltimoContenido();
+     System.out.println( pub1.mostrarFeeds());
 
         // Mostrar feed después de eliminar
         pub1.mostrarFeeds();
 
         // Crear publicación con idUsuario y contenido inicial
         Publicacion pub2 = new Publicacion(102, "Mi primera publicación!");
-        pub2.mostrarFeeds();
+               System.out.println(pub2.mostrarFeeds());
+
 
         // Comparar publicaciones
         Publicacion pub3 = new Publicacion(101);
@@ -28,3 +29,4 @@ public class Principal {
         System.out.println("pub1 equals pub3? " + pub1.equals(pub3));
     }
 }
+
