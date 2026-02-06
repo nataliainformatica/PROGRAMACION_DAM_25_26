@@ -43,7 +43,7 @@ o	Fecha y hora de la modificación.
 o	Todos los contenidos de la publicación
 
 6.	Implementar el método equals(Object obj) de forma que dos publicaciones sean consideradas iguales si:
-7.	
+   
 o	Tienen el mismo idUsuario y
 
 o	Tienen exactamente el mismo contenido (en orden y cantidad).
