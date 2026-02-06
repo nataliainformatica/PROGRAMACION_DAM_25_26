@@ -3,7 +3,7 @@
 
 https://github.com/lionel-ict/ApuntesProgramacion/blob/master/Unidad%208%20POO%20(I)/ud8_Ejercicios.pdf
 
-Práctica del RA4 - 
+# EJERCICIO - Práctica del RA4 - 
 Crea una clase Publicacion que represente publicaciones de usuarios en una red social. 
 
 Cada publicación tiene los siguientes atributos: 
