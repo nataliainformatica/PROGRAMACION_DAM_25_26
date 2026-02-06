@@ -383,6 +383,44 @@ mismo número de vuelo son iguales.
 
 Con esta implementación de equals(), modifica el método de reserva, para que se busque el vuelo que quiere el usuario: (número que introduce por consola)
 
+# EJERCICIO  6
+
+Define la clase Sala con los siguientes atributos
+
+```
+id (tipo int).
+nombre (nombre de la sala, tipo String).
+capacidad (número máximo de personas, tipo int).
+disponible (indica si la sala está disponible, tipo boolean).
+propietario(indica el número de empleado que hace la reserva)
+```
+
+Escribe el constructor para inicializar los atributos, sabiendo que la sala está libre en el momento de crearla (disponible = true)  y no tiene propietario (propietario =””). 
+
+Completa  getters y setters,  solamente los métodos necesarios, sabiendo que una vez creada la sala **no** es posible cambiar su capacidad ,  nombre o identificador.
+
+Completa el método  reservarSala ,que recibe como parámetro el número de empleado del propietario,  devolverá true, si la sala estaba libre y se ha podido  reservar (disponible = false).
+
+Completa el método  liberarSala , que recibe como parámetro el código del propietario,  devolverá true, si la sala estaba ocupada  por el empleado que recibe como parámetro y se ha podido  liberar (disponible = true, propietario =””).
+
+
+Completa el método  mostrarInformacion que devuelve un String  los detalles de la sala, id, nombre, capacidad, si está disponible y el nombre del propietario.
+
+
+
+Clase PRINCIPAL: (para pruebas)
+Crea un array con dos salas.
+
+Completa el método muestraSalasDisponibles  que recibirá el array de salas y solamente mostrará la información de las salas que están libres.
+
+Reserva la primera sala (primera posición del array) y muestra en consola el resultado (true o false)
+
+Vuelve a intentar reservar la primera sala (primera posición del array) y muestra en consola el resultado (true o false)
+
+Trata de liberar la primera sala pasando un código malo y muestra en consola el resultado (true o false)
+
+Trata de liberar la primera sala pasando un código malo y muestra en consola el resultado (true o false)
+
 
 
 
