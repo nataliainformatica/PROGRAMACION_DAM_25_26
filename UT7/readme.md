@@ -585,3 +585,47 @@ public class OlimpiadasApp {
     }
 }
 ```
+
+# EJERCICIO 11 (CONTINÚA EL EJERCICIO DEL TEMA 6)
+
+Define la clase Sala con los siguientes atributos
+
+id (tipo int).
+nombre (nombre de la sala, tipo String).
+capacidad (número máximo de personas, tipo int).
+disponible (indica si la sala está disponible, tipo boolean).
+propietario(indica el número de empleado que hace la reserva)
+
+
+Escribe el constructor para inicializar los atributos, sabiendo que la sala está libre en el momento de crearla (disponible = true)  y no tiene propietario (propietario =””). 
+
+Completa el método  reservarSala ,que recibe como parámetro el número de empleado del propietario,  devolverá true, si la sala estaba libre y se ha podido  reservar (disponible = false).
+
+Completa el método  liberarSala , que recibe como parámetro el código del propietario,  devolverá true, si la sala estaba ocupada  por el empleado que recibe como parámetro y se ha podido  liberar (disponible = true, propietario =””).
+
+Completa el método  mostrarInformacion que devuelve un String  los detalles de la sala.
+
+Completa  getters y setters,  solamente los métodos necesarios, sabiendo que una vez creada la sala no es posible cambiar su capacidad ,  nombre o identificador.
+
+## CONTINUACIÓN
+
+Crea una clase SalaConEquipamiento que herede de Sala y añada:
+
+Atributo equipos (lista de equipos extra (String) que se piden con la sala). Los equipos se piden al reservar la sala, cuando se crea no tiene equipos extra..
+
+Método mostrarEquipos para listar los equipos de la sala (si no tiene equipos no se mostrará ninguno)
+
+Método mostrarInformacion que imprima los detalles de la sala, incluyendo los equipos (si no tiene  equipos no mostrará ninguno)
+
+Sobrecarga el método reservarSala, de forma que recibirá el array de equipos pedidos.
+
+Clase **PRINCIPAL** 
+
+Crear una instancia de SalaConEquipamiento.
+
+Muestra la información de la sala. 
+
+Realiza la reserva  pidiendo {“mesas”,”sillas”,”equipo multimedia”}. 
+
+Muestra la información de la sala
+
