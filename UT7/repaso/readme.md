@@ -75,3 +75,73 @@ Clase **PRINCIPAL**
 En la clase principal, crea una instancia de Tienda y haz una prueba para añadir productos (Producto y ProductoElectronico)
 
 Haz una prueba del funcionamiento de hacer el descuento a un producto y el descuento final a un producto electrónico.
+
+# Ejercicio Repaso 2
+
+istema de Gestión de Productos y Cálculo de Envíos
+
+Vas a desarrollar un sistema en Java que permita gestionar distintos tipos de productos y calcular el coste de envío en función de sus características.
+
+Para ello, deberás utilizar el concepto de herencia y clases abstractas.
+
+Requisitos:
+
+Clase abstracta Producto:
+
+Atributos:
+
+String nombre
+
+double peso (en kilogramos)
+
+double alto (en metros)
+
+double ancho (en metros)
+
+double profundidad (en metros)
+
+Métodos:
+
+Constructor para inicializar TODOS los atributos.
+
+Método concreto double volumen(): calcula el volumen del producto usando sus dimensiones. V = ALTO × ANCHO × PROFUNDIDAD
+
+Método abstracto double calcularCostoEnvio(): debe ser implementado por cada subclase para calcular el costo de envío según las características del producto.
+
+Subclases que heredan de Producto:
+
+a) Clase Electrodomestico:
+
+Atributos adicionales:
+
+Enum tipo (por ejemplo: "Refrigerador", "Lavadora", "Microondas").
+
+boolean esFragil
+
+Implementación del método calcularCosteEnvio():
+
+El costo base se calcula como: (peso * 10) + (volumen() * 50).
+
+Si el electrodoméstico es frágil (esFragil == true), agregar un 20% extra al costo total.
+
+b) Clase Mueble:
+
+Atributos adicionales:
+
+Enum material (por ejemplo: "Madera", "Metal", "Plástico").
+
+boolean requiereMontaje
+
+Implementación del método calcularCostoEnvio():
+
+El costo base se calcula como: (peso * 5) + (volumen() * 30).
+
+Si el mueble requiere montaje (requiereMontaje == true), agregar un costo fijo de 15 euros.
+
+Clase Main:
+
+Crear instancias de Electrodomestico y Mueble.
+
+Mostrar la información de cada producto y su coste de envío.
+
+
