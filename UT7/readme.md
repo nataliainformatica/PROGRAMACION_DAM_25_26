@@ -305,7 +305,7 @@ El número de valoraciones de cada juego
 
 El juego mejor valorado
 
-# Ejercicio 9
+# Ejercicio 9 (Falta la solución, estará en los próximos días)
 
 # 📌 Enunciado - Programación Orientada a Objetos (POO) en Java
 
@@ -415,7 +415,8 @@ ___
 <img width="472" height="133" alt="image" src="https://github.com/user-attachments/assets/87ada4af-547d-4799-abe8-a36925d79e49" />
 
 
-# Ejercicio 10
+# Ejercicio 10 (La solución aparece como Ejercicio9, hasta que lo modifique)
+
 
 Queremos modelar deportes de los Juegos Olímpicos de Invierno.
 
