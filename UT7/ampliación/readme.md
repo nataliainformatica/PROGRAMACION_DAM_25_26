@@ -135,11 +135,15 @@ o	nombreCompleto
 •	Se define que dos usuarios son iguales si tienen el mismo nombreUsuario (atributo único).
 
 Métodos
+
 public abstract String mostrarFeeds();
+```
 public void recibirLike(int idUsuario) {
     likes++;
 }
-Clase UsuarioNormal (hereda de Usuario) 
+```
+
+Clase **UsuarioNormal** (hereda de Usuario) 
 
 Representa a un usuario normal que puede seguir a otros usuarios, pero no puede publicar contenido.
 
