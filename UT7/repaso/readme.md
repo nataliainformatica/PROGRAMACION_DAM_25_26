@@ -78,7 +78,7 @@ Haz una prueba del funcionamiento de hacer el descuento a un producto y el descu
 
 # Ejercicio Repaso 2
 
-istema de Gestión de Productos y Cálculo de Envíos
+Sistema de Gestión de Productos y Cálculo de Envíos
 
 Vas a desarrollar un sistema en Java que permita gestionar distintos tipos de productos y calcular el coste de envío en función de sus características.
 
@@ -143,5 +143,119 @@ Clase Main:
 Crear instancias de Electrodomestico y Mueble.
 
 Mostrar la información de cada producto y su coste de envío.
+
+# Ejercicio Repaso 3 - Sistema de Gestión versión con Interfaces
+
+Sistema de Gestión de Productos y Cálculo de Envíos (INTERFACE)
+
+Vas a desarrollar un sistema en Java que permita gestionar distintos tipos de productos y calcular el coste de envío en función de sus características.
+
+Para ello, deberás utilizar el concepto de herencia y clases abstractas e interfaces
+
+Requisitos:
+
+Clase abstracta **Producto**:
+
+Atributos:
+
+String nombre
+
+double peso (en kilogramos)
+
+double alto (en metros)
+
+double ancho (en metros)
+
+double profundidad (en metros)
+
+Métodos:
+
+**Constructor** para inicializar TODOS los atributos.
+Método abstracto: String mostrarInfo()
+
+Método concreto double volumen(): calcula el volumen del producto usando sus dimensiones. V = ALTO × ANCHO × PROFUNDIDAD
+
+**Interface Enviable**
+
+Método **double calcularCostoEnvio()**: debe ser implementado por cada subclase para calcular el costo de envío según las características del producto.
+
+Subclases que heredan de Producto:
+
+a) Clase **Electrodomestico**:
+
+Atributos adicionales:
+
+Enum tipo (por ejemplo: "Refrigerador", "Lavadora", "Microondas").
+
+boolean esFragil
+
+Implementación del método calcularCosteEnvio():
+
+El precio del envío se calcula como: (peso * 10) + (volumen() * 50).
+
+Si el electrodoméstico es frágil (esFragil es  true), agregar un 20% extra al costo total.
+Método String mostrarInfo()
+Devuelve la información del producto, y si es frágil, añade el mensaje "NECESARIA REVISIÓN  POSICIÓN"
+
+b) **Clase Mueble**:
+
+Atributos adicionales:
+
+Enum material (por ejemplo: "Madera", "Metal", "Plástico").
+
+boolean requiereMontaje
+
+Implementación del método calcularCosteEnvio():
+
+El precio del coste del envío  se calcula como: (peso * 5) + (volumen() * 30).
+
+Si el mueble requiere montaje (requiereMontaje es true), agregar precio un fijo de 15 euros.
+
+Método String mostrarInfo()
+Devuelve la información del producto, y si es frágil, añade el mensaje "CUIDADO CON LA HUMEDAD"
+
+
+Clase **TarjetaRegalo**
+
+Implementa Enviable 
+
+Atributos
+
+String codigo
+
+double saldo
+
+boolean esDigital
+
+String destinatario
+
+Recibe todos los atributos por el constructor.
+
+Método **double calcularCostoEnvio()**: 
+Aplica las siguientes reglas para calcular el precio: 
+Si es digital el coste es cero
+Si es física el coste es 4.95 €
+
+Clase **ServicioInstalacion** 
+Implementa enviable
+Atributos
+String descripcion
+doulbe distanciaKm
+boolean urgente
+
+Recibe todos los atributos por el constructor.
+
+Método **double calcularCostoEnvio()**: 
+Aplica las siguientes reglas para calcular el precio
+Base 2€ por km
+Si es urgente se le suman 25 €
+Si la distancia es mayor de 50 km se sumplementan 15 €
+
+
+**Clase Main**:
+
+Usando la colección que se añade a continuación, debes mostrar  la información de cada producto y su coste de envío.
+
+
 
 
