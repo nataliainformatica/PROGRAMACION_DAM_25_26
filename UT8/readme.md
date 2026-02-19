@@ -23,9 +23,10 @@ En la prueba de Juegos Olímpicos de Invierno, la combinada nórdica utiliza el 
 Regla básica de conversión
 Normalmente:
 •	1 punto de diferencia = 1.5 segundos de retraso
+```
 diferencia = puntosLider - puntosAtleta
 retraso = Math.round(diferencia * 1.5) // en segundos
- 
+ ```` 
 
 Tu tarea es hacer un programa, que tendrá la lista de atletas inscritos (clase Atleta)  en la carrera  que ya han recibido la puntuación del salto de esquí en trampolín, también tiene un atributo con la hora de salida de la carrera de esquí de fondo. 
 La clase Atleta debe tener los atributos: 
