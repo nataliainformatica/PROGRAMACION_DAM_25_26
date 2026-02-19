@@ -89,6 +89,8 @@ Lamparter:
 Rehrl:
   Diferencia = 130.0 - 129.0 = 1.0
   Retraso = Math.round(1.0 * 1.5) = 2 segundos
+
+  
 ========================================
            PARRILLA DE SALIDA
 ========================================
