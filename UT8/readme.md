@@ -90,28 +90,26 @@ Rehrl:
   Diferencia = 130.0 - 129.0 = 1.0
   Retraso = Math.round(1.0 * 1.5) = 2 segundos
 
-  
-========================================
-           PARRILLA DE SALIDA
-========================================
+
+           **PARRILLA DE SALIDA**
 
 1. Frenzel     | 130.0 pts | 15:00:00
 2. Johansen    | 128.5 pts | 15:00:02
 3. Rehrl       | 129.0 pts | 15:00:02
 4. Lamparter   | 125.0 pts | 15:00:08
 
-======
-
 ¡Listos para la carrera de fondo!
 
-======
-Observa que: Johansen y Rehrl salen a la misma hora, pero no es empate en puntuación máxima , es el mismo retraso aplicado, el programa funciona correctamente.
+
+**Observa que**: Johansen y Rehrl salen a la misma hora, pero no es empate en puntuación máxima , es el mismo retraso aplicado, el programa funciona correctamente.
 CAPTURA DEL POSIBLE CASO DE EMPATE – CAPTURA DE LA EXCEPCIÓN
+```
 ****DATOS DE PRUEBA
 Johansen   130.0
 Frenzel    130.0
 Lamparter  125.0
 Rehrl      129.0
+```
 
 Calculando puntuación máxima...
 
