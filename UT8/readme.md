@@ -100,9 +100,11 @@ Rehrl:
 3. Rehrl       | 129.0 pts | 15:00:02
 4. Lamparter   | 125.0 pts | 15:00:08
 
-========================================
+======
+
 ¡Listos para la carrera de fondo!
-========================================
+
+======
 Observa que: Johansen y Rehrl salen a la misma hora, pero no es empate en puntuación máxima , es el mismo retraso aplicado, el programa funciona correctamente.
 CAPTURA DEL POSIBLE CASO DE EMPATE – CAPTURA DE LA EXCEPCIÓN
 ****DATOS DE PRUEBA
