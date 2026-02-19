@@ -34,21 +34,29 @@ La clase Atleta debe tener los atributos:
 •	LocalTime horaComienzo
 
 Para la lista de atletas inscritos, crea una clase DAOatletas, que devolverá una lista con estos datos: 
+```
 Johansen      128.5
 Frenzel       130.0
 Lamparter     125.0
 Rehrl         129.0
+```
+
 El programa, tendrá un método que: 
+
 Teniendo en cuenta la puntuación más alta,  debe calcular el retraso de cada atleta, y actualizar su hora de salida. 
 Devolverá lista con la parrilla de salida, ordenada por tiempo/hora  de salida.
 Si hay un empate, el método no podrá calcular la parrilla de salida, y devolverá una excepción controlada (Exception).  
 
 A continuación se muestran capturas de muestra del posible funcionamiento del programa: 
+``` 
 *** DATOS DE PRUEBA**
 Johansen   128.5
 Frenzel    130.0
 Lamparter  125.0
 Rehrl      129.0
+
+```
+
 ========================================
   JUEGOS DE INVIERNO- NORDIC COMBINED
   Método Gundersen - Cálculo de Salidas
