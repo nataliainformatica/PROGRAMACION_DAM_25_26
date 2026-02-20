@@ -1,0 +1,18 @@
+
+## método contains(object)
+
+
+El método contains(Object o) de ArrayList en Java se usa para verificar si un elemento específico está presente en la lista. 
+Devuelve true si el elemento está en la lista y false si no lo está.
+
+Cómo funciona internamente
+contains() utiliza el método equals() de los elementos para compararlos.
+
+Si la lista contiene objetos personalizados, debes asegurarte de que la clase sobrescriba equals() para que la comparación sea correcta.
+
+Para obtener la posición de un elemento en un ArrayList, puedes usar el método indexOf(Object o).
+
+Método indexOf()
+Este método devuelve el índice de la primera aparición del objeto en la lista o -1 si el elemento no está presente.
+Cómo funciona internamente
+indexOf() utiliza el método equals() de los elementos para compararlos.
