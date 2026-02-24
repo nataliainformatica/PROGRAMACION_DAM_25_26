@@ -58,3 +58,74 @@ Crea también una clase Principal para probar la clase Publicacion.
 
 •	Muestre el contenido usando mostrarFeeds().
 
+
+# EJERCICIO 2– Gestión de Pedidos 
+
+Una tienda online necesita modelar pedidos. 
+
+## Clase Producto 
+
+Atributos privados: 
+
+Id. (código incremental, gestionado por la base de datos, en este ejercicio el DAO) 
+
+codigo 
+
+nombre 
+
+precio 
+
+**Requisitos**
+
+Constructor 
+
+Getters 
+
+Sobrescribir toString() 
+
+Sobrescribir equals() (igualdad por código) 
+
+Sobrescribir hashCode() 
+
+##  Clase Pedido 
+Siempre se crean los pedidos vacíos, para añadir productos se usarán los métodos establecidos. 
+
+**Atributos privados:** 
+
+numeroPedido 
+
+fecha 
+
+productos (ArrayList<Producto>) 
+
+**Métodos:** 
+
+agregarProducto(Producto p)
+
+calcularTotal() . Devuelve el total del importe del pedido, con la suma de productos. 
+
+toString() sobrescrito 
+
+
+## **Parte B – DAO**
+
+Crear clase PedidoDAO con los siguientes métodos. 
+
+guardar(Pedido p) 
+
+public  Pedido buscarPorNumero(String numero) 
+
+public String listar() 
+
+## En la clase Main: 
+
+Crear al menos 2 pedidos 
+
+Añadir productos 
+
+Guardarlos usando el DAO 
+
+Mostrar el total de cada pedido 
+
+ 
+
