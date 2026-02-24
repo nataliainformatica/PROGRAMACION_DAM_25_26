@@ -128,4 +128,79 @@ Guardarlos usando el DAO
 Mostrar el total de cada pedido 
 
  
+# Ejercicio 3
 
+
+Una tienda online necesita un sistema para gestionar los pedidos de sus clientes. 
+
+Necesita tener una lista de **Producto**  que el usuario podrá seleccionar. 
+
+Cada pedido puede contener varios productos, que el usuario podrá elegir mediante una lista  y se desea poder consultar información sobre los pedidos y calcular totales.
+
+Requisitos funcionales
+
+## Productos
+
+Cada producto tiene un código único, un nombre y un precio. ( extra- atributo ENUM)
+
+No puede haber dos productos con el mismo código dentro de un mismo pedido.
+
+El sistema debe poder permitir añadir productos a la lista. 
+
+## Pedidos
+
+Cada pedido tiene un número único y una fecha de creación.
+
+Es posible añadir productos a un pedido.
+
+El sistema debe poder calcular el total del pedido sumando los precios de todos los productos incluidos.
+
+El sistema debe permitir mostrar toda la información del pedido, incluyendo el número, la fecha, la lista de productos y el total.
+
+## Gestión de pedidos
+
+Es posible guardar varios pedidos en el sistema.
+
+Se puede buscar un pedido mediante su número.
+
+Se puede listar todos los pedidos registrados en el sistema.
+
+## atributos EXTRA tipo ENUM
+
+Productos
+
+Además de los requisitos anteriores, ahora:
+
+Cada producto debe pertenecer a una categoría.
+
+Las categorías posibles son:
+
+ROPA
+
+CALZADO
+
+COMPLEMENTOS
+
+ELECTRONICA
+
+Esta categoría debe estar limitada únicamente a esos valores.
+
+2️Pedidos
+
+Se añade un nuevo requisito:
+
+Cada pedido tendrá un estado que podrá ser:
+
+PENDIENTE
+
+ENVIADO
+
+ENTREGADO
+
+CANCELADO
+
+El sistema debe permitir:
+
+Consultar el estado del pedido.
+
+Mostrar el estado al visualizar la información del pedido.
