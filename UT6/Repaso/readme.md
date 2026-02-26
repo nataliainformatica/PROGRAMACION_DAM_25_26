@@ -514,5 +514,142 @@ Alumno{dni='11111111x', nombre='Natalia', email='natalia@gmail.com'}
 ```
 
  
+EJERCICIO – Sistema de Gestión de Reservas de Biblioteca
+
+Una biblioteca necesita una aplicación para gestionar las reservas de libros realizadas por los usuarios. 
+
+El sistema debe permitir registrar libros, crear reservas y consultar la información almacenada.
+
+El objetivo es garantizar que las reservas se gestionen correctamente y evitar inconsistencias.
+
+1. Libros
+
+Cada **libro** debe tener:
+
+Un código único
+
+Un título
+
+Un autor
+
+Un género, que solo puede ser uno de los siguientes:
+
+NOVELA
+
+ENSAYO
+
+CIENCIA
+
+HISTORIA
+
+OTROS
+
+No puede haber dos libros con el mismo código en el sistema.
+
+2. Reservas
+
+Cada **reserva** debe tener:
+
+Un número de reserva único
+
+El nombre de la persona
+
+La fecha de la reserva
+
+El libro reservado
+
+Un estado, que puede ser:
+
+ACTIVA
+
+COMPLETADA
+
+CANCELADA
+
+3. Gestión de reservas
+
+El sistema debe permitir:
+
+Registrar una nueva reserva
+
+Buscar una reserva por su número
+
+Mostrar todas las reservas
+
+Consultar el libro asociado a una reserva
+
+Reglas del sistema **(IMPORTANTE)**
+
+El sistema debe controlar las siguientes situaciones:
+
+No se puede registrar una reserva con un número que ya exista.
+
+No se puede buscar una reserva que no exista.
+
+Si ocurre alguna de estas situaciones, el sistema debe informar del problema.
+
+Persistencia de la información (en memoria....)
+
+El sistema debe disponer de un **componente** de acceso a datos encargado de:
+
+Guardar reservas
+
+Buscar reservas
+
+Listar reservas
+
+``` 
+Trazas de funcionamiento esperadas
+Ejemplo 1 – Registro correcto
+Reserva creada correctamente:
+Número: R001
+Persona: Ana López
+Libro: El Quijote
+Estado: ACTIVA
+Ejemplo 2 – Registro duplicado
+Error: ya existe una reserva con ese número
+Ejemplo 3 – Búsqueda correcta
+Reserva encontrada:
+Número: R001
+Persona: Ana López
+Libro: El Quijote
+Estado: ACTIVA
+Ejemplo 4 – Búsqueda incorrecta
+Error: reserva no encontrada
+Ejemplo 5 – Listado
+LISTADO DE RESERVAS
+
+R001 – Ana López – El Quijote – ACTIVA
+R002 – Juan Pérez – Historia del tiempo – ACTIVA
+Requisitos técnicos implícitos que el alumno deberá resolver
+
+
+``` 
+*Debes tomar la decisióon de  cómo implementar:*
+
+*La estructura de los libros*
+
+*La estructura de las reservas*
+
+*El sistema de almacenamiento*
+
+*El control de duplicados*
+
+*La gestión de errores*
+
+*La representación de los géneros*
+
+*La representación de los estados*
+
+## VERSIÓN 2 CON Ampliaciones opcionales 
+
+Cancelar una reserva
+
+Cambiar el estado de una reserva
+
+Mostrar reservas por género
+
+Contar número total de reservas activas
+
 
  
