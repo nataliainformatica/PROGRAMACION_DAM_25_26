@@ -204,3 +204,315 @@ El sistema debe permitir:
 Consultar el estado del pedido.
 
 Mostrar el estado al visualizar la información del pedido.
+
+
+# Ejercicio  4
+El objetivo es realizar una aplicación para un centro de formación que necesita modelar su sistema de cursos. La aplicación tendrá una clase GestionAlumnos que se facilita en el aula virtual y que deberás completar (4 puntos)  con  código y con el modelado correspondiente de clases para que se cumplan sus funcionalidades.  
+
+ 
+
+La clase principal mostrará un menú: 
+
+``` 
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione una opción:
+
+```
+
+
+Forma 
+
+Modelado de clases 
+
+1. Crear la clase Alumno
+
+Debe contener: 
+
+ 
+Atributos privados: 
+ 
+
+dni (String) 
+
+nombre (String) 
+
+email (String) 
+
+ 
+
+Requisitos obligatorios: 
+
+Crea los constructores , getters y setters que creas necesarios. En un comentario en el código EXPLICA u razonamiento para la definición de estos métodos. 
+
+ 
+
+Ten en cuenta que dos alumnos son iguales si tienen el mismo dni. 
+
+ 
+
+2. Crear la clase Curso 
+
+  
+
+Atributos privados: 
+
+ 
+
+codigo (String) 
+
+nombre (String) 
+
+horas (int) 
+
+NivelCurso(enumerado) :  BASICO, INTERMEDIO, AVANZADO 
+
+alumnosMatriculados (ArrayList<Alumno>) 
+
+Cuando se crea un curso, nunca tiene alumnos matriculados. 
+
+ 
+
+Ten en cuenta que dos cursos son iguales si tienen el mismo código. 
+
+Requisitos: 
+
+Crea los constructores , getters y setters que creas necesarios. En un comentario en el código explica tu razonamiento para la definición de estos métodos. 
+
+ 
+
+Método matricularAlumno(Alumno a) 
+
+ 
+
+Permite añadir el alumno a la lista de alumnos matriculados. Se asegura de que no haya alumnos repetidos.  
+
+ 
+ 
+
+Método buscarAlumnoPorDni(String dni) 
+
+Devuelve el alumno con el dni que se recibe por parámetro.  
+
+  
+
+ Relación entre clases 
+
+Un Curso contiene varios Alumno 
+
+La relación debe implementarse mediante colección (ArrayList) 
+
+ 
+
+DAO 
+
+Crear la clase  CursoDAO : NO se permite el uso de STATIC en esta clase 
+
+ 
+
+Esta clase simulará una base de datos en memoria.  
+
+ 
+
+Atributo privado: 
+
+private ArrayList<Curso> listaCursos; 
+
+ 
+
+Métodos obligatorios: 
+
+Void guardar(Curso c):  
+
+Guarda el curso en listaCursos, pero evitando duplicados.   
+
+Curso buscarPorCodigo(String codigo) 
+
+String listar()  
+
+Devolverá un String con la lista de cursos (fíjate en la traza para saber el formato). Si no hay cursos, mostrará el mensaje “No hay cursos disponibles.” 
+
+ 
+
+TRAZAS DE PRUEBA DE FUNCIONAMIENTO DE LA APLICACIÓN 
+```
+Si no hay cursos y listamos.  
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione opción: 2 
+
+  
+
+LISTA CURSOS: No hay cursos disponibles. 
+
+ 
+
+ 
+
+Si intentamos matricular a un alumno en un curso que no existe 
+
+ 
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione opción: 3 
+
+DNI: 111111X 
+
+Nombre: Natalia 
+
+Email: natalia@gmail.com 
+
+Código curso: 6 
+
+Curso no existe 
+
+ 
+
+ 
+
+Creamos un curso 
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione opción: 1 
+
+Código: 1 
+
+Nombre: Programación 
+
+Horas: 270 
+
+Curso creado correctamente 
+
+ 
+
+Si al crear un curso ya existe, mostrará el mensaje de “El código ya existe” 
+
+ 
+
+Matriculamos un alumno 
+
+ 
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione opción: 3 
+
+DNI: 11111111x 
+
+Nombre: Natalia 
+
+Email: natalia@gmail.com 
+
+Código curso: 1 
+
+Alumno matriculado correctamente 
+
+Si el alumno ya está matriculado, mostrará el mensaje, “El alumno ya estaba matriculado” 
+
+ 
+
+Mostramos la lista de cursos (solo hay uno en este ejemplo) 
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione opción: 2 
+
+  
+
+LISTA CURSOS: 
+
+Código: 1 Nombre: Programación Horas: 270 
+
+ 
+
+Mostramos los alumnos matriculados en el curso 1 
+
+===== MENÚ CENTRO ===== 
+
+1. Crear curso 
+
+2. Listar cursos 
+
+3. Matricular alumno 
+
+4. Listar matriculaciones 
+
+5. Salir 
+
+Seleccione opción: 4 
+
+Código curso: 1 
+
+ALUMNOS MATRICULADOS: 
+
+Alumno{dni='11111111x', nombre='Natalia', email='natalia@gmail.com'}
+
+```
+
+ 
+
+ 
