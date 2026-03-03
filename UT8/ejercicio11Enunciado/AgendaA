@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Agenda {
+
+    private List<Cita> citas;
+
+    public Agenda() {
+        citas = new ArrayList<>();
+    }
+
+    public void añadirCita(Cita cita) {
+        try {
+            citas.add(cita);
+        } catch (Exception e) {
+            System.out.println("Error al añadir cita");
+        }
+    }
+
+    public void mostrarCitas() {
+        for (Cita c : citas) {
+            System.out.println(c);
+        }
+    }
+}
