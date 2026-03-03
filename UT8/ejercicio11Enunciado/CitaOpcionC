@@ -1,0 +1,29 @@
+import java.time.LocalDate;
+
+public class Cita {
+
+    private LocalDate fecha;
+    private String descripcion;
+
+    public Cita(LocalDate fecha, String descripcion) {
+
+        try {
+            if (fecha.isBefore(LocalDate.now())) {
+                throw new Exception("Fecha incorrecta");
+            }
+        } catch (Exception e) {
+            System.out.println("Error en la fecha");
+        }
+
+        this.fecha = fecha;
+        this.descripcion = descripcion;
+    }
+
+    public LocalDate getFecha() {
+        return fecha;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+}
