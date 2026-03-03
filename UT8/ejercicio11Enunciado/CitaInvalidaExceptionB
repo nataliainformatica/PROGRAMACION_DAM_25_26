@@ -1,0 +1,6 @@
+public class  extends Exception {
+
+    public CitaInvalidaException(String mensaje) {
+        super(mensaje);
+    }
+}
