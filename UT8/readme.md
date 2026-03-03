@@ -578,3 +578,6 @@ En la clase Principal, habrá un menú, que  tendrá la instancia de Tienda, y m
 4. Mostrar productos rebajados con precio inferior a 5 euros
 5. SALIR
 
+
+#Ejercicio 11
+
