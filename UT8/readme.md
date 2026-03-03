@@ -538,7 +538,7 @@ Numero Historial   NH0000025 NO ENCONTRADO
 
 Realizar un programa para gestionar una tienda mediante un menú interactivo. La tienda permitirá dar de alta productos, que serán almacenados en una colección de tipo ArrayList.
 
-El programa tendrá dos clases principales:
+El programa tendrá dos clases :
 
 Clase **Producto**:
 
