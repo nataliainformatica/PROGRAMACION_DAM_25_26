@@ -2,17 +2,26 @@ TEMA 9 COLECCIONES
 PRIMER EJEMPLO: 
 
 El objetivo es hacer un pequeño programa para comprobar el funcionamiento de las colecciones:
+
 ArrayList<>
+
 HashSet<>
 
 Debes crear una clase Servidor que tiene los atributos: nombre, ip (ambos string)
+
 // añade los métodos que sean necesarios
+
 // dos servidores son iguales si tienen el mismo nombre y la misma ip
 
-Crea también un DAO que tendrá dos métodos para devolver las dos colecciones
+Crea también un DAO que tendrá dos métodos uno para para devolver 
+la colección de ArrayList y otro para devolver la colección de HashSet
+
 // una con arraylist y otra con hashset
+
 // usaremos las mismas instancias en las dos colecciones
+
 // en las dos añadiremos un servidor repetido
+
 // incluir 5 instancias de Servidor
 
 Crea la clase Principal, que llamará al DAO para conseguir las dos colecciones y mostrarlas por pantalla
