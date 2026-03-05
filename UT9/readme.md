@@ -101,6 +101,10 @@ String mostrarInformacion()   devuelve matrícula, hora de entrada y salida.
 protected long calcularHorasFacturables() devuelve la diferencia entre hora de entrada y salida, descontando 2 horas si lavado == true.
 
 public abstract double calcularPrecioParking()  cada subclase implementa la tarifa por hora.
+**FUNCIONALIDAD AÑADIDA**
+método para la salida del vehículo del parking
+finAparcar()
+comprueba que la  hora de salida es null para, si es != null actualiza la hora de salida
 
 ### 3. Interfaz Lavable
 
