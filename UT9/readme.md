@@ -1,5 +1,5 @@
-TEMA 9 COLECCIONES
-PRIMER EJEMPLO: 
+# TEMA 9 COLECCIONES
+## PRIMER EJEMPLO: 
 
 El objetivo es hacer un pequeño programa para comprobar el funcionamiento de las colecciones:
 
@@ -26,8 +26,8 @@ la colección de ArrayList y otro para devolver la colección de HashSet
 
 Crea la clase Principal, que llamará al DAO para conseguir las dos colecciones y mostrarlas por pantalla
 
-#Ejercicio 2 
-Sistema de Gestión de Parking con Servicio de Lavado
+# Ejercicio 2 
+**Sistema de Gestión de Parking con Servicio de Lavado**
 
 Vas a desarrollar un sistema en Java para gestionar vehículos estacionados en un parking que ofrece un servicio opcional de lavado.
 
