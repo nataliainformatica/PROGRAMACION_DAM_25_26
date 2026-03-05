@@ -77,8 +77,6 @@ Representa un vehículo estacionado.
 Atributos
 ```
 String matricula
-String marca
-String modelo
 int horaEntrada
 int horaSalida
 boolean lavado
