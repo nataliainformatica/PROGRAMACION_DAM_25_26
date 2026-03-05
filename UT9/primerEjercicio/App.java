@@ -4,8 +4,7 @@ import java.util.Collections;
 import java.util.HashSet;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-
+    public static void main(String[] args)  {
         ArrayList<Servidor> servidoresList = DAO.getServidoresList();
         HashSet<Servidor> servidoresSet = DAO.getServidoresSet();
 
@@ -15,11 +14,11 @@ public class App {
         mostrarLista(servidores);
 
         // ordenar la lista de servidores por ip
-    
+
         Collections.sort(servidoresList);
         //
         System.out.println("SERVIDORES ORDENADA");
-        mostrarLista(servidores);
+        mostrarLista(servidoresList);
 
         /*
          * mostrarLista(servidoresList);
@@ -28,30 +27,27 @@ public class App {
 
     }
 
+    private static void mostrarLista(ArrayList<Servidor> servidores) {
+      System.out.println("Mostrar ArrayList");
+      for (Servidor s : servidores) {
+      System.out.println(s);
+      }}
+
     private static void mostrarLista(Collection<Servidor> servidores) {
         System.out.println("Mostrar Collections");
         for (Servidor s : servidores) {
             System.out.println(s);
         }
 
+        /*
+         * private static void mostrarLista(HashSet<Servidor> servidores) {
+         * System.out.println("Mostrar HashSet");
+         * for (Servidor s : servidores) {
+         * System.out.println(s);
+         * }
+         * }
+         */
+
     }
-
-    /*
-     * 
-     * 
-     * private static void mostrarLista(ArrayList<Servidor> servidores) {
-     * System.out.println("Mostrar ArrayList");
-     * for (Servidor s : servidores) {
-     * System.out.println(s);
-     * }
-     * }
-     * 
-     * private static void mostrarLista(HashSet<Servidor> servidores) {
-     * System.out.println("Mostrar HashSet");
-     * for (Servidor s : servidores) {
-     * System.out.println(s);
-     * }
-     * }
-     */
-
 }
+
