@@ -86,7 +86,7 @@ boolean lavado
 Constructor
 
 
-Recibe matrícula, marca, modelo y hora de entrada.
+Recibe matrícula y hora de entrada.
 
 Inicializa lavado a false.
 
