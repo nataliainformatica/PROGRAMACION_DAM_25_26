@@ -96,11 +96,11 @@ La hora de salida puede inicializarse a 0 o null, indicando que aún está dentr
 
 Métodos
 
-String mostrarInformacion() → devuelve matrícula, marca, modelo, hora de entrada y salida.
+String mostrarInformacion()   devuelve matrícula, marca, modelo, hora de entrada y salida.
 
-protected long calcularHorasFacturables() → devuelve la diferencia entre hora de entrada y salida, descontando 2 horas si lavado == true.
+protected long calcularHorasFacturables() devuelve la diferencia entre hora de entrada y salida, descontando 2 horas si lavado == true.
 
-public abstract double calcularPrecioParking() → cada subclase implementa la tarifa por hora.
+public abstract double calcularPrecioParking()  cada subclase implementa la tarifa por hora.
 
 ### 3. Interfaz Lavable
 
