@@ -630,3 +630,192 @@ Realiza la reserva  pidiendo {“mesas”,”sillas”,”equipo multimedia”}.
 
 Muestra la información de la sala
 
+# Ejercicio 12
+Sistema de Gestión de Vehículos y Cálculo de Tarifas de Parking
+
+Vas a desarrollar un sistema en Java que permita gestionar distintos tipos de vehículos y calcular tanto su coste de mantenimiento como el precio por hora en un parking, siguiendo criterios similares a los que utilizan los ayuntamientos (como antigüedad, tipo de motor, descuentos para vehículos eléctricos, etc.).
+
+Para resolver el ejercicio deberás utilizar:
+
+Herencia
+
+Clases abstractas
+
+Interfaces
+
+Polimorfismo
+
+Colecciones (ArrayList)
+
+Clase abstracta Vehiculo
+
+Representa un vehículo genérico del sistema.  
+```
+String marca
+String modelo
+String identificador // que será la matrícula en el caso de coches y un identificador en el caso de las bicicletas
+int anioFabricacion
+double peso // en kilogramos
+
+
+Métodos
+
+Constructor para inicializar todos los atributos.
+
+Método concreto:
+```
+String mostrarInformacion()
+
+//Devuelve una cadena con la información básica del vehículo (marca, modelo, matrícula, año de fabricación y peso).
+```
+
+Métodos abstractos (deben ser implementados por las subclases):
+```
+double calcularCostoMantenimiento()
+
+//Calcula el coste estimado de mantenimiento del vehículo.
+
+double calcularPrecioHora()
+
+// Calcula el precio por hora del vehículo en el parking.
+```
+
+###Interfaz Electrico
+
+Define el comportamiento de los vehículos eléctricos.
+```
+double calcularCostoCarga() // Calcula el coste de una carga completa de batería.
+
+double autonomia() // Devuelve la autonomía estimada del vehículo en kilómetros.
+
+```
+
+###Interfaz Tarificable
+
+Esta interfaz representa cualquier vehículo que tenga una tarifa en el parking.
+```
+double calcularPrecioHora() // Devuelve el precio por hora en el parking.
+```
+
+La clase Vehiculo deberá implementar esta interfaz, obligando a todas las subclases a definir su tarifa.
+
+####Subclases que heredan de Vehiculo
+*a) Clase Automovil*
+
+Representa un automóvil convencional o híbrido.
+
+Atributos adicionales
+```
+int numeroPuertas
+boolean esHibrido
+double capacidadCombustible // en litros
+```
+
+Implementación de calcularCostoMantenimiento()
+
+El coste base se calcula como:
+
+(peso * 0.05) + (capacidadCombustible * 0.1)
+
+Si el automóvil es híbrido: 
+
+reducir el coste total en un 10%
+Implementación de calcularPrecioHora()
+
+Precio base:
+
+2 euros por hora
+
+Calcular la antigüedad del vehículo:
+
+antiguedad = añoActual - anioFabricacion
+
+Aplicar las siguientes reglas:
+
+Si tiene más de 10 años, aumentar el precio un 20%.
+
+Si es híbrido, aplicar un descuento del 15%.
+
+*b) Clase BicicletaElectrica*
+
+Hereda de Vehiculo e implementa la interfaz Electrico.
+```
+Atributos adicionales
+double capacidadBateria // en kWh
+double consumoPorKm // kWh/km
+```
+
+Implementación de calcularCostoMantenimiento()
+
+El coste base se calcula como:
+
+peso * 0.02
+
+Además se añade:
+
+15 euros por mantenimiento de batería
+
+Implementación de calcularPrecioHora()
+
+Las bicicletas eléctricas tienen parking gratuito.El método deberá devolver: 0
+
+Implementación de los métodos de Electrico
+
+Coste de carga
+
+capacidadBateria * 0.20
+
+(Se considera un precio de electricidad de 0.20 €/kWh).
+
+Autonomía
+
+autonomia = capacidadBateria / consumoPorKm
+
+Devuelve la autonomía estimada en kilómetros.
+
+###Clase Parking
+
+Gestiona los vehículos estacionados.
+
+Atributos
+```
+ArrayList<Vehiculo> vehiculosEstacionados
+```
+
+*Métodos*
+
+Agregar vehículo      void agregarVehiculo(Vehiculo vehiculo) // Añade un vehículo al parking.
+
+Mostrar tarifas    void mostrarTarifas() // Recorre la lista de vehículos y muestra el precio por hora de cada uno, utilizando polimorfismo.
+
+Calcular recaudación total       double calcularRecaudacionTotal() // Suma el precio por hora de todos los vehículos estacionados.
+
+Para simplificar el ejercicio, no se tienen en cuenta las horas reales de estancia.
+
+Mostrar vehículos  void mostrarVehiculosElectricos() // Recorre la lista de vehículos y muestra únicamente aquellos que implementen la interfaz Electrico.
+
+### Clase Main
+
+Debe contener el programa principal, para hacer las pruebas de las distintas clases creadas. 
+
+Crear varias instancias de:
+
+Automovil
+
+BicicletaElectrica
+
+Crear un objeto Parking.
+
+Agregar los vehículos al parking.
+
+Mostrar para cada vehículo:
+
+Información del vehículo
+
+Coste de mantenimiento
+
+Precio por hora en el parking
+
+Mostrar la recaudación total del parking.
+
+
