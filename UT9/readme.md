@@ -133,6 +133,7 @@ Si es SUV: +20% al precio
 Si `lavado == true`: se descuentan 2 horas
 
 Implementación de Lavable:
+Al invocar a calcularPrecio, modifica el boolean lavado =true
 
 Precio lavado: 12 €
 
@@ -148,6 +149,7 @@ Precio base: 1.5 €/hora
 Si `lavado == true`: se descuentan 2 horas
 
 Implementación de Lavable:
+Al invocar a calcularPrecio, modifica el boolean lavado =true
 
 Precio lavado: 5 €
 
