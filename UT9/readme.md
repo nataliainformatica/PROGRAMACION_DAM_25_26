@@ -61,14 +61,16 @@ Excepciones personalizadas
 
 Se lanzará si la matrícula no cumple el formato correcto (4 dígitos + 3 letras mayúsculas).
 ```
-  return m.matches("\\d{4}[A-Z]{3}");
+   private boolean comprobarMatricula(String m){
+    // si la matrícula coincide con el patrón devuelve true
+  return m.matches("\\d{4}[A-Z]{3}");}
 ```
 
 Debe almacenar la matrícula y la hora de entrada que generó el error.
 
 La clase puede llamarse MatriculaInvalida.
 
-###2. Clase abstracta VehiculoAparcado
+### 2. Clase abstracta VehiculoAparcado
 
 Representa un vehículo estacionado.
 
@@ -80,8 +82,11 @@ String modelo
 int horaEntrada
 int horaSalida
 boolean lavado
-Constructor
+
 ```
+
+Constructor
+
 
 Recibe matrícula, marca, modelo y hora de entrada.
 
