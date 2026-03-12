@@ -210,3 +210,59 @@ El descuento por lavado es siempre de 2 horas.
 Si la matrícula es inválida, no se crea el vehículo y se informa el error mediante MatriculaInvalida.
 
 Se debe utilizar polimorfismo en el cálculo de precios y interfaces para el lavado.
+
+## Ejercicio 3 Sistema de gestión de participantes en eventos
+
+Una empresa organiza distintos eventos tecnológicos y necesita una aplicación en consola para gestionar participantes y listas de asistencia.
+
+El sistema trabajará con dos tipos de colecciones:
+
+Lista general de personas registradas.
+
+Pparticipantes confirmados para un evento ( **evitando  duplicados**).
+
+Clase Participante
+
+```
+id
+
+nombre
+
+email
+```
+
+}
+Estructuras de datos
+
+En el programa principal tendrás:
+
+ArrayList<Participante> registrados = new ArrayList<>();
+
+HashSet<Participante> asistentesEvento = new HashSet<>();
+
+Menú del programa
+
+Crear un menú con estas opciones.
+
+1. Registrar participante
+
+2. Mostrar participantes registrados
+
+3. Confirmar asistencia al evento
+
+El usuario introduce el id del participante.
+
+Si está registrado:  se añade al HashSet de asistentes
+
+4.  Mostrar asistentes al evento
+
+Mostrar el contenido del HashSet.
+
+5. Cancelar registro. 
+
+
+Eliminar participante del evento, si había confirmado la asistencia no se podrá cancelar. 
+
+6. Mostrar asistencia al evento ordenados por nombre  (implementando Comparable)
+
+
