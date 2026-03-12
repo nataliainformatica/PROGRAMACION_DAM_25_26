@@ -84,7 +84,7 @@ fechaPrestamo=2026-03-06, fechaDevolucion=null}
 
 MODELADO DE CLASES 
 
-clase Prestamo
+# clase Prestamo
 
 Esta clase representa un préstamo de un libro a un usuario.
 
@@ -122,7 +122,7 @@ El idPrestamo, será automático, usando un contador de instancias .
 
 public boolean finalizarPrestamo()  que actualiza la fechaDevolucion a la fecha actual (solamente si la fechaDevolucion era null)
 
-clase Libro 
+# clase Libro 
 ```
 		
 			Atributos privados
@@ -199,7 +199,7 @@ Método Prestamo buscarPrestamoActivo(String nombreUsuario)
 
 Devuelve el primer préstamo (con ese d nombreUsuario) que todavía no tenga fecha de devolución.
 
-DAO
+# DAO
 LibroDAO      ---  No se permite usar STATIC
 
 Atributo
