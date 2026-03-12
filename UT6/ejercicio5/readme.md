@@ -17,15 +17,12 @@ Seleccione opción:
 
 
 
-
 TRAZAS DE EJECUCIÓN
 
-	
-
-	
-		
-			Crear libro: pedirá al usuario ISBN, título y género, asegúrate de capturar correctamente las posibles excepciones. Puedes volver al menú principal se se produce algún fallo en la introducción de datos.
-			Seleccione opción: 1
+Crear libro: pedirá al usuario ISBN, título y género,  y stock asegúrate de capturar correctamente las posibles excepciones. 
+Puedes volver al menú principal se se produce algún fallo en la introducción de datos.
+```
+Seleccione opción: 1
 
 ISBN: 1
 Título: Java Básico
@@ -34,50 +31,46 @@ Stock total: 3
 
 Libro creado correctamente
 		
-	
+```
+Traza de error
+
+```
 	
 		
 			ISBN: 1
 Título: Java Básico
 Genero: MELOINVENTO
 Stock total: 3
-			
-			
 
-			
-			
-			Has introducido algún dato incorrecto
+Has introducido algún dato incorrecto
 		
-	
-	
-		
-			Realizar préstamo
-			Seleccione opción: 3
+```
+
+Realizar préstamo
+```
+Seleccione opción: 3
 
 ISBN libro: 1
 Nombre usuario: Marta
 
 Préstamo realizado correctamente
-			
+```
 			Si no hay stock:
-			No hay unidades disponibles
-		
-	
-	
-		
-			Registrar devolución
-			Seleccione opción: 4
+```		
+No hay unidades disponibles
+```	
+Registrar devolución
+```
+Seleccione opción: 4
 
 ISBN libro: 1
 idPrestamo: 1
 
 Devolución registrada correctamente
-		
-	
-	
-		
-			Listar préstamos
-			Seleccione opción: 5
+```
+Listar préstamos
+```
+Seleccione opción: 5
 
 ISBN libro: 1
 
@@ -86,21 +79,19 @@ PRESTAMOS:
 Prestamo{nombreUsuario='Marta',
 fechaPrestamo=2026-03-06, fechaDevolucion=null}
 		
-	
+```
 
 
+MODELADO DE CLASES 
 
-
-
-MODELADO DE CLASES (3 puntos)
-
-clase Prestamo (1.5 puntos)
+clase Prestamo
 
 Esta clase representa un préstamo de un libro a un usuario.
 
 	
 
 	
+```
 
 	
 		
@@ -109,6 +100,7 @@ Esta clase representa un préstamo de un libro a un usuario.
 			nombreUsuario (String)
 			fechaPrestamo (LocalDate)
 			fechaDevolucion (LocalDate)
+```
 		
 		
 			Requisitos
@@ -130,13 +122,8 @@ El idPrestamo, será automático, usando un contador de instancias .
 
 public boolean finalizarPrestamo()  que actualiza la fechaDevolucion a la fecha actual (solamente si la fechaDevolucion era null)
 
-clase Libro (1.5 puntos)
-
-	
-
-	
-
-	
+clase Libro 
+```
 		
 			Atributos privados
 			isbn (String)
@@ -145,8 +132,8 @@ clase Libro (1.5 puntos)
 			stockTotal (int)
 			prestamos (ArrayList<Prestamo>)
 			
-
-			
+```
+		
 		
 		
 			Reglas importantes
@@ -159,12 +146,15 @@ clase Libro (1.5 puntos)
 		
 	
 
+```
 
 Enum GeneroLibro
 NOVELA
 CIENCIA
 HISTORIA
 TECNOLOGIA
+```
+
 Nota: Recuerda que puedes usar GeneroLibro genero  =  GeneroLibro.valueOf(texto.toUpperCase());
 
 Método   boolean prestarLibro(Prestamo p)
@@ -176,7 +166,6 @@ Debe:
 	
 	Si hay stock:
 	
-		
 		añadir el préstamo
 		
 		devolver true
@@ -210,11 +199,15 @@ Método Prestamo buscarPrestamoActivo(String nombreUsuario)
 
 Devuelve el primer préstamo (con ese d nombreUsuario) que todavía no tenga fecha de devolución.
 
-DAO (3 puntos)
+DAO
 LibroDAO      ---  No se permite usar STATIC
 
 Atributo
+```
+
 private ArrayList<Libro> listaLibros;
+```
+
 
 Métodos obligatorios
 
