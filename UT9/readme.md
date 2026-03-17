@@ -476,3 +476,39 @@ Al ejecutar la aplicación, mostrará un menú:
 3.Mostrar todos
 
 Salir
+
+```
+// RECORDATORIO MÉTODOS DE HASHMAP
+import java.util.HashMap;
+
+public class App {
+
+
+    public static void main(String[] args) throws Exception {
+
+          HashMap<String, String> map = new HashMap<>(); 
+
+          map.put("04", "Almería");
+          map.put("11","Cádiz");
+          map.put("21", " Huelva");
+
+// keySet es el conjunto de claves
+          for(String clave: map.keySet()){
+            System.out.println("Para la clave  " + clave );
+            System.out.println("El valor es " + map.get(clave));
+          }
+//values() es el conjunto de valores
+          for(String valor: map.values()){
+            System.out.println(valor);
+          }
+
+// conjunto de tuplas - clave -valor
+        for(HashMap.Entry<String,String> entry: map.entrySet()){
+            System.out.println("clave: " + entry.getKey() + "valor "+ entry.getValue());
+        }
+
+
+        
+    }
+}
+```
