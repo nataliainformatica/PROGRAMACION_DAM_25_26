@@ -557,3 +557,71 @@ Juan: Gasto de 20€ en transporte, Ingreso de 30€
 Luis: Gasto de 50€ en entradas
 
 El programa calculará cuánto ha pagado y cuánto debería haber pagado cada uno, y mostrará los saldos pendientes de cada participante.
+
+# Ejercicio 5
+
+Regalos del Día del Padre
+
+Con esta idea,  quieres crear una aplicación que gestione los regalos que reciben distintas padres en una familia en distintas celebraciones. 
+
+Deberás usar Map para almacenar, consultar y procesar información. Para ello crea un programa en Java con los siguientes:
+
+## Requisitos
+
+En la clase Principal usa un Map<Persona, List<Regalo>> donde:
+
+La clave (Persona) es la persona que recibe regalos. (Los atributos de Persona son libres, y también la definición de cómo son dos personas iguales)
+
+El valor (List<Regalo>) es la lista de regalos (Regalo) que ha recibido.
+Un regalo tendrá al menos como atributos el nombre y el motivo. 
+
+Funcionalidades a implementar en la clase Principal
+1. Añadir regalo
+
+Método que permita añadir un regalo a una persona:
+```
+void añadirRegalo(Map<Persona, List<Regalo>> mapa, Persona persona, Regalo regalo)
+```` 
+
+Si la persona no existe en el mapa la crea. 
+
+Si ya existe,  añade el regalo a su lista.
+
+2. Mostrar todos los regalos
+
+Imprimir todas las personas  con sus regalos:
+
+Carlos  ha recibido  los siguientes regalos
+Reloj por  cumpleaños
+Corbata por el día del padre
+Ana ha recibido los siguientes regalos:
+Perfume por aprobar la oposición
+
+3. Buscar regalos de una persona
+
+Dado un nombre, mostrar sus regalos.
+
+4. Quién tiene más regalos
+
+Mostrar  quién tiene más regalos.
+
+5. Contar regalos totales
+
+Mostrar el número total de regalos entregados.
+
+
+Modificación del ejercicio para añadir nuevos requisitos
+
+Añade una Regalo el precio
+
+6. Mostrar quién ha recibido más valor en regalos
+
+
+**Nuevos métodos para usar en este ejercicio**  
+
+mapa.putIfAbsent(padre, new ArrayList<>());
+
+for (Map.Entry<String, List<String>> entry : mapa.entrySet())
+
+
+
