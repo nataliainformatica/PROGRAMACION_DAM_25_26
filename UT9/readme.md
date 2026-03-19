@@ -560,9 +560,9 @@ El programa calculará cuánto ha pagado y cuánto debería haber pagado cada un
 
 # Ejercicio 5
 
-Regalos del Día del Padre
+** Regalos del Día del Padre ** 
 
-Con esta idea,  quieres crear una aplicación que gestione los regalos que reciben distintas padres en una familia en distintas celebraciones. 
+Con esta idea,  quieres crear una aplicación que gestione los regalos que reciben distintas personas en una familia en distintas celebraciones. 
 
 Deberás usar Map para almacenar, consultar y procesar información. Para ello crea un programa en Java con los siguientes:
 
@@ -619,7 +619,7 @@ Añade una Regalo el precio
 
 **Nuevos métodos para usar en este ejercicio**  
 
-mapa.putIfAbsent(padre, new ArrayList<>());
+mapa.putIfAbsent(persona, new ArrayList<>());
 
 for (Map.Entry<String, List<String>> entry : mapa.entrySet())
 
