@@ -591,10 +591,13 @@ Si ya existe,  añade el regalo a su lista.
 
 Imprimir todas las personas  con sus regalos:
 
-Carlos  ha recibido  los siguientes regalos
+Carlos  ha recibido  los siguientes regalos:  
 Reloj por  cumpleaños
+
 Corbata por el día del padre
+
 Ana ha recibido los siguientes regalos:
+
 Perfume por aprobar la oposición
 
 3. Buscar regalos de una persona
