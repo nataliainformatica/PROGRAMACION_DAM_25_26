@@ -3,11 +3,15 @@
 
 El objetivo es hacer un pequeño programa para comprobar el funcionamiento de las colecciones:
 
+1. Añadir y mostrar
+Crea un ArrayList<String> con 5 nombres y muéstralos.
 ArrayList<>
 
 HashSet<>
 
 Debes crear una clase Servidor que tiene los atributos: nombre, ip (ambos string)
+1. Añadir y mostrar
+Crea un ArrayList<String> con 5 nombres y muéstralos.
 
 // añade los métodos que sean necesarios
 
@@ -626,5 +630,10 @@ mapa.putIfAbsent(persona, new ArrayList<>());
 
 for (Map.Entry<String, List<String>> entry : mapa.entrySet())
 
+# Ejercicio 6 - ejercicios cortos de repaso de colecciones
+
+
+1. Añadir y mostrar
+Crea un ArrayList<String> con 5 nombres y muéstralos.
 
 
