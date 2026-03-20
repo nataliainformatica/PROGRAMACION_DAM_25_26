@@ -638,3 +638,6 @@ Crea un ArrayList<String> con 5 nombres y muéstralos.
 
  2. Eliminar elemento
 Elimina un nombre concreto del ArrayList.
+
+14. Insertar y mostrar
+Crea un Map<String, Integer> con nombres y edades.
