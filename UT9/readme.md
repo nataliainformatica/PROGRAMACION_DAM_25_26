@@ -654,3 +654,21 @@ Crear Persona - con atributos dni, nombre y edad.
 Eliminar duplicados en un ArrayList<Persona> , que previamente habŕas creado con duplicados.
 Dos  personas son iguales si tienen el mismo dni:
 Muestra  el resultado por consola
+
+ **7. Contar palabras**
+ 
+Dada una frase, cuenta cuántas veces aparece cada palabra usando Map. 
+
+ **8 . Máximo valor**
+ Si tenemos una cole
+Encuentra la persona con mayor edad.
+
+ 
+19. Comprobar clave
+Comprueba si una clave existe antes de añadirla.
+
+ 
+20. Sumar valores
+Suma todos los valores del mapa.
+
+
