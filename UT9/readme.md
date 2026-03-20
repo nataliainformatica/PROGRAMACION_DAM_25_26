@@ -641,3 +641,7 @@ Elimina un nombre concreto del ArrayList.
 
 14. Insertar y mostrar
 Crea un Map<String, Integer> con nombres y edades.
+
+16. Buscar valor
+Define una variable con un nombre que exista en tu mapa y dado ese nombre, muestra su edad.
+
