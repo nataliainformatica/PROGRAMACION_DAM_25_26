@@ -640,15 +640,17 @@ Crea un ArrayList<String> con 5 nombres y muéstralos.
 Elimina un nombre concreto del ArrayList.
 
 4. Insertar y mostrar
+   
 Crea un Map<String, Integer> con nombres y edades.
 
-5. Buscar valor
+6. Buscar valor
     
 Define una variable con un nombre que exista en tu mapa y dado ese nombre, muestra su edad.
 
 6. En el ejemplo anterior, muestra cuántas personas tienen una edad (por ejemplo 18)
 
-7.    Crear Persona - con atributos dni, nombre y edad. 
+7.    Crear Persona - con atributos dni, nombre y edad.
+  
   Eliminar duplicados en un ArrayList<Persona> , que previamente habŕas creado con duplicados.
 
   Dos  personas son iguales si tienen el mismo dni:
