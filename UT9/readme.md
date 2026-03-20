@@ -636,4 +636,5 @@ for (Map.Entry<String, List<String>> entry : mapa.entrySet())
 1. Añadir y mostrar
 Crea un ArrayList<String> con 5 nombres y muéstralos.
 
-
+ 2. Eliminar elemento
+Elimina un nombre concreto del ArrayList.
