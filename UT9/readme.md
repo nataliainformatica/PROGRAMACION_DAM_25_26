@@ -646,4 +646,10 @@ Crea un Map<String, Integer> con nombres y edades.
     
 Define una variable con un nombre que exista en tu mapa y dado ese nombre, muestra su edad.
 
-6. En el ejemplo anterior, muestra cuántas personas tienen una edad (por ejemplo 18) 
+6. En el ejemplo anterior, muestra cuántas personas tienen una edad (por ejemplo 18)
+
+7.    Crear Persona - con atributos dni, nombre y edad. 
+  Eliminar duplicados en un ArrayList<Persona> , que previamente habŕas creado con duplicados.
+
+  Dos  personas son iguales si tienen el mismo dni:
+  Muestra  el resultado por consola
