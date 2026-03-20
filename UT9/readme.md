@@ -1,5 +1,5 @@
 # TEMA 9 COLECCIONES
-## PRIMER EJEMPLO: 
+## PRIMER EJEMPLO: .
 
 El objetivo es hacer un pequeño programa para comprobar el funcionamiento de las colecciones:
 
@@ -649,7 +649,7 @@ Define una variable con un nombre que exista en tu mapa y dado ese nombre, muest
 **5.  Buscar clave**
 En el ejemplo anterior, muestra cuántas personas tienen una edad (por ejemplo 18)
 
-**7. Eliminar duplicados**
+**6. Eliminar duplicados**
 Crear Persona - con atributos dni, nombre y edad. 
 Eliminar duplicados en un ArrayList<Persona> , que previamente habŕas creado con duplicados.
 Dos  personas son iguales si tienen el mismo dni:
