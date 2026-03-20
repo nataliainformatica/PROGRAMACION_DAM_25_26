@@ -639,9 +639,11 @@ Crea un ArrayList<String> con 5 nombres y muéstralos.
  2. Eliminar elemento
 Elimina un nombre concreto del ArrayList.
 
-14. Insertar y mostrar
+4. Insertar y mostrar
 Crea un Map<String, Integer> con nombres y edades.
 
-16. Buscar valor
+5. Buscar valor
+    
 Define una variable con un nombre que exista en tu mapa y dado ese nombre, muestra su edad.
 
+6. En el ejemplo anterior, muestra cuántas personas tienen una edad (por ejemplo 18) 
