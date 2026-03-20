@@ -660,15 +660,15 @@ Muestra  el resultado por consola
 Dada una frase, cuenta cuántas veces aparece cada palabra usando Map. 
 
  **8 . Máximo valor**
- Si tenemos una cole
-Encuentra la persona con mayor edad.
+Del ejercicio 3 , encuentra la persona con mayor edad.
 
  
-19. Comprobar clave
-Comprueba si una clave existe antes de añadirla.
+**9. Comprobar clave** 
 
- 
-20. Sumar valores
+Usando el mapa del punto 3, comprueba si una clave existe antes de añadirla.
+
+**10. Sumar valores** 
+
 Suma todos los valores del mapa.
 
 
