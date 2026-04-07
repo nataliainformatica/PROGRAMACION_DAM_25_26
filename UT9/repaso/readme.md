@@ -223,7 +223,7 @@ Distancia restante hasta la Luna
 
 Porcentaje de avance
 
-Número de días registrados
+Detalle de los días registrados, ordenados por distancia recorrida (orden natural)
 
 4. Registrar evento
    
