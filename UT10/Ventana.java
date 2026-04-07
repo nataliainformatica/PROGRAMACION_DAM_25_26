@@ -9,7 +9,7 @@ public class Ventana {
         JFrame frame = new JFrame("Mi primera ventana");
         frame.setSize(400, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setLayout(new FlowLayout());
+        frame.setLayout(null);
 
         // Crear botón
         JButton boton = new JButton("Haz clic");
