@@ -141,3 +141,123 @@ Si es por formato del número de certificado, mostrará  el mensaje
 La carta certificada con remitente: Juan Pérez y destinatario  María López con fecha 2026-03-21 y contenido Este es el contenido de la carta certificada tiene un número de certificación: CERT123 que no es correcto.
 (se sustituye el texto subrayado por los datos que se hayan introducido por consola)
 
+
+
+ # Ejercicio: Misión a la Luna
+Desarrollar una aplicación en Java que simule la gestión de una misión espacial a la Luna. 
+
+El programa deberá permitir registrar astronautas, días de viaje, eventos y controlar el progreso de la misión.
+
+
+La misión está formada por:
+
+Un conjunto de astronautas
+
+Una secuencia de días de viaje
+
+Una distancia total a recorrer hasta la Luna
+
+
+Durante la misión se irá registrando la distancia recorrida cada día, así como eventos especiales que pueden afectar al desarrollo de la misión.
+
+
+**Astronauta**
+
+```
+id (único)
+nombre
+experiencia (años)
+activo (indica si sigue en la misión)
+```
+
+**DiaMision**
+
+```
+numeroDia
+distanciaRecorrida (km)
+evento (puede ser vacío)
+```
+
+**Mision**
+
+```
+nombre
+distanciaTotal (distancia hasta la Luna)
+distanciaActual
+Colección de días (ArrayList)
+Colección de astronautas (HashMap), que identifica para cada posición de la nave el astronauta que la ocupa. 
+
+```
+
+El sistema debe permitir:
+
+1. Añadir astronauta
+   
+   No se pueden repetir IDs.
+
+   Si el astronauta ya existe, deberá  lanzar excepción.
+
+2. Registrar un día de misión
+   
+Añadir un nuevo día con:
+
+   Número de día
+
+   Distancia recorrida 
+
+   Evento (tipo enumerado, se deja libre la elección de los tipos de eventos)
+
+La distancia recorrida debe sumarse a la distancia total acumulada.
+
+No se permiten distancias negativas, en ese caso deberá lanzar excepción.
+
+3. Mostrar progreso de la misión
+
+Debe mostrar:
+
+Información de los astronautas de la misión, con su posición  en la nave 
+
+Distancia total recorrida
+
+Distancia restante hasta la Luna
+
+Porcentaje de avance
+
+Número de días registrados
+
+4. Registrar evento
+   Solamente permitirá registrar el evento en el día, si anteriormente estaba vacío. 
+
+
+5. Finalizar misión
+La misión solo se puede finalizar si se ha alcanzado o superado la distancia total.
+Si no se cumple esta condición se lanzará excepción.
+
+**Excepciones**
+
+Se deben crear y utilizar al menos las siguientes excepciones:
+
+AstronautaDuplicadoException
+
+DistanciaInvalidaException
+
+MisionNoFinalizadaException
+
+
+Todas las excepciones se deben tratar en el méetodo  main
+
+
+```
+
+ Menú del programa
+
+Añadir astronauta
+Registrar día de misión
+Mostrar progreso
+Registrar evento
+Finalizar misión
+Salir
+
+```
+
+
