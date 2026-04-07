@@ -226,6 +226,7 @@ Porcentaje de avance
 Número de días registrados
 
 4. Registrar evento
+   
    Solamente permitirá registrar el evento en el día, si anteriormente estaba vacío. 
 
 
@@ -244,7 +245,7 @@ DistanciaInvalidaException
 MisionNoFinalizadaException
 
 
-Todas las excepciones se deben tratar en el méetodo  main
+Todas las excepciones se deben tratar en el método  main
 
 
 ```
