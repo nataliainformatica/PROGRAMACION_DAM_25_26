@@ -3,10 +3,10 @@ Se desea desarrollar una pequeña aplicación que gestione diferentes tipos de o
 Para evitar duplicar código, se pide implementar una solución basada en genéricos.
 
 
-Interfaz DAO genérica
+**Interfaz DAO genérica**
 
 Crea una interfaz genérica Dao<T> que declare los siguientes métodos:
-^``` 
+``` 
 
 void guardar(T t)
 T obtener(int id)
@@ -22,7 +22,7 @@ Almacene los datos en memoria utilizando una estructura adecuada, por ejemplo un
 
 Genere automáticamente un identificador para cada objeto almacenado.
 
-Crea al menos dos clases distintas:
+**Crea al menos dos clases distintas:**
 
 Usuario (con atributo nombre)
 Producto (con atributo nombre)
