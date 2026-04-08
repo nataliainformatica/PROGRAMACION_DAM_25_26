@@ -25,7 +25,7 @@ Genere automáticamente un identificador para cada objeto almacenado.
 **Crea al menos dos clases distintas:**
 
 Usuario (con atributo nombre)
-Producto (con atributo nombre)
+Producto (con atributo nombreProducto)
 
 Ambas deben tener:
 
