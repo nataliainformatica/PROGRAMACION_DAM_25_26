@@ -1,0 +1,39 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContadorPalabras {
+
+    public static void main(String[] args) {
+
+        String texto = "Hola mundo hola Java mundo hola";
+
+       
+        texto = texto.toLowerCase();
+
+
+        String[] palabras = texto.split(" ");
+
+        HashMap<String, Integer> contador = new HashMap<>();
+
+        for (String palabra : palabras) {
+
+            if (contador.containsKey(palabra)) {
+                
+                contador.put(palabra, contador.get(palabra) + 1);
+            } else {
+               
+                contador.put(palabra, 1);
+            }
+
+            /*
+            contador.putIfAbsent(palabra, 0);
+            contador.put(palabra, contador.get(palabra) + 1);
+             */
+        }
+
+   
+        for (Map.Entry<String, Integer> entry : contador.entrySet()) {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
+        }
+    }
+}
