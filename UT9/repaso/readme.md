@@ -262,3 +262,41 @@ Salir
 ```
 
 
+# Ejercicio 3
+
+
+Se desea desarrollar una aplicación que analice un texto y contabilice la frecuencia de aparición de cada palabra.
+
+Para ello, se utilizará una estructura de datos basada en un HashMap<String, Integer>, donde:
+
+La clave (String) representa una palabra
+
+El valor (Integer) representa el número de veces que aparece dicha palabra en el texto
+
+El programa debe:
+
+Leer un texto (puede ser introducido por teclado o definido en una variable)
+
+Dividir el texto en palabras (texto.split(" "))
+
+Recorrer todas las palabras del texto
+
+Para cada palabra:
+
+Si no existe en el HashMap, añadirla con valor 1
+
+Si ya existe, incrementar su contador
+
+Mostrar por pantalla:
+
+Cada palabra junto con el número de veces que aparece
+
+Formato de ejemplo:
+```
+frasa: hola hola hola mundo mundo java
+
+hola -> 3
+
+mundo -> 2
+
+java -> 1
