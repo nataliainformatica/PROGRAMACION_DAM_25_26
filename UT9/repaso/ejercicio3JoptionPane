@@ -1,0 +1,38 @@
+import javax.swing.JOptionPane;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContadorPalabrasGUI {
+
+    public static void main(String[] args) {
+
+        String texto = JOptionPane.showInputDialog("Introduce una frase:");
+
+        if (texto == null || texto.isEmpty()) {
+            JOptionPane.showMessageDialog(null, "No se ha introducido texto");
+            return;
+        }
+
+        texto = texto.toLowerCase().replaceAll("[^a-záéíóúüñ ]", "");
+
+        String[] palabras = texto.split("\\s+");
+
+        HashMap<String, Integer> contador = new HashMap<>();
+
+        for (String palabra : palabras) {
+            contador.put(palabra, contador.getOrDefault(palabra, 0) + 1);
+        }
+
+    
+        StringBuilder resultado = new StringBuilder("Frecuencia de palabras:\n\n");
+
+        for (Map.Entry<String, Integer> entry : contador.entrySet()) {
+            resultado.append(entry.getKey())
+                     .append(" -> ")
+                     .append(entry.getValue())
+                     .append("\n");
+        }
+
+        JOptionPane.showMessageDialog(null, resultado.toString());
+    }
+}
