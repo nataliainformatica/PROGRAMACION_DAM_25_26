@@ -136,7 +136,6 @@ public static void main(String[] args) {
  
         service.validarEdad(15);
         service.dividir(10, 0);
-        service.leerArchivo("archivo.txt");
         service.buscarUsuario(null);
         service.validarPassword("123");
         
