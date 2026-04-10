@@ -35,11 +35,11 @@ El id  de reserva, será un número consecutivo, generado mediante el constructo
 
 DAOsalas - completa un DAO con varias instancias de SesionSala,
 ```
-new Sala(10,10, int 5,25, 1)
+new Sala(10,10,  5.25, 1)
 
-new Sala(10,10, int 6,25, 2)
+new Sala(10,10,  6.25, 2)
 
-new Sala(10,10, int 3,25, 3)
+new Sala(10,10,  3.25, 3)
 ```
 
 En la clase Principal. 
