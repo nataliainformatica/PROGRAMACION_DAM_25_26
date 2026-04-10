@@ -1,12 +1,13 @@
-Desarrolla una aplicación que nos ayude en la gestión de una sala de cine. 
-Deberás crear las siguientes clases: 
+Desarrolla una aplicación que nos ayude en la gestión de un cine
 
 **Clase SesionSala**
 Tendrá un array estático bidimensional, de x filas con x Asitento cada una. 
-Al arrancar la aplicación, la salda tendrá todos los asientos libres. 
 
 Constructor
 public Sala(inf filas, int columnas, int precioEntrada, int numSesion){}
+La sala se instancia con todos los asientos libres. 
+Si el número de filas es mayor a 15 o el número de asientos es mayor a 20, el constructor propagará la excepción ErrorEnCantidadAsientos, con el mensaje ("La sala no puede tener x filas) o ("La sala no puede tener x asientos)
+
 Tendrá los siguientes métodos de comportamiento: 
 
 mostrarSala(): Devolverá un String con el estado de la sala
@@ -19,19 +20,37 @@ mostrarRecaudacion(). devuelve el importe total de la recaudación  de asientos 
 
 **Clase Asiento**
 Dispondrá de un atributo para mostrar si está (Libre "L" u Ocupado "O")
-Tendrá un atributo para añadir el id de reserva. 
+Tendrá un atributo para añadir el id de reserva (String). 
+
+Constructor:  
+El id  de reserva, será un número consecutivo, generado mediante el constructor, que irá contando el número de instancias creadas. 
+
+DAOsalas - completa un DAO con varias instancias de SesionSala,
+new Sala(10,10, int 5,25, 1)
+new Sala(10,10, int 6,25, 2)
+new Sala(10,10, int 3,25, 3)
+
+
+En la clase Principal. 
+Usa el DAO creado para tener las salas disponibles. 
 
 
 
-
-En la clase Principal tendremos un menú interactivo para poder: 
-Mostrar estado de la sala
+Mostrar estado de la sala.
 Reservar asiento
 Liberar asiento
-Ver número de ocupados
+Ver la recaudación de la sala
 Salir
 
+Para mostrar el estado de la sala pedirá el número de sala. 
+Para reservar un asiento, pedirá  la fila y número de asiento, además de la sala
+Para liberar un asiento, solamente pedirá el número de reserva
+Para ver la recaudación de la sala, pedirá el número de sala
+
+
 Debes asegurar que se tratan todas las posibles excepciones, y que la aplicación en ningún momento tendrá una salida inesperada. 
+
+
 
 
 
