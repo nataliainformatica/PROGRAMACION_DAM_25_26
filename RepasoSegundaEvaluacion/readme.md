@@ -8,7 +8,7 @@ public SesionSala(inf filas, int columnas, double  precioEntrada, int numSesion)
 
 La sala se instancia con todos los asientos libres. 
 
-Si el número de filas es mayor a 15 o el número de asientos es mayor a 20, el constructor propagará la excepción ErrorEnCantidadAsientos, con el mensaje ("La sala no puede tener x filas) o ("La sala no puede tener x asientos)
+Si el número de filas es mayor a 15 o el número de asientos es mayor a 20, el constructor propagará la excepción ErrorEnCantidadAsientos, con el mensaje ("La sala no puede tener x filas) o ("La sala no puede tener x asientos), también se tendrá en cuenta que si tanto filas o columnas es negativo, también lanzará la excepción, el mensaje es libre. 
 
 Tendrá los siguientes métodos de comportamiento: 
 
