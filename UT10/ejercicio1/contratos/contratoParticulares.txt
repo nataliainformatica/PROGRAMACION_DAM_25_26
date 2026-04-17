@@ -1,0 +1,14 @@
+CONTRATO DE RESERVA Y COMPRAVENTA ENTRE PARTICULARES
+
+Vendedor: Sergio Díaz Molina
+Comprador: Marta Ruiz Sánchez
+Vehículo: Renault Clio 1.5 dCi
+Matrícula: 3456JKL
+Precio total: 4.200 €
+Señal: 500 €
+
+La señal garantiza la reserva del vehículo durante 7 días.
+Si el comprador desiste, pierde la señal.
+Si el vendedor incumple, devuelve el doble de la señal.
+
+Fecha: 2026-04-17

@@ -1,0 +1,12 @@
+CONTRATO DE COMPRAVENTA BÁSICO
+
+Vendedor: Juan Pérez García
+Comprador: Laura Martínez Ruiz
+Vehículo: Opel Corsa 1.2
+Matrícula: 1234XBC
+Precio: 3.500 €
+
+El vehículo se vende en estado actual, sin garantía adicional.
+El comprador acepta el estado del vehículo tras su revisión.
+
+Fecha: 2026-04-17
