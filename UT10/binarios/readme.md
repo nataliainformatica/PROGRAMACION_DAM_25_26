@@ -1,10 +1,10 @@
-Disponemos de una aplicación, que  usando una colección de objetos, que representan los datos de distintas mesas
-electorales, mostrar estadísticas. 
+Disponemos de una aplicación, que  usando una colección de objetos que representan los datos de distintas mesas
+electorales, muestra distintas estadísticas. 
 Esta aplicación, solo funciona con datos en memoria. 
 
 El objetivo, es añadir persistencia de la siguiente forma: 
 
-Los datos de las distintas mesas, están en formato CSV: 
+Los datos de las distintas mesas, se reciben en ficheros con  formato CSV: 
 
 ```
 idMesa;localidad;votosA;votosB;votosC;blancos;nulos
