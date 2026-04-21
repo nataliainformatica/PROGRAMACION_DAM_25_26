@@ -5,11 +5,13 @@ Esta aplicación, solo funciona con datos en memoria.
 El objetivo, es añadir persistencia de la siguiente forma: 
 
 Los datos de las distintas mesas, se reciben en ficheros con  formato CSV: 
-
+A continuación se muestra como ejemplo el fichero recibido para la mesa 1
 ```
 idMesa;localidad;votosA;votosB;votosC;blancos;nulos
 1;Madrid;120;95;30;5;2
 ```
+Por cada mesa habrá un fichero con el formato anterior, y todos se guardan en la misma carpeta. 
+
 Deberás hacer una aplicación, que leerá los ficheros almacenados en una carpeta (usando jFileChooser para seleccionar la ruta)
 
 Crea los objetos Mesa, y los guarda en un fichero binario (usando DataOutputStream).
