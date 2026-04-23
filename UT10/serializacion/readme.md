@@ -11,10 +11,15 @@ Interfaz Alumno (extiende Serializable)
 Debe **declarar** (no implementar) los siguientes métodos métodos. 
 
 String getNombre() — devuelve el nombre completo del alumno
+
 String getCurso() — devuelve el curso en el que está matriculado
+
 double getNotaMedia() — devuelve la nota media actual
+
 double getMatricula() — calcula y devuelve el importe de matrícula
+
 String getResumen() — devuelve una línea con toda la info relevante del alumno
+
 
 
 **Clase AlumnoPresencial** 
