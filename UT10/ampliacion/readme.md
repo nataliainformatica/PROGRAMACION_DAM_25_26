@@ -5,7 +5,7 @@ Requisitos:
 
 Selección del dibujo del ahorcado
 Al inicio del juego, el usuario podrá elegir entre diferentes estilos de dibujos del ahorcado. (los dibujos, estarán en un fichero en la carpeta dibujos, en la ruta de la aplicación, de forma que se mostrará el nombre de todos los ficheros que haya en esta carpeta, para que el usuario elija uno), por ejemplo
-
+```
 
    List<String> lista2=  new ArrayList<>(Arrays.asList(
             "  +----+",
@@ -16,6 +16,7 @@ Al inicio del juego, el usuario podrá elegir entre diferentes estilos de dibujo
             "       |",
             "========="
         ));
+```
 Dependiendo del dibujo elegido (número de líneas), se determinará la cantidad de intentos permitidos antes de perder la partida.
 
 2. Gestión de palabras
