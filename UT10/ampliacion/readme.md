@@ -8,12 +8,12 @@ Al inicio del juego, el usuario podrá elegir entre diferentes estilos de dibujo
 ```
 
    List<String> lista2=  new ArrayList<>(Arrays.asList(
-            "  +----+",
-            "  |    |",
+            "  +-----+",
+            "  |     |",
             "  (x_x) |",
-            "  /|\\  |",
-            "  / \\  |",
-            "       |",
+            "   /|\  |",
+            "   / \  |",
+            "        |",
             "========="
         ));
 ```
