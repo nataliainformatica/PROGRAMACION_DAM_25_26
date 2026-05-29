@@ -97,18 +97,27 @@ Explicar por qué es adecuado usar un Set en lugar de una lista en este caso.
 
 # Ejercicio 9. Gestión de tareas con ficheros
 Duración
+
 30 minutos
+
 Objetivo
+
 Desarrollar una pequeña aplicación en Java para gestionar tareas utilizando:
+
  Clases, Interfaces, colecciones, ficheros de texto
+
 Interface
+
 Deberás usar la siguiente interfaz:
+```
 public interface Guardable {
  void guardar(String fichero);
  void cargar(String fichero);
 }
+```
 Clase Tarea
 Completa la clase:
+```
 public class Tarea {
  private String titulo;
  private int prioridad;
@@ -121,11 +130,17 @@ public class Tarea {
  " - " + (completada ? "Completada" : "Pendiente");
  }
 }
+```
 Clase GestorTareas
 La clase debe:
+
  implementar Guardable
+
  utilizar un ArrayList<Tarea>
+
 Completa el siguiente código:
+
+```
 import java.io.*;
 import java.util.ArrayList;
 public class GestorTareas implements Guardable {
@@ -151,8 +166,11 @@ public class GestorTareas implements Guardable {
  // CARGAR DATOS DESDE FICHERO
  }
 }
+```
 Main
+
 Completa el main:
+```
 public class Main {
  public static void main(String[] args) {
  GestorTareas gestor = new GestorTareas();
@@ -163,13 +181,21 @@ public class Main {
  // GUARDAR EN tareas.txt
  }
 }
+```
 Requisitos
+
 La aplicación debe utilizar:
+
  interfaces
+
  clases encapsuladas
+
  ArrayList
+
  lectura/escritura de ficheros
+
  manejo de excepciones
+
 Salida esperada
 Estudiar Java - Prioridad: 5 - Pendiente
 Comprar pan - Prioridad: 2 - Completada
