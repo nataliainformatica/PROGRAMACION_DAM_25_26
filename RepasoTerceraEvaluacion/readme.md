@@ -93,3 +93,84 @@ Añadir alumnos a distintos cursos.
 Evitar duplicados dentro de cada curso.
 Mostrar todos los cursos con sus alumnos.
 Explicar por qué es adecuado usar un Set en lugar de una lista en este caso.
+
+
+# Ejercicio 9. Gestión de tareas con ficheros
+Duración
+30 minutos
+Objetivo
+Desarrollar una pequeña aplicación en Java para gestionar tareas utilizando:
+ Clases, Interfaces, colecciones, ficheros de texto
+Interface
+Deberás usar la siguiente interfaz:
+public interface Guardable {
+ void guardar(String fichero);
+ void cargar(String fichero);
+}
+Clase Tarea
+Completa la clase:
+public class Tarea {
+ private String titulo;
+ private int prioridad;
+ private boolean completada;
+ // Constructor
+ // Getters y setters
+ @Override
+ public String toString() {
+ return titulo + " - Prioridad: " + prioridad +
+ " - " + (completada ? "Completada" : "Pendiente");
+ }
+}
+Clase GestorTareas
+La clase debe:
+ implementar Guardable
+ utilizar un ArrayList<Tarea>
+Completa el siguiente código:
+import java.io.*;
+import java.util.ArrayList;
+public class GestorTareas implements Guardable {
+ private ArrayList<Tarea> tareas = new ArrayList<>();
+ public void agregarTarea(Tarea t) {
+ tareas.add(t);
+ } 
+ public void mostrarTareas() {
+ // MOSTRAR TODAS LAS TAREAS
+ }
+ public void mostrarImportantes() {
+ // MOSTRAR SOLO LAS TAREAS
+ // CON PRIORIDAD >= 4
+ }
+ @Override
+ public void guardar(String fichero) {
+ // GUARDAR EN FICHERO DE TEXTO
+ // FORMATO:
+ // titulo;prioridad;completada
+ }
+ @Override
+ public void cargar(String fichero) {
+ // CARGAR DATOS DESDE FICHERO
+ }
+}
+Main
+Completa el main:
+public class Main {
+ public static void main(String[] args) {
+ GestorTareas gestor = new GestorTareas();
+ gestor.agregarTarea(new Tarea("Estudiar Java",5,false));
+ gestor.agregarTarea(new Tarea("Comprar pan",2,true));
+ gestor.agregarTarea(new Tarea("Hacer ejercicio",4,false));
+ // MOSTRAR TAREAS
+ // GUARDAR EN tareas.txt
+ }
+}
+Requisitos
+La aplicación debe utilizar:
+ interfaces
+ clases encapsuladas
+ ArrayList
+ lectura/escritura de ficheros
+ manejo de excepciones
+Salida esperada
+Estudiar Java - Prioridad: 5 - Pendiente
+Comprar pan - Prioridad: 2 - Completada
+Hacer ejercicio - Prioridad: 4 - Pendiente 
