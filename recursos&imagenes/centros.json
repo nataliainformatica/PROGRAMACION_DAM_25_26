@@ -1,0 +1,44 @@
+{
+  "centros": [
+    {
+      "codigo": "28000001",
+      "nombre": "IES Antonio Machado",
+      "imagen": "https://picsum.photos/seed/ies-machado/800/400"
+    },
+    {
+      "codigo": "28000002",
+      "nombre": "IES Complutense",
+      "imagen": "https://picsum.photos/seed/ies-complutense/800/400"
+    },
+    {
+      "codigo": "28000003",
+      "nombre": "IES Alonso de Avellaneda",
+      "imagen": "https://picsum.photos/seed/ies-avellaneda/800/400"
+    },
+    {
+      "codigo": "28000004",
+      "nombre": "IES Lázaro Carreter",
+      "imagen": "https://picsum.photos/seed/ies-lazaro/800/400"
+    },
+    {
+      "codigo": "28000005",
+      "nombre": "IES Doctor Marañón",
+      "imagen": "https://picsum.photos/seed/ies-maranon/800/400"
+    },
+    {
+      "codigo": "28000006",
+      "nombre": "IES Vallecas Tecnológico",
+      "imagen": "https://picsum.photos/seed/ies-vallecas/800/400"
+    },
+    {
+      "codigo": "28000007",
+      "nombre": "IES Sierra de Guadarrama",
+      "imagen": "https://picsum.photos/seed/ies-guadarrama/800/400"
+    },
+    {
+      "codigo": "28000008",
+      "nombre": "IES Ciudad Escolar",
+      "imagen": "https://picsum.photos/seed/ies-ciudad-escolar/800/400"
+    }
+  ]
+}
