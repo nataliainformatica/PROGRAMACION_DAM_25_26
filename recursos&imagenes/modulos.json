@@ -1,0 +1,115 @@
+{
+  "modulos": [
+    {
+      "codigo": "0485",
+      "nombre": "Programación",
+      "horas": 270,
+      "ciclo": "DAM"
+    },
+       {
+      "codigo": "0487",
+      "nombre": "Entornos de Desarrollo",
+      "horas": 60,
+      "ciclo": "DAM"
+    },
+    {
+      "codigo": "0484",
+      "nombre": "Bases de Datos",
+      "horas": 205,
+      "ciclo": "DAM"
+    },
+    {
+      "codigo": "0487",
+      "nombre": "Entornos de Desarrollo",
+      "horas": 90,
+      "ciclo": "DAM"
+    },
+    {
+      "codigo": "0373",
+      "nombre": "Lenguajes de Marcas",
+      "horas": 140,
+      "ciclo": "DAM"
+    },
+      {
+      "codigo": "0486",
+      "nombre": "Acceso a Datos",
+      "horas": 140,
+      "ciclo": "DAM"
+    },
+
+    {
+      "codigo": "0612",
+      "nombre": "Desarrollo Web en Entorno Cliente",
+      "horas": 140,
+      "ciclo": "DAW"
+    },
+    {
+      "codigo": "0613",
+      "nombre": "Desarrollo Web en Entorno Servidor",
+      "horas": 180,
+      "ciclo": "DAW"
+    },
+    {
+      "codigo": "0614",
+      "nombre": "Diseño de Interfaces Web",
+      "horas": 120,
+      "ciclo": "DAW"
+    },
+    {
+      "codigo": "0483",
+      "nombre": "Bases de Datos",
+      "horas": 205,
+      "ciclo": "DAW"
+    },
+
+    {
+      "codigo": "0370",
+      "nombre": "Implantación de Sistemas Operativos",
+      "horas": 210,
+      "ciclo": "ASIR"
+    },
+    {
+      "codigo": "0372",
+      "nombre": "Gestión de Bases de Datos",
+      "horas": 180,
+      "ciclo": "ASIR"
+    },
+    {
+      "codigo": "0373",
+      "nombre": "Lenguajes de Marcas y Sistemas de Gestión",
+      "horas": 140,
+      "ciclo": "ASIR"
+    },
+    {
+      "codigo": "0374",
+      "nombre": "Fundamentos de Hardware",
+      "horas": 90,
+      "ciclo": "ASIR"
+    },
+
+    {
+      "codigo": "0221",
+      "nombre": "Montaje y Mantenimiento de Equipos",
+      "horas": 220,
+      "ciclo": "SMR"
+    },
+    {
+      "codigo": "0222",
+      "nombre": "Sistemas Operativos Monopuesto",
+      "horas": 160,
+      "ciclo": "SMR"
+    },
+    {
+      "codigo": "0223",
+      "nombre": "Aplicaciones Ofimáticas",
+      "horas": 230,
+      "ciclo": "SMR"
+    },
+    {
+      "codigo": "0225",
+      "nombre": "Redes Locales",
+      "horas": 210,
+      "ciclo": "SMR"
+    }
+  ]
+}
